@@ -28,7 +28,12 @@ path = [
   "package.json", ".gitignore", ".github/**",
 ]
 SPDX-FileCopyrightText = "2026 Formative Intelligence Inc."
-SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-License-Identifier = "LicenseRef-YouArt-Curation-No-Grant"
+SPDX-FileComment = """
+Not openly licensed -- see LICENSES/LicenseRef-YouArt-Curation-No-Grant.txt.
+Note also that the READMEs quote all 150 third-party prompt titles; those words
+are covered by LicenseRef-Prompt-Authors-No-Grant, not by this line.
+"""
 
 # Layer 3 -- the prompt bodies. NOT ours. The identifiers below describe what
 # the collections we received them through stated over their own copies; they
@@ -37,10 +42,13 @@ SPDX-License-Identifier = "CC-BY-4.0"
 [[annotations]]
 path = ["prompts/**", "data/prompts.json"]
 SPDX-FileCopyrightText = "The individual prompt authors named in ATTRIBUTION.md"
-SPDX-License-Identifier = "CC0-1.0 OR CC-BY-4.0"
+SPDX-License-Identifier = "LicenseRef-Prompt-Authors-No-Grant"
 SPDX-FileComment = """
-Mixed and per-row: 115 prompts were received via a collection stating CC0-1.0
-and 35 via a collection stating CC BY 4.0. The authoritative per-row record is
+NOT a grant by us. 8 of the 9 prompts/*.md files mix rows received via both
+upstream collections, so no single SPDX expression is accurate even per file;
+115 came via one stating CC0-1.0 and 35 via one stating CC BY 4.0, and an
+earlier "CC0-1.0 OR CC-BY-4.0" here read as a disjunctive grant of exactly the
+rights this repository declines to grant. The authoritative per-row record is
 the `upstream` and `upstreamStatedTerms` fields in data/prompts.json, surfaced
 in ATTRIBUTION.md. Neither collection wrote the prompts either.
 """

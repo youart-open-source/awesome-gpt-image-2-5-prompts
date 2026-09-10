@@ -12,7 +12,7 @@
 
 # GPT Image 2.5 プロンプト集
 
-[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-see%20LICENSE-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
 ![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
@@ -105,9 +105,9 @@ OpenAI の GPT Image シリーズで実際に生成し、公開されたプロ�
 
 ## ライセンスとクレジット
 
-スクリプトは MIT、それ以外に私たちが書いたもの——コレクション、カテゴリ、文章、翻訳——は CC BY 4.0 です。フォークも、改変も、商用利用もご自由に。
+ビルドスクリプトは MIT です。フォークも商用利用もご自由に、クレジットを入れていただければ私たちの分は完了です。それ以外に私たちがまとめた部分は、まだオープンライセンスでは提供していません。使いたい箇所があればご相談ください。
 
-プロンプトは書いた本人の作品であり、私たちのものではありません。各行に著者をクレジットし、元の投稿にリンクしています。本文は変更していません。重要な用途で使いたい場合は、そのクレジット行が誰の作品かを示します。
+プロンプトとそのタイトルは書いた本人の作品であり、私たちのものではありません。各行に著者をクレジットし、元の投稿にリンクしています。本文は変更していません。一件ずつ権利の来歴までは追えていないため、重要な用途で使う場合は、そのクレジット行が誰の作品かを示します。
 
 ご自身が書いたものを削除してほしい場合は、ひとことで対応します。理由は不要です。
 
@@ -170,7 +170,7 @@ GitHub は、レンダリングしないクローラーに対してファイル�
 | 内容 | ファイル | バイト数 |
 |---|---|--:|
 | プロンプト一覧 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
-| LLM・エージェント向け | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,877 |
+| LLM・エージェント向け | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 11,014 |
 | ポスター | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,854 |
 | 画像内テキスト | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,176 |
 | インフォグラフィック | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,190 |

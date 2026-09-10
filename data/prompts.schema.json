@@ -352,6 +352,31 @@
                 "upstreamCreditAsSupplied"
               ]
             }
+          },
+          {
+            "$comment": "A direct submission carries a consent record; a collected row carries none.",
+            "if": {
+              "properties": {
+                "upstream": {
+                  "const": "direct"
+                }
+              },
+              "required": [
+                "upstream"
+              ]
+            },
+            "then": {
+              "required": [
+                "consent"
+              ]
+            },
+            "else": {
+              "not": {
+                "required": [
+                  "consent"
+                ]
+              }
+            }
           }
         ],
         "properties": {
@@ -414,16 +439,18 @@
           "upstream": {
             "enum": [
               "evolink",
-              "youmind"
+              "youmind",
+              "direct"
             ],
-            "description": "The `id` of the _meta.upstreams entry our copy came from."
+            "description": "The `id` of the _meta.upstreams entry our copy came from. `direct` means the author sent it to us themselves; such a row has no upstream collection and carries `consent` instead."
           },
           "upstreamStatedTerms": {
             "enum": [
               "CC0-1.0",
-              "CC-BY-4.0"
+              "CC-BY-4.0",
+              "author-permission"
             ],
-            "description": "The terms the upstream collection stated over its copy of this row. Deliberately NOT named `license`: a per-row field with that name reads as a machine-readable assertion that the AUTHOR licensed the text, and neither collection wrote these prompts. This field records what we received, nothing more."
+            "description": "The terms the upstream collection stated over its copy of this row. Deliberately NOT named `license`: a per-row field with that name reads as a machine-readable assertion that the AUTHOR licensed the text, and neither collection wrote these prompts. This field records what we received, nothing more. `author-permission` is used for `direct` rows: the author gave us permission to publish, which is a record of what we were given, not a licence we can pass on."
           },
           "promptSha256": {
             "type": "string",
@@ -439,6 +466,31 @@
             "type": "string",
             "minLength": 1,
             "description": "The prompt body, verbatim third-party text — not rewritten, trimmed or improved, beyond normalising leading and trailing whitespace. Last key in the record so a reviewer reads the metadata before a 3,000-character body."
+          },
+          "consent": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "grantedAt",
+              "issue",
+              "scope"
+            ],
+            "description": "How a `direct` submission's permission was given. Required on `direct` rows and forbidden elsewhere. Recorded here rather than left in a GitHub issue, which the submitter can edit or delete.",
+            "properties": {
+              "grantedAt": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "issue": {
+                "type": "string",
+                "pattern": "^https://github\\.com/[^/]+/[^/]+/issues/\\d+$"
+              },
+              "scope": {
+                "type": "string",
+                "minLength": 1,
+                "description": "What the author agreed to, in their words or ours."
+              }
+            }
           }
         }
       }

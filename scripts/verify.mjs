@@ -26,7 +26,7 @@
 // uses. No network. `node scripts/verify.mjs && node scripts/build.mjs --check`
 // on a fresh clone is the whole of CI.
 //
-// LICENCE PASS DEFERRED: this file deliberately contains no LICENSE check, no
+// Licence checks live in build.mjs, which is the writer: this file contains no
 // SPDX check and no rights assertion. Those arrive with that pass.
 
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';

@@ -12,7 +12,7 @@
 
 # GPT Image 2.5 提示词
 
-[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-see%20LICENSE-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
 ![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
@@ -105,9 +105,9 @@ GPT、GPT Image 和 ChatGPT 是 OpenAI 的商标。YouArt 是独立平台，与 
 
 ## 许可与署名
 
-脚本是 MIT，我们写的其他部分——合集本身、分类、文案、翻译——是 CC BY 4.0。随便 fork、二次开发、商用都可以。
+构建脚本是 MIT——随便 fork、商用，署上我们就算完。其余我们整理出来的部分暂时不开放授权；想用其中某块，问我们一声。
 
-提示词是作者们的作品，不是我们的。每一行都署上了作者、链回原帖，原文我们一个字没改。要拿某条用在重要的地方，署名那行会告诉你它属于谁。
+提示词和它们的标题是作者们的作品，不是我们的。每一行都署上了作者、链回原帖，原文我们一个字没改。我们没有逐条追查过背后的权利链，所以要拿某条用在重要的地方，署名那行会告诉你它属于谁。
 
 其中某条是你写的、想撤下？说一声就撤，不用给理由。
 
@@ -170,7 +170,7 @@ GitHub 只在单个文件页面上把提示词全文交给不做渲染的抓取�
 | 内容 | 文件 | 字节 |
 |---|---|--:|
 | 全部提示词 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
-| 给大模型和智能体 | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,877 |
+| 给大模型和智能体 | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 11,014 |
 | 海报 | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,854 |
 | 图中文字 | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,176 |
 | 信息图 | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,190 |

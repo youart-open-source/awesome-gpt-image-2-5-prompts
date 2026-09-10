@@ -12,7 +12,7 @@
 
 # Prompts do GPT Image 2.5
 
-[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-see%20LICENSE-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
 ![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
@@ -105,9 +105,9 @@ Mantenha o produto, o personagem ou a mensagem constantes e mude uma variável: 
 
 ## Licença e crédito
 
-Os scripts são MIT e tudo o mais que escrevemos — a coleção, as categorias, o texto, as traduções — é CC BY 4.0. Faça fork, construa em cima, use comercialmente.
+Os scripts de build são MIT — faça fork, use comercialmente, credite-nos e a nossa parte está feita. Todo o resto que reunimos ainda não é oferecido sob licença aberta; pergunte se quiser reutilizar alguma parte.
 
-Os prompts são obra de seus autores, não nossa. Cada linha credita quem escreveu e liga ao post original, e não alteramos o texto. Se quiser partir de um para algo que importa, essa linha de crédito diz de quem é.
+Os prompts e seus títulos são obra de seus autores, não nossa. Cada linha credita quem escreveu e liga ao post original, e não alteramos o texto. Não rastreamos a cadeia de direitos por trás de cada um, então se quiser partir de um prompt para algo que importa, essa linha de crédito diz de quem é.
 
 Escreveu um deles e quer que saia? É só dizer, sem explicações.
 
@@ -170,7 +170,7 @@ O GitHub entrega o texto completo dos prompts a um rastreador que não renderiza
 | Conteúdo | Arquivo | Bytes |
 |---|---|--:|
 | Todos os prompts | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
-| Para LLMs e agentes | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,877 |
+| Para LLMs e agentes | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 11,014 |
 | Pôsteres | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,854 |
 | Texto na imagem | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,176 |
 | Infográficos | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,190 |

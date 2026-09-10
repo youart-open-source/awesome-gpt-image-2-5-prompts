@@ -12,7 +12,7 @@
 
 # مطالبات GPT Image 2.5
 
-[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-see%20LICENSE-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
 ![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
@@ -105,9 +105,9 @@
 
 ## الترخيص والإسناد
 
-‏البرامج النصية بترخيص MIT، وكل ما كتبناه غير ذلك — المجموعة والفئات والنصوص والترجمات — بترخيص CC BY 4.0. انسخها وابنِ عليها واستخدمها تجاريًا.
+‏برامج البناء بترخيص MIT — انسخها واستخدمها تجاريًا، وبذكرنا ينتهي ما يخصّنا. أما بقية ما جمّعناه فلا نقدّمه بعد برخصة مفتوحة؛ اسألنا إن أردت إعادة استخدام جزء منه.
 
-‏أما المطالبات فهي من عمل كاتبيها لا من عملنا. كل صف ينسب المطالبة إلى من كتبها ويصل إلى منشوره الأصلي، ولم نغيّر النص. وإن أردت البناء على إحداها في أمر مهم، فسطر الإسناد يدلّك على صاحبها.
+‏المطالبات وعناوينها من عمل كاتبيها لا من عملنا. كل صف ينسبها إلى من كتبها ويصل إلى منشوره الأصلي، ولم نغيّر النص. ولم نتتبّع سلسلة الحقوق وراء كل واحدة، فإن أردت البناء على إحداها في أمر مهم، فسطر الإسناد يدلّك على صاحبها.
 
 ‏كتبت إحداها وتريد إزالتها؟ قل ذلك وستُزال، دون الحاجة إلى شرح.
 
@@ -168,7 +168,7 @@
 يقدّم GitHub نص المطالبات كاملًا للزواحف التي لا تُنفّذ العرض في صفحة الملف، لا في الصفحة الرئيسية للمستودع. لذلك تجد النسخ المقروءة آليًا مدرجة هنا مع أحجامها.
 
 - المحتوى: كل المطالبات · الملف: [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) · الحجم بالبايت: 496,998
-- المحتوى: لنماذج اللغة والوكلاء · الملف: [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) · الحجم بالبايت: 10,877
+- المحتوى: لنماذج اللغة والوكلاء · الملف: [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) · الحجم بالبايت: 11,014
 - المحتوى: الملصقات · الملف: [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) · الحجم بالبايت: 59,854
 - المحتوى: النص داخل الصورة · الملف: [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) · الحجم بالبايت: 38,176
 - المحتوى: الرسوم المعلوماتية · الملف: [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) · الحجم بالبايت: 70,190

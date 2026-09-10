@@ -14,7 +14,9 @@ The conventional address for an assistant index is <https://youart.ai/llms.txt>,
 the primary index for this library. The file you are reading mirrors that section, for agents
 that reach the repository first.
 
-<!-- TODO(licence): rights section intentionally omitted from this draft. -->
+The prompt bodies are their authors' work, not ours, and we grant no rights in them; see
+LICENSE and ATTRIBUTION.md. The build scripts are MIT. If you quote a prompt, carry its
+`author` and its `sourceUrl` with it.
 
 ## Machine-readable corpus
 

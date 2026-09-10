@@ -101,7 +101,7 @@ const USE_CASE = {
 // heading has a different GitHub slug, so a repository that lets GitHub generate
 // the target ships one dead link per section per translation — measured at 135
 // in a rival. `## الحقوق` still answers to `#rights` here because we emit the id.
-const SECTION_IDS = ['what', 'how', 'browse', 'guide', 'json', 'index', 'faq', 'machines', 'cta', 'about'];
+const SECTION_IDS = ['what', 'how', 'browse', 'guide', 'json', 'index', 'faq', 'rights', 'machines', 'cta', 'about'];
 
 // Prompt anchors are `p-{slug}`, never a bare `{slug}`. For the 105 titles whose
 // slug already equals the slug GitHub would generate for the heading beside it,
@@ -127,7 +127,6 @@ const BUDGET = {
 // stands where it will go. It arrives inside content/20-guide.md and inside
 // llms.txt.tmpl; build.mjs emits it itself in the five translated READMEs,
 // which have no fragment.
-const RIGHTS_PLACEHOLDER = '<!-- TODO(licence): rights section intentionally omitted from this draft. -->';
 
 // content/ holds the hand-written English prose. Two shapes are accepted, and
 // which one a file uses is decided by where it sits:
@@ -684,7 +683,10 @@ for (const r of allRows) {
   const parsedId = r.sourceUrl === '' ? null : r.sourceUrl.slice(r.sourceUrl.lastIndexOf('/') + 1);
   if (r.statusId !== parsedId) p(`statusId ${r.statusId} is not the id in sourceUrl`);
   if (typeof r.isJson !== 'boolean') p('isJson is not a boolean');
-  if (!upstreams.has(r.upstream)) p(`unknown upstream ${r.upstream}`);
+  // `direct` means the author sent it to us, so there is no upstream collection
+  // entry to match -- its provenance is the `consent` record on the row itself.
+  if (r.upstream !== 'direct' && !upstreams.has(r.upstream)) p(`unknown upstream ${r.upstream}`);
+  if (r.upstream === 'direct' && !r.consent?.issue) p('direct row without a consent record');
   if (!String(r.upstreamStatedTerms ?? '').trim()) p('empty upstreamStatedTerms');
   if (!catIndex.has(r.category)) p(`unknown category ${r.category}`);
   if (!String(r.prompt).length) p('empty prompt');
@@ -896,7 +898,7 @@ hard(
 // needs no edit here. build.mjs strips exactly the leading comment block — from
 // the opening `<!--` through the first `-->` and the newline after it — and
 // passes everything else through VERBATIM, including the `<!-- item: … -->`
-// markers and the TODO(licence) line, which must survive into README.md.
+// markers, which must survive into README.md.
 // ---------------------------------------------------------------------------
 
 console.log('\ntemplates');
@@ -923,8 +925,8 @@ function loadFragments() {
   for (const rel of files) {
     if (rel.endsWith('.txt')) continue; // documentation (PLACEHOLDERS.txt), never published
     const raw = readText(`content/${rel}`);
-    // Strip a leading header comment, but only when it is a header: the
-    // TODO(licence) line is an HTML comment too and must always survive.
+    // Strip a leading header comment, but only when it is a header -- a
+    // fragment's body may legitimately open with an HTML comment of its own.
     const end_ = raw.indexOf('-->');
     const head = end_ === -1 ? '' : raw.slice(0, end_);
     const isHeader = raw.trimStart().startsWith('<!--') && /^\s*(section|fragment):/m.test(head);
@@ -956,10 +958,6 @@ function loadFragments() {
       const m = FRAGMENT_SECTION_RE.exec(name);
       const section = m?.[1];
       const locale = m?.[2] ?? 'en';
-      if (section === 'rights') {
-        skipped.push(rel); // the licence pass is deferred; see RIGHTS_PLACEHOLDER
-        continue;
-      }
       if (!m || !SECTION_IDS.includes(section) || !LOCALES.includes(locale)) {
         bad.push(`${rel} (not <section>[.<locale>].md for a known section)`);
         continue;
@@ -1069,7 +1067,13 @@ function renderPromptFile(category) {
     d.block(`## ${esc(r.title)}`);
     const credit = [`[@${esc(r.author)}](${r.authorUrl})`];
     if (r.sourceUrl) credit.push(`[x.com](${r.sourceUrl})`);
-    credit.push(`[\`${r.upstream}\`](${upstreams.get(r.upstream).permalink})`);
+    // A `direct` row came straight from its author, so there is no collection to
+    // link; its consent record stands in that slot instead.
+    credit.push(
+      r.upstream === 'direct'
+        ? `[used with permission](${r.consent.issue})`
+        : `[\`${r.upstream}\`](${upstreams.get(r.upstream).permalink})`,
+    );
     d.block(credit.join(' · '));
     d.block(codeBlock(r.prompt, fenceLang(r)));
     d.block(`[${esc(t('cta.primary'))}](${destination({ locale: 'en', medium: 'prompt', content: r.slug, hash: r.slug })})`);
@@ -1206,7 +1210,7 @@ function renderReadme(locale, sizes, dropCols = []) {
   // rivals wear it anyway.
   d.block(
     [
-      `[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)`,
+      `[![License](https://img.shields.io/badge/license-see%20LICENSE-blue.svg)](LICENSE)`,
       `[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)`,
       `[![verify](https://github.com/${REPO_OWNER}/${REPO_NAME}/actions/workflows/verify.yml/badge.svg)](https://github.com/${REPO_OWNER}/${REPO_NAME}/actions/workflows/verify.yml)`,
       `![Prompts](https://img.shields.io/badge/prompts-${rows.length}-111111.svg)`,
@@ -1416,7 +1420,6 @@ const TEMPLATE_VARS = {
   URL_BRAND: destination({ locale: 'en', medium: 'footer', content: 'brand', root: true }),
   URL_FOOTER: destination({ locale: 'en', medium: 'footer', content: 'footer' }),
   URL_HOMEPAGE: destination({ locale: 'en', medium: 'about', content: 'homepage' }), // metadata/homepage.txt
-  RIGHTS_PLACEHOLDER,
   // supplied per call site; declared null here so the failure message lists them
   MACHINE_SURFACE_TABLE: null,
   PROMPT_FILE_LINES: null,
@@ -1447,6 +1450,25 @@ function renderAttribution() {
   d.block(
     `To ask for a prompt to be corrected or removed, see ${d.rel('TAKEDOWN.md', '`TAKEDOWN.md`')}. Quote the slug from the table below.`,
   );
+
+  const directRows = rows.filter((r) => r.upstream === 'direct');
+  if (directRows.length) {
+    d.block('## Sent in by their authors');
+    d.block(
+      `${directRows.length} prompt(s) here were submitted by the person who wrote them, with ` +
+        'their permission to publish. They did not reach us through any collection, so there is ' +
+        'no upstream to pin: the record of what was agreed is on the row itself.',
+    );
+    d.block(
+      ['| Prompt | Slug | Author | Original post | Permission |', '| --- | --- | --- | --- | --- |',
+        ...[...directRows]
+          .sort((a, b) => cmpU16(a.author.toLowerCase(), b.author.toLowerCase()) || cmpU16(a.slug, b.slug))
+          .map((r) => {
+            const post = r.sourceUrl ? `[post](${r.sourceUrl})` : '_post deleted_';
+            return `| ${esc(r.title)} | \`${r.slug}\` | [@${r.author}](${r.authorUrl}) | ${post} | [granted ${r.consent.grantedAt}](${r.consent.issue}) |`;
+          })].join('\n'),
+    );
+  }
 
   for (const u of meta.upstreams) {
     const rowsFor = rows.filter((r) => r.upstream === u.id);
@@ -1722,7 +1744,7 @@ const unlisted = rows.filter((r) => !attrText.includes(`\`${r.slug}\``));
 hard('ATTRIBUTION.md covers every published row', unlisted.length === 0, unlisted.length ? unlisted.slice(0, 5).map((r) => r.slug).join(' | ') : `${rows.length} rows`);
 
 // The vendored evidence and the legalcodes have to exist on disk.
-const rightsFiles = ['LICENSE', 'LICENSES/MIT.txt', 'LICENSES/CC-BY-4.0.txt', 'LICENSES/CC0-1.0.txt', 'REUSE.toml', 'TAKEDOWN.md', 'CONTRIBUTING.md', 'provenance/README.md', ...meta.upstreams.map((u) => `provenance/${u.id}-${u.commit.slice(0, 8)}-LICENSE.txt`)];
+const rightsFiles = ['LICENSE', 'LICENSES/MIT.txt', 'LICENSES/CC-BY-4.0.txt', 'LICENSES/CC0-1.0.txt', 'LICENSES/LicenseRef-Prompt-Authors-No-Grant.txt', 'LICENSES/LicenseRef-YouArt-Curation-No-Grant.txt', 'REUSE.toml', 'TAKEDOWN.md', 'CONTRIBUTING.md', 'provenance/README.md', ...meta.upstreams.map((u) => `provenance/${u.id}-${u.commit.slice(0, 8)}-LICENSE.txt`)];
 const absent = rightsFiles.filter((f) => !existsSync(f));
 hard('every licence and provenance file is present', absent.length === 0, absent.length ? absent.join(', ') : `${rightsFiles.length} files`);
 
