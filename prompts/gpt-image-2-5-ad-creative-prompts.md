@@ -6,7 +6,7 @@
 
 Campaign key visuals, banners and social ad creative. Most of these carry both an image direction and a piece of copy to render, which is why they belong to this model rather than to a generation that could not spell.
 
-**[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ad-creative#ad-creative)**
+**[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ad-creative#ad-creative)**
 
 [Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
@@ -119,7 +119,7 @@ GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent pl
 }
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=4-panel-japanese-digital-ad-banner-grid#4-panel-japanese-digital-ad-banner-grid)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=4-panel-japanese-digital-ad-banner-grid#4-panel-japanese-digital-ad-banner-grid)
 
 <a id="p-anime-character-brand-identity-merch-board"></a>
 
@@ -179,7 +179,7 @@ GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent pl
 }
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=anime-character-brand-identity-merch-board#anime-character-brand-identity-merch-board)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=anime-character-brand-identity-merch-board#anime-character-brand-identity-merch-board)
 
 <a id="p-chrome-logo-editorial-system"></a>
 
@@ -213,7 +213,7 @@ TECH SPECS
 Octane Render aesthetic. Ray Tracing: 16+ bounces. Depth of Field: f/11 equivalent — full logo sharp, far background in soft bokeh only. Tone mapping: lifted blacks, compressed highlights, filmic S-curve. Color grade: desaturated midtones, preserved pastels, cool shadow tones. Film grain: subtle (ISO 200 equivalent). Chromatic Aberration: 0.2–0.3px on peripheral logo edges only. Anti-aliasing: maximum. No AI-plastic normals. No smooth uniform shading. Microscopic surface imperfections on chrome required — micro-scratches, 0.5% roughness noise map. Mood: luxury brand retrospective editorial for Highsnobiety or AnOther Magazine.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=chrome-logo-editorial-system#chrome-logo-editorial-system)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=chrome-logo-editorial-system#chrome-logo-editorial-system)
 
 <a id="p-doodle-escape-studio-sprint"></a>
 
@@ -282,7 +282,7 @@ Ultra-realistic textures, sharp focus, crisp detail, 8K resolution.
 Vertical composition.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=doodle-escape-studio-sprint#doodle-escape-studio-sprint)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=doodle-escape-studio-sprint#doodle-escape-studio-sprint)
 
 <a id="p-e-commerce-main-image-luxury-skincare-product-ad"></a>
 
@@ -294,7 +294,7 @@ Vertical composition.
 Create an ultra-realistic luxury commercial product advertisement for a premium skincare brand called {argument name="brand name" default="AUREVIA"}, featuring its “{argument name="product name" default="VELVET HYDRATE Body Lotion"}.” Place a sophisticated 250 ml tall oval pump bottle prominently in the center of the composition, positioned at a slight diagonal angle for a dynamic editorial look. Use a {argument name="bottle color" default="matte sage-green"} bottle with a smooth soft-touch finish and a brushed champagne-gold pump. Design the label with an elegant arched botanical pattern inspired by flowing leaves and subtle topographic lines. Use a sophisticated palette of sage green, champagne gold, warm ivory, and muted terracotta. Avoid copying the rectangular label or orange-and-purple styling of the reference. The front label should clearly and correctly display: AUREVIA, VELVET HYDRATE, Nourishing Body Lotion, Aloe Vera + Shea Butter, Soften • Nourish • Hydrate, 250 ml. Surround the bottle with beautifully arranged fresh aloe vera slices, small ivory flowers, shea nuts, eucalyptus leaves, and delicate botanical elements. Add transparent water droplets and a graceful splash of water sweeping behind the bottle to communicate freshness and hydration. Instead of an orange-toned surface, place the product on a light cream travertine stone platform with subtle natural texture. Introduce an artistic curved sage-green backdrop behind the product, creating layered depth and a distinctive premium set design. Use soft golden daylight entering diagonally from the upper left, creating elegant botanical shadows across the background. Add realistic reflections, tiny condensation droplets on the bottle, subtle highlights on the gold pump, and soft shadows beneath the product. Composition should feel sophisticated, fresh, botanical, modern, and expensive—similar to a high-end international skincare campaign. Photography: luxury beauty advertising, professional product photography, macro-level material detail, realistic liquid and water physics, crisp typography, photorealistic botanical textures, shallow depth of field, premium studio lighting, 8K detail. Aspect ratio: 4:5 portrait.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-luxury-skincare-product-ad#e-commerce-main-image-luxury-skincare-product-ad)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-luxury-skincare-product-ad#e-commerce-main-image-luxury-skincare-product-ad)
 
 <a id="p-e-commerce-main-image-premium-grain-powder-ad-board"></a>
 
@@ -306,7 +306,7 @@ Create an ultra-realistic luxury commercial product advertisement for a premium 
 {"type":"Chinese e-commerce product marketing board","product":{"category":"instant grain powder drink","brand":"五谷磨房","name":"核桃芝麻黑豆粉","packaging":"matte black retail box with gold Chinese typography and a large swirling bowl graphic on the front, plus individual black sachets inside","net weight":"320g (32g×10袋)"},"style":{"overall":"premium dark food advertising layout","color palette":["black","deep brown","warm gold","beige","walnut brown"],"lighting":"dramatic studio lighting with glossy highlights and warm rim light","mood":"luxurious, nourishing, healthy, appetizing"},"layout":{"format":"single tall composite board divided into 5 major sections plus a bottom storyboard table","sections":[{"title":"主图/Main image","position":"top-left","count":8,"labels":["五谷磨房","核桃芝麻黑豆粉","32g×10袋 独立包装","五黑谷物","香浓醇厚","独立小袋","即冲即饮","product box and drink cup"]},{"title":"详情页/Details page","position":"top-right","count":5,"labels":["黑芝麻","黑豆","黑米","核桃","谷物粉"]},{"title":"香浓细腻 顺滑好喝","position":"mid-right","count":4,"labels":["一冲即饮 营养美味","粉质细腻 Fine powder","浓香醇厚 Rich & Smooth","营养代餐 Nutritious"]},{"title":"冲泡方式 HOW TO MAKE","position":"mid-left lower","count":3,"labels":["1 倒入一袋粉(32g)","2 加入200ml 热水或牛奶","3 搅拌均匀 即可享用"]},{"title":"一杯好谷物 轻松好生活","position":"lower-left","count":4,"labels":["元气早餐","办公室下午茶","健身代餐","睡前暖饮"]},{"title":"独立小袋 随身携带","position":"lower-right","count":3,"labels":["独立小袋 便携卫生","锁住新鲜 防潮防氧化","1袋1杯 精准份量"]},{"title":"视频推广广告 seedance 2.0 视频提示词 + 分镜头脚本","position":"bottom full width","count":7,"labels":["镜头1 开场-产品展示","镜头2 食材特写","镜头3 倒粉入杯","镜头4 冲泡搅拌","镜头5 饮用场景","镜头6 产品卖点","镜头7 结尾口号"]}],"grid":"top area split into left main image and right detail page; middle area split into preparation guide and feature panel; lower area split into lifestyle scenarios and sachet carry section; bottom is a full-width tabular storyboard"},"scene_elements":{"ingredients":[{"name":"black sesame","form":"small black seeds in a round bowl"},{"name":"black beans","form":"glossy whole beans in a round bowl"},{"name":"black rice","form":"dark long grains in a round bowl"},{"name":"walnuts","form":"walnut halves in a round bowl"},{"name":"grain powder","form":"light beige powder in a round bowl"}],"serving":{"drink":"thick gray-brown sesame walnut bean beverage with smooth surface swirl","cup":"transparent glass cup with handle","utensil":"metal spoon stirring or resting inside drink"},"supporting props":["walnuts on table","scattered black beans","grain stalks or wheat stems","dark tabletop","ingredient bowls","open package showing 5 visible sachets"]},"text_treatment":{"headline_font":"bold elegant Chinese display type in metallic gold","body_font":"clean sans serif Chinese with occasional English subtitles","accent":"thin gold divider lines and circular ingredient frames"},"camera_and_composition":{"product_shots":"front-facing hero box, angled sachet display box, close-up beverage macro","food_photography":"high-detail commercial food styling, shallow depth of field, crisp texture emphasis","aspect_ratio":"portrait, approximately 9:16"},"quality":"ultra-detailed commercial design mockup, polished e-commerce key visual plus details page plus ad storyboard, 4K"}
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-premium-grain-powder-ad-board#e-commerce-main-image-premium-grain-powder-ad-board)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-premium-grain-powder-ad-board#e-commerce-main-image-premium-grain-powder-ad-board)
 
 <a id="p-glossier-brand-world-collage"></a>
 
@@ -379,7 +379,7 @@ FINAL FEEL:
 This must look like a creative direction board for a global campaign. Not a clean layout, not a grid, not minimal. It must feel alive, layered, and brand-heavy, a visual identity snapshot that is highly shareable and scroll-stopping.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=glossier-brand-world-collage#glossier-brand-world-collage)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=glossier-brand-world-collage#glossier-brand-world-collage)
 
 <a id="p-high-fashion-beverage-campaign-board"></a>
 
@@ -485,7 +485,7 @@ Style: premium but bold, modern campaign aesthetic, slightly experimental layout
 Aspect ratio: vertical (9:16 preferred)
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=high-fashion-beverage-campaign-board#high-fashion-beverage-campaign-board)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=high-fashion-beverage-campaign-board#high-fashion-beverage-campaign-board)
 
 <a id="p-ingredient-callout-ice-cream-ad"></a>
 
@@ -605,7 +605,7 @@ Aspect ratio: vertical (9:16 preferred)
 }
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=ingredient-callout-ice-cream-ad#ingredient-callout-ice-cream-ad)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ingredient-callout-ice-cream-ad#ingredient-callout-ice-cream-ad)
 
 <a id="p-lavender-smartphone-hero-ad"></a>
 
@@ -617,7 +617,7 @@ Aspect ratio: vertical (9:16 preferred)
 Redmi 17 pro new launch 🔥 Made with Gpt image 2 on Chatgpt Prompt : Ultra-realistic premium smartphone advertisement, featuring a confident young woman in her early 20s with fair skin and sharp facial features, wearing sleek black cat-eye sunglasses. She has long, thick braided hair styled into an extended oversized braid, colored in soft lavender/purple tones matching the product theme. She is captured in a dynamic low-angle cinematic pose, slightly twisting her torso while holding a Xiaomi 17 Pro smartphone toward the camera in a bold hero shot with strong forced perspective, the phone dominating the foreground. The smartphone features a matte metallic lavender/purple finish, minimalistic body with rounded corners, and a large rectangular camera module. The module includes two large camera lenses on the left, a circular secondary display on the right showing a minimal purple gradient clock UI, Leica branding near the camera, a clean flash strip, and subtle Xiaomi branding at the bottom. Outfit: fitted long-sleeve crop top in soft lavender/purple, paired with high-waisted muted grey/olive cargo pants, modern tech-fashion aesthetic. Background: clean minimal gradient transitioning from light grey to soft lavender/purple tones, with subtle blurred large-scale typography for depth. Lighting: soft studio lighting with neutral-to-cool tones, smooth skin illumination, controlled highlights on the phone edges, glossy reflections on camera lenses and display, minimal shadows, premium product photography style. Composition: low-angle shot for a powerful look, subject positioned slightly left, phone dominating the right foreground, clean negative space for branding. Futuristic UI overlays: thin minimal white/purple lines and nodes pointing to features with floating labels: “Leica Camera System” “Secondary Display Integration” “Ultra-Slim Premium Design” Glassmorphism panel (bottom-left, soft purple tint) listing: “Flagship Performance” “Advanced AI Imaging” “Fast Charging” “Next-Gen Xiaomi AI” Top corner text: “Xiaomi 17 Pro” in clean modern sans-serif typography. Style: high-end flagship smartphone advertisement, futuristic, minimal, elegant. Quality: 8K, ultra-detailed, sharp focus, HDR, cinematic commercial photography, realistic textures.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=lavender-smartphone-hero-ad#lavender-smartphone-hero-ad)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=lavender-smartphone-hero-ad#lavender-smartphone-hero-ad)
 
 <a id="p-luxury-jewelry-contrast-campaign"></a>
 
@@ -645,7 +645,7 @@ The final image should feel like a world-class luxury editorial ad from a top cr
 Avoid repeated concepts, repeated props, repeated backgrounds, flat lighting, weak framing, visual clutter, cheap styling, generic catalog presentation, text, watermark, and logos.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=luxury-jewelry-contrast-campaign#luxury-jewelry-contrast-campaign)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=luxury-jewelry-contrast-campaign#luxury-jewelry-contrast-campaign)
 
 <a id="p-polish-prl-era-magazine-spread"></a>
 
@@ -683,7 +683,7 @@ The right page should look cleaner and more aspirational than the article page, 
 Make all visible Polish text as clean and readable as possible.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=polish-prl-era-magazine-spread#polish-prl-era-magazine-spread)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=polish-prl-era-magazine-spread#polish-prl-era-magazine-spread)
 
 <a id="p-youtube-thumbnail-anime-classroom-losing-heroine-key-visual"></a>
 
@@ -709,7 +709,7 @@ Visual style: High-quality Japanese anime film still, delicate line art, natural
 Constraints: Do not add extra characters, extra desk objects, or extra text elements beyond the six listed. Keep all text legible but naturally hand-drawn where appropriate. No watermark, no photorealism, no 3D render.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=youtube-thumbnail-anime-classroom-losing-heroine-key-visual#youtube-thumbnail-anime-classroom-losing-heroine-key-visual)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=youtube-thumbnail-anime-classroom-losing-heroine-key-visual#youtube-thumbnail-anime-classroom-losing-heroine-key-visual)
 
 <a id="p-youtube-thumbnail-anime-classroom-losing-heroines-key-visual"></a>
 
@@ -729,7 +729,7 @@ Text layout: top left display the large Japanese title {argument name="title tex
 Background details: include exactly 2 visible wall posters with Japanese inspirational copy and small English title lines reading "Too Many Losing Heroines!" Keep the composition like an anime promotional still: the blue-haired girl dominates the left foreground, the boy is centered behind her, the maroon-haired girl is smaller on the right, with desks forming a horizontal foreground line. Avoid extra characters, avoid photorealism, avoid distorted hands, and keep all text legible.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=youtube-thumbnail-anime-classroom-losing-heroines-key-visual#youtube-thumbnail-anime-classroom-losing-heroines-key-visual)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=youtube-thumbnail-anime-classroom-losing-heroines-key-visual#youtube-thumbnail-anime-classroom-losing-heroines-key-visual)
 
 <a id="p-youtube-thumbnail-anime-school-rom-com-key-visual"></a>
 
@@ -755,7 +755,7 @@ Visual style: High-quality Japanese anime production still, delicate line art, e
 Constraints: Keep the composition faithful to a single wide anime screenshot, do not add extra characters, do not add extra desk objects beyond the four prominent items, keep all Japanese text legible and placed as described, avoid photorealism, avoid 3D rendering, avoid watermarks.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=youtube-thumbnail-anime-school-rom-com-key-visual#youtube-thumbnail-anime-school-rom-com-key-visual)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=youtube-thumbnail-anime-school-rom-com-key-visual#youtube-thumbnail-anime-school-rom-com-key-visual)
 
 <a id="p-youtube-thumbnail-anime-skywork-mv-thumbnail"></a>
 
@@ -781,7 +781,7 @@ Visual style: Polished modern Japanese anime illustration, glossy eyes, soft cel
 Constraints: Keep all important text fully legible and inside the safe area. Do not add extra characters, extra logos, watermarks, QR codes, or additional text beyond the specified headline and Skywork badge.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=youtube-thumbnail-anime-skywork-mv-thumbnail#youtube-thumbnail-anime-skywork-mv-thumbnail)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=youtube-thumbnail-anime-skywork-mv-thumbnail#youtube-thumbnail-anime-skywork-mv-thumbnail)
 
 <a id="p-youtube-thumbnail-gpt-image-2-reference-tutorial-banner"></a>
 
@@ -805,7 +805,7 @@ Color palette: Deep navy text, pale powder blue background, white panels, peach/
 Constraints: Use exactly one person, exactly four text blocks, exactly one check icon, and exactly three main decorative accent types: dotted grids, coral rays/underline, and diagonal hatching. Avoid extra logos, watermarks, English translations, or additional text.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=youtube-thumbnail-gpt-image-2-reference-tutorial-banner#youtube-thumbnail-gpt-image-2-reference-tutorial-banner)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=youtube-thumbnail-gpt-image-2-reference-tutorial-banner#youtube-thumbnail-gpt-image-2-reference-tutorial-banner)
 
 ---
 

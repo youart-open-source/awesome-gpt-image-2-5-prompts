@@ -6,7 +6,7 @@
 
 Dashboards, mobile screens, landing pages and stream overlays. A UI prompt has to name its components, because the model will invent a plausible interface if you do not tell it which one you meant.
 
-**[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ui-mockup#ui-mockup)**
+**[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ui-mockup#ui-mockup)**
 
 [Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
@@ -27,7 +27,7 @@ Full prompt:
 A first-person point-of-view (POV) shot inside a modern supermarket aisle. The viewer's hands are holding a mixed fruit jam jar with colorful branding, showing a blend of strawberry, blueberry, and orange flavors. Floating around the jar are sleek, semi-transparent Augmented Reality (AR) digital interfaces and holographic HUDs. The overlays display "Flavor Mix" with fruit icons, "Nutrition Info," and a glowing "Freshness Meter" reading 9/10. A digital shopping list with checkmarks for bread and butter appears beside the jar, along with small recipe suggestions like breakfast toast, pancakes, and desserts. The background shelves are slightly blurred with other products and shoppers, creating realistic depth of field. Bright, clean lighting with a futuristic retail atmosphere, ultra-realistic, cinematic look, high-tech AR glasses perspective, vertical composition.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=ar-grocery-overlay-pov#ar-grocery-overlay-pov)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ar-grocery-overlay-pov#ar-grocery-overlay-pov)
 
 <a id="p-cinematic-city-explosion-chase"></a>
 
@@ -39,7 +39,7 @@ A first-person point-of-view (POV) shot inside a modern supermarket aisle. The v
 A cinematic photorealistic action scene in a rainy downtown city street canyon, showing {argument name="main subject" default="a dark-haired man in his 30s"} sprinting directly toward the camera in the center foreground with a tense survival expression, wearing a soaked dark jacket, dark shirt, and dark pants, mid-stride with one arm pumping forward. Behind him, a massive urban explosion tears through the street and lower facade of a high-rise building, sending a huge cloud of smoke, fire, dust, shattered concrete, glass, and metal debris outward in all directions. The scene includes exactly 3 visible damaged vehicles: 1 dark sedan in the left foreground with headlights on and a crumpled hood splashing through rainwater, 1 wrecked dark car in the right midground with severe front-end damage, and 1 overturned or airborne black SUV tilted upward behind it on the right side. Wet asphalt reflects headlights, firelight, and gray skyscrapers. Dense debris fills the air, with chunks of rubble frozen in motion. Overcast stormy daylight, desaturated blue-gray color palette with orange fire accents, dramatic motion blur in flying debris but sharp focus on the running figure, low-angle wide-lens composition, blockbuster disaster-movie realism, ultra-detailed textures, high contrast, dynamic depth, volumetric smoke, rain spray, cinematic lighting. Add a white {argument name="watermark text" default="Pollo.ai"} logo in the top-right corner.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=cinematic-city-explosion-chase#cinematic-city-explosion-chase)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=cinematic-city-explosion-chase#cinematic-city-explosion-chase)
 
 <a id="p-cinematic-contact-sheet-generator"></a>
 
@@ -78,7 +78,7 @@ Here is the scene context:
 A wide cinematic exterior of the Whitmore estate at dusk in Buckhead, Atlanta. The massive gated modern mansion glows with warm amber lights against the dark tree line, with the circular driveway, lion fountain, and polished landscaping fully visible. The estate feels quiet, powerful, and untouchable — like a private world hidden behind wealth and security.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=cinematic-contact-sheet-generator#cinematic-contact-sheet-generator)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=cinematic-contact-sheet-generator#cinematic-contact-sheet-generator)
 
 <a id="p-dark-mode-marketing-case-study-ui"></a>
 
@@ -157,7 +157,7 @@ A wide cinematic exterior of the Whitmore estate at dusk in Buckhead, Atlanta. T
 }
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=dark-mode-marketing-case-study-ui#dark-mode-marketing-case-study-ui)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=dark-mode-marketing-case-study-ui#dark-mode-marketing-case-study-ui)
 
 <a id="p-doll-ification-concept-portrait"></a>
 
@@ -177,7 +177,7 @@ Bold blue-and-orange color palette with dramatic lighting throughout. Cyberpunk 
 #AIart #GPTImage2
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=doll-ification-concept-portrait#doll-ification-concept-portrait)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=doll-ification-concept-portrait#doll-ification-concept-portrait)
 
 <a id="p-early-internet-portfolio-page"></a>
 
@@ -220,7 +220,7 @@ Scatter handwritten marker-style notes, introductions, personal thoughts, and li
 Maintain an anti-grid editorial layout with intentionally imperfect spacing and playful placement. Mix tiny system fonts, handwritten script, and casual notebook-style annotations. Keep the portrait entirely monochrome while reserving color only for the logo, navigation stickers, and a few small graphic accents.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=early-internet-portfolio-page#early-internet-portfolio-page)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=early-internet-portfolio-page#early-internet-portfolio-page)
 
 <a id="p-era-cube-visualizer-grid"></a>
 
@@ -234,7 +234,7 @@ I love these cube prompts for visualizing different eras. Pretty short but GPT I
 2x2 grid, do this for different years of vastly different eras:  ERA_TO_CUBE_SOLVER  INPUT ::= [TOPIC], [ERA]  STEP_1 :: infer era identity - time period or stage - dominant materials - key tools or artifacts - social/technical/cultural context - built environment or natural environment - representative agents or figures if relevant  STEP_2 :: compress into cube - large objects define cuboid edges - medium objects build internal scenes - small objects fill gaps - top, side, and front faces remain visible - everything stays inside a strict rectangular volume  STEP_3 :: create module text - large era label - short subtitle - compact bullet list - no fixed facts unless supplied  STEP_4 :: repeat across eras - preserve identical visual grammar - increase or transform complexity chronologically
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=era-cube-visualizer-grid#era-cube-visualizer-grid)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=era-cube-visualizer-grid#era-cube-visualizer-grid)
 
 <a id="p-futuristic-hall-fashion-shot-sequence"></a>
 
@@ -262,7 +262,7 @@ no text, no watermark, no low quality, no cartoonish style
 Aspect Ratio: 3:4
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=futuristic-hall-fashion-shot-sequence#futuristic-hall-fashion-shot-sequence)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=futuristic-hall-fashion-shot-sequence#futuristic-hall-fashion-shot-sequence)
 
 <a id="p-golden-cocktail-in-greenhouse-bar"></a>
 
@@ -274,7 +274,7 @@ Aspect Ratio: 3:4
 A cinematic vertical photo of a hand holding up a large balloon wine glass filled with a sparkling golden-yellow citrus cocktail in a lush indoor greenhouse bar. The drink is backlit by warm late-afternoon sunlight, making it glow translucent amber. Inside the glass there is 1 visible citrus wedge, and at the rim there is 1 fresh mint garnish cluster. The hand enters from the lower left, delicately gripping the stem, wearing 1 chunky translucent amber bracelet. The setting is dense with tropical greenery, hanging ferns, and vine-covered walls, with a bright greenhouse roof structure visible overhead and 2 warm exposed hanging bulbs softly glowing in the background. Use shallow depth of field with creamy bokeh, strong sun rays filtering through leaves, soft haze, and rich green-and-gold color contrast. Add a blurred foreground leaf or plant along the right edge to frame the composition. The lower background should suggest a busy café or cocktail lounge with indistinct people, but keep them heavily out of focus. Photorealistic, elegant lifestyle photography, moody yet sun-drenched, shot from a low angle looking upward at the raised glass, high detail on condensation, glass reflections, and the luminous drink.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=golden-cocktail-in-greenhouse-bar#golden-cocktail-in-greenhouse-bar)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=golden-cocktail-in-greenhouse-bar#golden-cocktail-in-greenhouse-bar)
 
 <a id="p-japanese-ai-battle-youtube-thumbnail"></a>
 
@@ -286,7 +286,7 @@ A cinematic vertical photo of a hand holding up a large balloon wine glass fille
 A bold Japanese YouTube thumbnail about the AI competition era, 16:9 widescreen, high contrast, dramatic tech-news style. Use a dark futuristic control-room background filled with 3 glowing holographic dashboard screens and blue cyber interface elements around the edges. On the left and center, place a luminous circular hub labeled “AI” in bright blue, with 3 directional glowing energy arrows branching outward to competing platforms: “Google” on the left in a blue electric region, “Claude” on the upper right in a gold electric region, and “OpenAI” at the bottom center in a magenta-purple electric region. Add a subtle world-map or territory-battle visualization effect under each brand region, like illuminated digital land masses or influence zones. On the right side, show a young Japanese-looking woman from waist up, facing forward, wearing a long straight split-color wig with pastel pink on one side and pastel blue on the other, a plain white T-shirt with the printed text “OKIHIRO AI Creative”, and a light pink skirt. She raises one index finger beside her face in a presenter pose. Her face is fully obscured by a large soft-edged rectangular blur block. Across the top, add huge distressed white Japanese headline text: {argument name="headline text" default="AI戦国時代"}. Beneath it, add a second line in bold gold Japanese text: {argument name="subheadline text" default="性能だけの話じゃない"}. Across the bottom, place a wide black banner with massive bold gold Japanese text: {argument name="bottom text" default="空気を取った側が勝つ"}. Make the typography oversized, gritty, and attention-grabbing, with slight glow and drop shadow. Use a color palette of black, electric blue, gold, magenta, and neon white, with intense contrast and thumbnail readability.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=japanese-ai-battle-youtube-thumbnail#japanese-ai-battle-youtube-thumbnail)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=japanese-ai-battle-youtube-thumbnail#japanese-ai-battle-youtube-thumbnail)
 
 <a id="p-luxury-lifestyle-mustang-shot"></a>
 
@@ -298,7 +298,7 @@ A bold Japanese YouTube thumbnail about the AI competition era, 16:9 widescreen,
 A stylish young woman with {argument name="hair style" default="long wavy blonde hair"}, defined cheekbones, and a confident expression, wearing black sunglasses and a {argument name="clothing" default="thick white puffer jacket"} over a fitted black top, standing confidently in front of a {argument name="car" default="vibrant hot-pink Ford Mustang"}. She is posing with one hand slightly raised near her chest, exuding effortless attitude and elegance. The car is parked on a scenic coastal road lined with blooming pink cherry blossom trees and tall palm trees. Behind them is a calm sea under a dramatic overcast sky with soft clouds. Pink petals are scattered on the wet asphalt. A wooden bench is visible on the left side near the water. Cinematic lighting, photorealistic, ultra-detailed skin texture, natural lighting reflections, Instagram-style luxury lifestyle shot, vibrant colors, moody atmosphere, 8k resolution --ar 9:16 --stylize 250
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=luxury-lifestyle-mustang-shot#luxury-lifestyle-mustang-shot)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=luxury-lifestyle-mustang-shot#luxury-lifestyle-mustang-shot)
 
 <a id="p-naturalist-style-food-specimen-cross-section"></a>
 
@@ -355,7 +355,7 @@ A stylish young woman with {argument name="hair style" default="long wavy blonde
 粗糙的、光滑的、湿润的、干燥的、致密的、疏松的。
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=naturalist-style-food-specimen-cross-section#naturalist-style-food-specimen-cross-section)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=naturalist-style-food-specimen-cross-section#naturalist-style-food-specimen-cross-section)
 
 <a id="p-shattered-stone-style-transfer"></a>
 
@@ -391,7 +391,7 @@ A stylish young woman with {argument name="hair style" default="long wavy blonde
 }
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=shattered-stone-style-transfer#shattered-stone-style-transfer)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=shattered-stone-style-transfer#shattered-stone-style-transfer)
 
 <a id="p-spanish-grwm-morning-beauty-thumbnail"></a>
 
@@ -403,7 +403,7 @@ A stylish young woman with {argument name="hair style" default="long wavy blonde
 A vertical 9:16 TikTok-style GRWM beauty thumbnail set in a warm, sunlit Mediterranean-inspired bedroom. A stylish young woman with {argument name="hair color" default="dark brown"} hair in a messy curly updo sits at a marble vanity, leaning forward with one arm folded and the other hand applying lip balm or lipstick to her mouth. Her face is covered by a centered rectangular blur block for privacy, but the rest of her styling is elegant and natural: tan glowing skin, delicate gold necklace with a small round pendant, thin gold bracelet, stacked gold rings, and a white lace camisole with thin straps. In the foreground on the vanity are exactly 7 visible beauty objects: 1 round tabletop vanity mirror on the left, 1 cup holding 5 makeup brushes, 1 clear glass dropper bottle, 1 tall white pump skincare bottle, 1 small black dropper bottle, 1 beige rounded cosmetic sponge or puff, and 1 pale green squeeze tube on the right. The background shows a softly blurred cozy bedroom with 1 arched window on the left, 1 leafy potted plant, 1 bed with white bedding and a mustard accent pillow, exposed wooden ceiling detail, and 1 framed landscape painting on the wall. Use golden-hour sunlight streaming from the left, soft shadows, creamy skin tones, shallow depth of field, luxury lifestyle editorial photography, intimate self-care mood, polished but natural composition. Add bold playful Spanish headline text in the upper left in three stacked lines reading {argument name="headline text" default="Mi rutina de belleza matutina"}, with each line large and rounded, white outline and soft drop shadow, using pastel colors: first line white, second line pink, third line pale yellow. Add 3 pink doodle accent strokes above the headline, 1 curved pink underline-swoosh beneath it, and 1 small yellow sun icon to the right of the last line. Place a clean white {argument name="brand text" default="Pollo.ai"} logo in the upper right. High-end influencer thumbnail aesthetic, crisp product focus in foreground, warm inviting lifestyle scene.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=spanish-grwm-morning-beauty-thumbnail#spanish-grwm-morning-beauty-thumbnail)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=spanish-grwm-morning-beauty-thumbnail#spanish-grwm-morning-beauty-thumbnail)
 
 <a id="p-tropical-parrot-pixel-mosaic"></a>
 
@@ -415,7 +415,7 @@ A vertical 9:16 TikTok-style GRWM beauty thumbnail set in a warm, sunlit Mediter
 A vibrant pixel-art style mosaic of a tropical parrot perched on a small brown branch in the middle of dense rainforest foliage. The entire image is rendered as a tight grid of tiny square tiles with visible black outlines, creating a stained-glass or LED-screen effect. The bird is shown in side profile facing right, with a large curved black beak, a pale cream face, a bright red-orange forehead and throat, vivid green upper body, and long wings and tail in saturated blue and cyan. The surrounding jungle is filled edge to edge with layered green leaves in many shades, with a soft light green glow behind the parrot to separate it from the background. High color contrast, rich tropical palette, crisp tile pattern, centered composition, decorative digital mosaic aesthetic.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=tropical-parrot-pixel-mosaic#tropical-parrot-pixel-mosaic)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=tropical-parrot-pixel-mosaic#tropical-parrot-pixel-mosaic)
 
 <a id="p-venice-travel-vlogger-collage"></a>
 
@@ -431,7 +431,7 @@ Frame Breakdown Includes: — accidentally boarding the wrong vaporetto and enth
 Style: ultra-realistic travel vlog collage, Venice street photography, handheld smartphone camera aesthetic, imperfect framing, accidental photobombs, candid expressions, genuine laughter, iconic Venetian architecture, canals, gondolas, historic bridges, hidden alleyways, European summer atmosphere, natural lighting, motion blur, lens flares, overexposed highlights, authentic memories, cinematic storytelling, high-detail realism, viral travel content, no studio polish, no posing, spontaneous documentary-style moments, social media realism, chaotic vacation energy, luxury travel influencer aesthetic.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=venice-travel-vlogger-collage#venice-travel-vlogger-collage)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=venice-travel-vlogger-collage#venice-travel-vlogger-collage)
 
 <a id="p-y2k-harajuku-brand-badge"></a>
 
@@ -469,7 +469,7 @@ TECH SPECS
 Flat vector only. Zero gradients, effects, blur, or rendering. Clean crisp edges throughout. Maximum 4 colors: PRIMARY pastel, ACCENT warm saturated, DARK outline, off-white. Must feel like a collectible sticker or embroidered patch. Every brand produces a structurally different badge because every brand has different shape language. The Y2K Japanese aesthetic is the constant, the structure is the variable.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=y2k-harajuku-brand-badge#y2k-harajuku-brand-badge)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=y2k-harajuku-brand-badge#y2k-harajuku-brand-badge)
 
 ---
 

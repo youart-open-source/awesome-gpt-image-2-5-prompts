@@ -6,7 +6,7 @@
 
 Anime, watercolour, line art, 3D render, isometric and pixel art. Style prompts are the shortest in the library, and the ones most worth editing: swap the subject and keep the style clause, and you have a series.
 
-**[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=illustration#illustration)**
+**[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=illustration#illustration)**
 
 [Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
@@ -24,7 +24,7 @@ GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent pl
 {"type":"comparison graphic","style":"anime cinematic demonstration image on a black presentation background","canvas":{"aspect_ratio":"4:3","background":"solid black"},"text_elements":[{"text":"{argument name=\"headline text\" default=\"Move the camera POV to be at ground level in the crowd.\"}","position":"top center","style":"large white sans-serif"},{"text":"Source","position":"left of upper image","style":"large white sans-serif"},{"text":"Output","position":"left of lower image","style":"large white sans-serif"}],"layout":{"sections":[{"title":"Source","position":"upper center","count":1,"labels":["overhead crowd scene"]},{"title":"Output","position":"lower center","count":1,"labels":["ground-level crowd POV scene"]}],"image_frames":2},"images":[{"role":"source image","composition":"busy top-down view of a densely packed historical street crowd, seen from above","scene":"a chaotic crowd gathered around a wagon and a horse-drawn carriage, people pressed shoulder to shoulder, many wearing caps and muted early-20th-century or old-European clothing, bundles and sacks visible, one brown horse at the right edge, wooden wagon wheel and cart structure partially visible","camera":"high overhead bird's-eye angle looking down into the crowd","lighting":"soft daylight","color_palette":"muted earthy browns, dusty blues, beige, olive, warm gray","rendering":"hand-painted anime film still, detailed crowd illustration, slightly soft shading"},{"role":"output image","composition":"the same crowded historical street reimagined from inside the mass of people at near-ground height","scene":"view from within the crowd beside a carriage wheel, bodies filling the foreground and midground, a person in dark maroon clothing bent forward at left, a crouched figure in green near the bottom center, a woman in a light blue dress at right-center turning back, tightly packed figures, horse and cart implied nearby, dramatic sense of compression and closeness","camera":"very low ground-level POV from inside the crowd, upward and forward through people, emphasizing complex occlusion and depth","lighting":"soft daylight with warm cinematic shadows","color_palette":"muted earthy browns, dusty blues, beige, olive, warm gray","rendering":"hand-painted anime film still, cinematic perspective shift, detailed character crowding, soft painterly shading"}],"overall_goal":"show a before-and-after camera angle transformation of the same anime crowd scene, with the output moving from an overhead view to a low immersive POV inside the crowd"}
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=anime-crowd-pov-comparison#anime-crowd-pov-comparison)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=anime-crowd-pov-comparison#anime-crowd-pov-comparison)
 
 <a id="p-artist-and-ethereal-muse-at-night"></a>
 
@@ -36,7 +36,7 @@ GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent pl
 A cinematic anime-inspired digital illustration set at night inside a cozy artist's room with large window panes and a warm city glow outside. On the left, a young male artist with {argument name="hair color" default="dark brown"} messy hair sits at a cluttered desk in side profile, leaning forward with one hand near his mouth and the other drawing with a pen on a tablet or sketchbook. The desk is covered with exactly 1 pen cup filled with pencils, 1 coffee mug, 1 open laptop or pen-display showing a sunset landscape, 1 spiral sketchbook with manga-style character drawings, 2 additional drawing books or pads, 1 small stack of about 4 books, and many scattered art cards and printed illustrations. On the right, a luminous ethereal anime girl made of blue-white light appears life-sized, facing the artist with both hands gently extended toward him. Her form is translucent, delicate, and composed of glowing contour lines, starry particles, and flowing strands of light, with long windblown hair and a soft dress-like silhouette. Between them, a magical stream of golden and white light spirals upward from the artist's desk into the air, connecting creator and creation. Inside this swirling ribbon are exactly 12 to 16 floating image fragments and sketch pages: monochrome character sketches, scenic sunset paintings, small photo-like panels, and tiny icon-like cards, all orbiting in a curved arc from lower center to upper left and upper center. Around the upper half of the image, dozens of glowing musical notes float through the air, mixed with sparkling particles, creating the feeling that inspiration has become visible sound and memory. The palette is rich warm gold and amber on the artist's side, contrasted with cool electric blue and white on the spirit girl's side, with dramatic rim light, volumetric glow, intricate particles, and a dreamy emotional atmosphere. Composition is vertical, highly detailed, intimate, and poetic, evoking the relationship between {argument name="person one" default="you"} and {argument name="person two" default="me"} as artist and imagined muse, where drawings, music, memories, and fantasy physically manifest in the room. Add a small handwritten note card on the desk with {argument name="note text" default="二人だけの物語"}, and display one prominent artwork on the desk and one floating scenic panel using {argument name="scene theme" default="sunset sky over a distant city"}.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=artist-and-ethereal-muse-at-night#artist-and-ethereal-muse-at-night)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=artist-and-ethereal-muse-at-night#artist-and-ethereal-muse-at-night)
 
 <a id="p-busan-travel-journal-illustration-2"></a>
 
@@ -59,7 +59,7 @@ NEGATIVE PROMPT: CGI, photorealistic rendering, anime face, identity change, pla
 COLOR PALETTE: soft ocean blue dusty aqua muted sand beige faded coral warm cream seafoam green soft terracotta accents washed watercolor neutrals LIGHTING: golden morning seaside sunlight airy coastal glow romantic atmospheric haze gentle cinematic warmth
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=busan-travel-journal-illustration-2#busan-travel-journal-illustration-2)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=busan-travel-journal-illustration-2#busan-travel-journal-illustration-2)
 
 <a id="p-comic-storyboard-holographic-mountain-bedroom"></a>
 
@@ -71,7 +71,7 @@ COLOR PALETTE: soft ocean blue dusty aqua muted sand beige faded coral warm crea
 Create a cinematic anime-style sci-fi bedroom scene at night, wide 16:9 composition, richly detailed and atmospheric. A futuristic teenage/young adult girl with very long {argument name="hair color" default="aqua blue"} twin-tail hair stands slightly right of center, wearing a white high-tech lab coat or expedition coat with dark cybernetic panels, blue glowing accents, white stockings, and white ankle boots. She holds a small translucent holographic tablet in one hand and looks toward a huge floating hologram on the left. The room is dark navy and illuminated by cool blue neon edge lights, rain-speckled reflections, and warm bedside lantern light. On the left side, show one enormous rectangular holographic projection with clipped futuristic corners and a bright electric-blue outline, rising from a circular floor projector. Inside the hologram is a dramatic fantasy mountain landscape: jagged black peaks, rocky foreground, distant mountain ranges, a brilliant {argument name="sky gradient" default="sunrise-to-starry-night gradient"} with orange dawn on the horizon blending upward into violet, indigo, and a dense star field/Milky Way. In front of the holographic landscape, include exactly one small mechanical bird companion flying, with white and pale-blue feathers, tiny goggles or visor, a small harness pack, and glowing blue crystalline tail feathers. On the right side of the room, place a bed under large floor-to-ceiling windows; through the windows show a rainy futuristic city skyline at night with countless blue lights, vertical rain streaks, and reflections on glass. Include exactly one small wall-mounted holographic frame showing snowy mountains. Foreground and room details should include a glossy reflective floor, a circular rug, a desk with blue-lit edges and a transparent map-like display, one office chair, one bedside table with one warm lantern, one potted plant near the window, one potted plant blurred in the lower left foreground, one glowing star-shaped lamp, and one small bird plush or figurine near the foreground. Visual style: ultra-detailed anime key visual, cyberpunk but cozy, deep blues with magenta-orange dawn contrast, volumetric glow, crisp linework, soft bloom, realistic reflections, high depth of field with slight foreground blur, no visible text, no watermark.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=comic-storyboard-holographic-mountain-bedroom#comic-storyboard-holographic-mountain-bedroom)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=comic-storyboard-holographic-mountain-bedroom#comic-storyboard-holographic-mountain-bedroom)
 
 <a id="p-comic-storyboard-photo-to-storybook-illustration-split"></a>
 
@@ -175,7 +175,7 @@ REFERENCE PRIORITY:
 Never sacrifice subject accuracy for artistic stylization.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=comic-storyboard-photo-to-storybook-illustration-split#comic-storyboard-photo-to-storybook-illustration-split)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=comic-storyboard-photo-to-storybook-illustration-split#comic-storyboard-photo-to-storybook-illustration-split)
 
 <a id="p-comic-storyboard-split-photo-and-storybook-illustration"></a>
 
@@ -187,7 +187,7 @@ Never sacrifice subject accuracy for artistic stylization.
 Create one vertical 3:4 composition that combines the uploaded photo with a hand-drawn illustrated version of the same moment. TOP HALF — ORIGINAL PHOTO. Keep the uploaded photograph in the upper portion of the canvas, occupying roughly 50%. Treat the photo as the only source of truth. Keep the person, face, expression, hair, outfit, accessories, pose, proportions, objects, lighting, colors, and surroundings faithful to the original. Do not beautify, retouch, restyle, replace, or reinterpret the photograph. It should remain natural and recognizable, as if the original image has simply been placed into the artwork. BOTTOM HALF — ILLUSTRATED VERSION. Use the lower portion to recreate the exact same moment as a handmade children's picture-book illustration. The illustrated version should retain: the same person and recognizable facial features, identical pose and body positioning, matching hairstyle and clothing, matching accessories and visible details, the same action and overall mood. Use a soft traditional art approach with: delicate watercolor washes, colored-pencil texture, fine pencil or ink contours, warm textured ivory paper, gentle hand-rendered shading, slightly uneven, organic strokes, subtle imperfections that make it feel handmade. Avoid a polished digital look. No photorealism, 3D rendering, anime aesthetics, or exaggerated cartoon styling. Simplify the background instead of copying every environmental detail. Keep only enough of it to suggest the original setting, while giving the illustrated subject plenty of breathing room. Make the illustrated subject slightly smaller than the photographic subject and leave generous negative space around it. SMALL HAND-DRAWN ACCENTS. Add only a handful of understated doodles around the illustration — perhaps tiny hearts, stars, flowers, or simple motion marks. They should feel naturally drawn onto the page rather than digitally decorated. Include a small handwritten note near the illustration: “{argument name="caption" default="little happy girl"} ♡”. Use a casual brown or soft-gray pencil/ink appearance. If the subject is not a girl, replace the wording with something suitable or leave the caption out. FINAL FEEL. The finished piece should resemble a beautiful handmade scrapbook or children's storybook page, where a real photograph has been paired with a lovingly drawn memory of the same scene. Keep the presentation: vertical 3:4, warm and editorial, cleanly divided between photo and illustration, minimal and elegant, sentimental but not overly decorative, rich in tactile paper and traditional drawing texture. IMPORTANT. Use only the uploaded photograph as visual reference. Do not borrow anything from previous prompts, images, references, or generated results. Do not introduce a different person, outfit, pose, object, setting, color scheme, or visual detail. The lower illustration must unmistakably represent the exact scene and moment shown in the uploaded photograph.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=comic-storyboard-split-photo-and-storybook-illustration#comic-storyboard-split-photo-and-storybook-illustration)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=comic-storyboard-split-photo-and-storybook-illustration#comic-storyboard-split-photo-and-storybook-illustration)
 
 <a id="p-continuous-run-glitch-storyboard"></a>
 
@@ -223,7 +223,7 @@ P09: Camera pulls wider in passage. RAN lowers his hand, fully changed into @[ch
 I shared the storyboard skill file I use for these prompts with my subscribers.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=continuous-run-glitch-storyboard#continuous-run-glitch-storyboard)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=continuous-run-glitch-storyboard#continuous-run-glitch-storyboard)
 
 <a id="p-cozy-japanese-lifestyle-illustration"></a>
 
@@ -276,7 +276,7 @@ SCENE:
 The final image should feel like a premium Japanese lifestyle illustration found in an art book, café magazine, design journal, or independent sketchbook collection.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=cozy-japanese-lifestyle-illustration#cozy-japanese-lifestyle-illustration)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=cozy-japanese-lifestyle-illustration#cozy-japanese-lifestyle-illustration)
 
 <a id="p-cyberpunk-404-witch-summoning"></a>
 
@@ -288,7 +288,7 @@ The final image should feel like a premium Japanese lifestyle illustration found
 A dramatic anime-style cyberpunk witch standing on a dark rooftop high above a dense futuristic city at night, viewed from a slightly elevated angle. The main subject is a petite young witch girl with pale skin, short icy blue bobbed hair, pointed elf-like ears, and glowing red eyes, wearing a sly confident smile. She raises a black wand overhead in her right hand, with a dangling orb charm at the tip glowing faintly purple and red. Her oversized crooked witch hat is black with purple lining and covered in stitched patches, warning labels, straps, and white graphics including a large “404” and a skull emblem. She wears a black and purple techwear outfit: oversized hooded jacket with many straps and tags, black crop top with “404” on the chest, layered belts, short bottoms, fishnet on one leg, black lace-up combat boots, chokers, and metallic accessories. Several hanging straps and tags visibly read words like “WITCH 404,” “404,” and glitch-themed markings. Beneath and beside her, a large glowing violet magic circle mixed with hacker interface aesthetics is projected on the rooftop floor, filled with occult rings, sigils, a central skull symbol, and scattered neon system text such as error-code fragments, creating a fusion of sorcery and digital corruption. Emerging from the circle is 1 large armored summoned figure: a black futuristic demon-knight or robotic familiar with jagged reflective armor, a narrow purple-lit visor, and a heavy weapon held in one hand, partially dissolving into purple energy shards and smoke. The background shows a sprawling rainy megacity of apartment towers and industrial rooftops, packed with windows, balconies, cables, signs, and haze. On a nearby building wall is a giant vertical graffiti-style sign with 3 readable elements: “404”, “Witch”, and “ERROR NOT FOUND”, plus a smaller “E404”. Additional purple neon glitch text and symbols are scattered across rooftops and in the air. Use a dark palette of black, indigo, and deep violet with sharp magenta-purple highlights, cinematic contrast, reflective wet surfaces, dense detail, and a high-end polished illustration style. The mood is occult, edgy, stylish, and dangerous, combining urban fantasy, hacker aesthetics, and magical summoning.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=cyberpunk-404-witch-summoning#cyberpunk-404-witch-summoning)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=cyberpunk-404-witch-summoning#cyberpunk-404-witch-summoning)
 
 <a id="p-mid-century-editorial-illustration-system"></a>
 
@@ -316,7 +316,7 @@ MOOD: quietly playful, educational, nostalgic, timeless, sophisticated, airy, cl
 OUTPUT: high-resolution editorial illustration, ultra-clean composition, refined handcrafted print aesthetic, bright neutral paper tones, crisp museum-quality editorial finish, suitable for premium magazine spreads, art books, museum posters, or luxury children’s publishing.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=mid-century-editorial-illustration-system#mid-century-editorial-illustration-system)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=mid-century-editorial-illustration-system#mid-century-editorial-illustration-system)
 
 <a id="p-miniature-city-travel-card"></a>
 
@@ -355,7 +355,7 @@ romantic, nostalgic, luxurious, warm evening atmosphere, premium tourism campaig
 Aspect ratio 4:5
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=miniature-city-travel-card#miniature-city-travel-card)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=miniature-city-travel-card#miniature-city-travel-card)
 
 <a id="p-neon-ai-thumbnail-comparison"></a>
 
@@ -367,7 +367,7 @@ Aspect ratio 4:5
 Create a dramatic Japanese YouTube thumbnail in a futuristic neon cyberpunk style, 16:9 landscape. Use a dark tech-city background with faint skyscrapers, digital grid lines, glowing particles, and high-contrast blue, pink, and gold lighting. In the exact center, place a young woman from the waist up with long straight pastel blue hair, wearing a plain white short-sleeve T-shirt and a light pink skirt, posing thoughtfully with one hand near her chin and the other arm folded; anonymize her face with a soft rectangular blur. Across the very top, add huge distressed bold white Japanese headline text reading 主導権が揺れた, and directly below it add large bold yellow text reading {argument name="subheadline text" default="Nano Bananaから"}. On the left side, create a glowing blue hexagonal-framed panel titled Nano Banana with a smaller subtitle 画像生成. Inside that panel, include exactly 4 image tiles in a 2x2 grid: 1) a fantasy floating island landscape at sunset, 2) a sunlit forest path with tall trees, 3) a neon futuristic city street at night, 4) an outer-space planet scene with stars and a spacecraft. Beneath the left panel, add a blue glowing ribbon label reading かつては優位だった. On the right side, create a glowing magenta hexagonal-framed panel titled {argument name="right panel title" default="GPT Image 2"} with a smaller subtitle 実務で使える出力へ. Inside it, include exactly 4 example thumbnail cards in a 2x2 grid, each featuring the same blue-haired woman with a blurred face and bold Japanese text. The 4 card labels above the tiles are: サムネイル画像, 記事のアイキャッチ画像, LPのセクション画像, SNS投稿画像. The large text inside the 4 cards should read respectively: 1) AIで変わるクリエイティブの未来, 2) AI時代のクリエイティブ戦略 成功する企業の条件, 3) AIで加速するビジネス成長, 4) 未来をつくるのは AI×あなたのアイデア. Between the left and right panels, place a bright glowing gold arrow pointing from left to right with spark-like particle trails, indicating transition or superiority shift. Along the bottom, add a very large black banner with a glowing gold border and massive bold gold text reading {argument name="bottom banner text" default="GPT Image 2へ"}. Overall composition should feel like a comparison graphic showing a shift from older image generation to more practical commercial output, with aggressive thumbnail typography, strong glow effects, metallic texture on major text, and polished social-media marketing visuals.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=neon-ai-thumbnail-comparison#neon-ai-thumbnail-comparison)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=neon-ai-thumbnail-comparison#neon-ai-thumbnail-comparison)
 
 <a id="p-pet-world-cup-storyboard-sheet"></a>
 
@@ -416,7 +416,7 @@ Each panel: thin white border, landscape 16:9. Number badge (1-8) top-left, teal
 No real soccer team logos, no FIFA/Champions League/UEFA/World Cup branding, no real player faces, no sponsor logos, no national flags, no jersey numbers, no stadium signage with real text, no captions, no watermarks. Plain colored jerseys only. All 8 panels photorealistic — never cartoon/3D/illustration. All animals identical across panels.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=pet-world-cup-storyboard-sheet#pet-world-cup-storyboard-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=pet-world-cup-storyboard-sheet#pet-world-cup-storyboard-sheet)
 
 <a id="p-serene-city-travel-illustration"></a>
 
@@ -513,7 +513,7 @@ Aspect ratio: 4:3 or 3:2
 Creator: @hermes_agent_kr on Threads
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=serene-city-travel-illustration#serene-city-travel-illustration)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=serene-city-travel-illustration#serene-city-travel-illustration)
 
 <a id="p-tokyo-disneysea-front-row-battle-ui"></a>
 
@@ -535,7 +535,7 @@ At the bottom center, add an item menu titled "アイテム" with exactly 5 item
 Use dramatic, saturated lighting, crisp detail, realistic clothing folds, authentic plaza stone pavement, and a high-end Japanese game screenshot look. The image should feel like a ridiculous but believable crossover between a real Tokyo DisneySea crowd photo and a competitive arcade battle game interface.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=tokyo-disneysea-front-row-battle-ui#tokyo-disneysea-front-row-battle-ui)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=tokyo-disneysea-front-row-battle-ui#tokyo-disneysea-front-row-battle-ui)
 
 <a id="p-vintage-anatomic-book-plate"></a>
 
@@ -557,7 +557,7 @@ Place the labels naturally around the figure, balancing readability and visual e
 Lighting should be soft and flat like a scanned antique page. The final result must feel like a scholarly anatomical illustration, not a modern infographic. High detail, precise linework, aged paper texture, anatomical accuracy, elegant composition, subtle red muscle fibers, pale blue veins, ivory bone rendering, dark graphite outlines, old medical atlas atmosphere, realistic printed-page imperfections.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=vintage-anatomic-book-plate#vintage-anatomic-book-plate)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=vintage-anatomic-book-plate#vintage-anatomic-book-plate)
 
 ---
 

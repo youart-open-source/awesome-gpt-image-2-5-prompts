@@ -17,7 +17,7 @@ OpenAI の GPT Image シリーズ（GPT Image 2.5 を含む）で使える実用
 
 プロンプト 150 本 · クレジット掲載クリエイター 110 名 · 用途 9 分類 · うち 25 本は JSON 形式 · 更新日 2026-09-10
 
-**[生成画面を開く](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=hero&utm_campaign=awesome-gpt-image-prompts&utm_content=hero)**
+**[生成画面を開く](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=hero&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=hero)**
 
 GPT、GPT Image、ChatGPT は OpenAI の商標です。YouArt は独立したプラットフォームであり、OpenAI と提携関係にはなく、OpenAI から推奨を受けているものでもありません。 GPT Image 2.5は段階的な提供が続いており、まだすべてのアカウントには開放されていません。開放されたときには、これらのプロンプトはそのまま移行できます。
 
@@ -45,15 +45,15 @@ OpenAI の GPT Image シリーズで実際に生成し、公開されたプロ�
 
 プロンプト自体は翻訳していません。作者が書いた言葉のままにしてあります。プロンプトは読み物ではなくモデルへの入力であり、このモデルの看板の能力は引用符の中の文字列をそのまま画面に描くことなので、訳した時点で出力が変わってしまうからです。
 
-- **[ポスター](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=poster#poster)** — 映画のティザー、イベントのフライヤー、トラベルポスター、アルバムジャケット。これらのプロンプトは、文章の大半をレイアウトの指定に使っています。ポスターはスタイルの問題である前に構図の問題だからです。タイトルをどこに置くか、その上にどれだけ余白を取るか、下三分の一に何を入れるか。 [17 本を開く](prompts/gpt-image-2-5-poster-prompts.md)
-- **[画像内テキスト](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=typography-text#typography-text)** — 画像の中に読める文字を描くことは、この世代のモデルが最も評価されている能力です。これらのプロンプトは、描かせたい文字列をそのまま引用し、書体の性格を指定し、フレーム内の位置まで決めています。うまく出ることを期待せず、指定しているのが違いです。 [17 本を開く](prompts/gpt-image-2-5-text-in-image-prompts.md)
-- **[インフォグラフィック](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=infographic#infographic)** — グラフ、タイムライン、分解図、解説スライド。長いものはほとんど仕様書のように読めます。吹き出しを何個、どちら側に、どんなラベルで置くか。それが機能する理由であり、多くがJSONで書かれている理由でもあります。 [17 本を開く](prompts/gpt-image-2-5-infographic-prompts.md)
-- **[UIモックアップ](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ui-mockup#ui-mockup)** — ダッシュボード、モバイル画面、ランディングページ、配信用オーバーレイ。UIのプロンプトでは構成要素を名指しする必要があります。どれを指しているか伝えなければ、モデルはそれらしいインターフェースを勝手に作ってしまうからです。 [17 本を開く](prompts/gpt-image-2-5-ui-mockup-prompts.md)
-- **[商品撮影](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ecommerce-product#ecommerce-product)** — スタジオでの商品撮影、パッケージのレンダリング、カタログ用のビジュアル。元が取れるプロンプトはこの分野です。ライティング、設置面、カメラ位置を、商品ライン全体で再現できるほど正確に書いているからです。 [17 本を開く](prompts/gpt-image-2-5-product-photo-prompts.md)
-- **[広告クリエイティブ](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ad-creative#ad-creative)** — キャンペーンのキービジュアル、バナー、SNS広告のクリエイティブ。ほとんどが、画像の方向性と描画するコピーの両方を含んでいます。だからこそ、文字をまともに書けなかった世代ではなく、このモデルの領域なのです。 [17 本を開く](prompts/gpt-image-2-5-ad-creative-prompts.md)
-- **[キャラクターデザイン](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=character-design#character-design)** — 三面図、表情差分、装備の分解図、マスコット。ここで役に立つ型は、1枚絵ではなくシートを頼むことです。1体のキャラクターを複数の角度から1枚にまとめる。それが、使い続けられるデザインを手に入れる方法です。 [16 本を開く](prompts/gpt-image-2-5-character-design-prompts.md)
-- **[ポートレート](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=portrait#portrait)** — 雑誌風のポートレート、ヘッドショット、フィルムルックの写真。ここで結果を決めるのはカメラの指示です。フォーマット、焦点距離、光源、カラーグレーディングは、雰囲気を語るどんな形容詞よりも効きます。 [16 本を開く](prompts/gpt-image-2-5-portrait-prompts.md)
-- **[イラスト](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=illustration#illustration)** — アニメ、水彩、線画、3Dレンダー、アイソメトリック、ドット絵。スタイル系のプロンプトはライブラリの中で最も短く、最も書き換える価値があります。被写体だけを差し替えてスタイルの部分を残せば、そのままシリーズになります。 [16 本を開く](prompts/gpt-image-2-5-illustration-prompts.md)
+- **[ポスター](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=poster#poster)** — 映画のティザー、イベントのフライヤー、トラベルポスター、アルバムジャケット。これらのプロンプトは、文章の大半をレイアウトの指定に使っています。ポスターはスタイルの問題である前に構図の問題だからです。タイトルをどこに置くか、その上にどれだけ余白を取るか、下三分の一に何を入れるか。 [17 本を開く](prompts/gpt-image-2-5-poster-prompts.md)
+- **[画像内テキスト](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=typography-text#typography-text)** — 画像の中に読める文字を描くことは、この世代のモデルが最も評価されている能力です。これらのプロンプトは、描かせたい文字列をそのまま引用し、書体の性格を指定し、フレーム内の位置まで決めています。うまく出ることを期待せず、指定しているのが違いです。 [17 本を開く](prompts/gpt-image-2-5-text-in-image-prompts.md)
+- **[インフォグラフィック](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=infographic#infographic)** — グラフ、タイムライン、分解図、解説スライド。長いものはほとんど仕様書のように読めます。吹き出しを何個、どちら側に、どんなラベルで置くか。それが機能する理由であり、多くがJSONで書かれている理由でもあります。 [17 本を開く](prompts/gpt-image-2-5-infographic-prompts.md)
+- **[UIモックアップ](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ui-mockup#ui-mockup)** — ダッシュボード、モバイル画面、ランディングページ、配信用オーバーレイ。UIのプロンプトでは構成要素を名指しする必要があります。どれを指しているか伝えなければ、モデルはそれらしいインターフェースを勝手に作ってしまうからです。 [17 本を開く](prompts/gpt-image-2-5-ui-mockup-prompts.md)
+- **[商品撮影](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ecommerce-product#ecommerce-product)** — スタジオでの商品撮影、パッケージのレンダリング、カタログ用のビジュアル。元が取れるプロンプトはこの分野です。ライティング、設置面、カメラ位置を、商品ライン全体で再現できるほど正確に書いているからです。 [17 本を開く](prompts/gpt-image-2-5-product-photo-prompts.md)
+- **[広告クリエイティブ](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ad-creative#ad-creative)** — キャンペーンのキービジュアル、バナー、SNS広告のクリエイティブ。ほとんどが、画像の方向性と描画するコピーの両方を含んでいます。だからこそ、文字をまともに書けなかった世代ではなく、このモデルの領域なのです。 [17 本を開く](prompts/gpt-image-2-5-ad-creative-prompts.md)
+- **[キャラクターデザイン](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=character-design#character-design)** — 三面図、表情差分、装備の分解図、マスコット。ここで役に立つ型は、1枚絵ではなくシートを頼むことです。1体のキャラクターを複数の角度から1枚にまとめる。それが、使い続けられるデザインを手に入れる方法です。 [16 本を開く](prompts/gpt-image-2-5-character-design-prompts.md)
+- **[ポートレート](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=portrait#portrait)** — 雑誌風のポートレート、ヘッドショット、フィルムルックの写真。ここで結果を決めるのはカメラの指示です。フォーマット、焦点距離、光源、カラーグレーディングは、雰囲気を語るどんな形容詞よりも効きます。 [16 本を開く](prompts/gpt-image-2-5-portrait-prompts.md)
+- **[イラスト](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=illustration#illustration)** — アニメ、水彩、線画、3Dレンダー、アイソメトリック、ドット絵。スタイル系のプロンプトはライブラリの中で最も短く、最も書き換える価値があります。被写体だけを差し替えてスタイルの部分を残せば、そのままシリーズになります。 [16 本を開く](prompts/gpt-image-2-5-illustration-prompts.md)
 
 <a id="guide"></a>
 
@@ -155,17 +155,17 @@ GitHub は、レンダリングしないクローラーに対してファイル�
 
 | 内容 | ファイル | バイト数 |
 |---|---|--:|
-| プロンプト一覧 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/data/prompts.json) | 495,016 |
-| LLM・エージェント向け | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/llms.txt) | 10,806 |
-| ポスター | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,833 |
-| 画像内テキスト | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,155 |
-| インフォグラフィック | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,169 |
-| UIモックアップ | [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) | 41,532 |
-| 商品撮影 | [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) | 45,495 |
-| 広告クリエイティブ | [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) | 60,746 |
-| キャラクターデザイン | [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) | 50,153 |
-| ポートレート | [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) | 54,217 |
-| イラスト | [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) | 58,302 |
+| プロンプト一覧 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 495,016 |
+| LLM・エージェント向け | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,902 |
+| ポスター | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,905 |
+| 画像内テキスト | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,227 |
+| インフォグラフィック | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,241 |
+| UIモックアップ | [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) | 41,604 |
+| 商品撮影 | [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) | 45,567 |
+| 広告クリエイティブ | [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) | 60,818 |
+| キャラクターデザイン | [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) | 50,221 |
+| ポートレート | [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) | 54,285 |
+| イラスト | [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) | 58,370 |
 
 アシスタント向け索引の慣例的な置き場所はサイト自身の llms.txt で、そこにはすでにこのライブラリが載っています。このリポジトリにあるものはその節のミラーです。 [`llms.txt`](llms.txt)
 
@@ -177,7 +177,7 @@ GitHub は、レンダリングしないクローラーに対してファイル�
 
 プロンプトをコピーして入力欄に貼り、自分のものにしたい部分だけ書き換えてください。設定は不要で、はじめる分の無料クレジットも付いています。
 
-**[生成画面を開く](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-prompts&utm_content=footer)** · [youart.ai で 150 本すべて見る](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-prompts&utm_content=footer)
+**[生成画面を開く](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=footer)** · [youart.ai で 150 本すべて見る](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=footer)
 
 <a id="about"></a>
 
@@ -187,4 +187,4 @@ YouArt（Formative Intelligence Inc. のプロダクト）が管理していま�
 
 YouArt は AI の画像・動画スタジオです。ここにある 150 本のプロンプトはサイト側にもあり、ワンクリックで入力欄に入るので、何も設定せずにそのまま実行できます。はじめる分の無料クレジット付きです。
 
-[youart.ai](https://youart.ai/ja/?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-prompts&utm_content=brand)
+[youart.ai](https://youart.ai/ja/?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=brand)

@@ -50,7 +50,7 @@ function check(label, ok, measured) {
   if (!ok) failed++;
 }
 
-console.log('awesome-gpt-image-prompts verify\n');
+console.log('awesome-gpt-image-2-5-prompts verify\n');
 
 // ---------------------------------------------------------------------------
 // 1. Files that must exist
@@ -405,7 +405,7 @@ for (const p of [...markdownOutputs, 'llms.txt', 'metadata/about.txt', 'metadata
     for (const k of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content']) {
       if (!params[k]) utmErrors.push(`${p}: ${url} has no ${k}`);
     }
-    if (params.utm_campaign && params.utm_campaign !== 'awesome-gpt-image-prompts') {
+    if (params.utm_campaign && params.utm_campaign !== 'awesome-gpt-image-2-5-prompts') {
       utmErrors.push(`${p}: ${url} carries campaign ${params.utm_campaign}`);
     }
     // The fragment must come after the query string, never before it.
@@ -497,7 +497,7 @@ if (existsSync(join(ROOT, 'metadata/homepage.txt'))) {
     homepage.startsWith(meta.siteBase + '?') &&
     homepage.includes('utm_source=github') &&
     homepage.includes('utm_medium=about') &&
-    homepage.includes('utm_campaign=awesome-gpt-image-prompts') &&
+    homepage.includes('utm_campaign=awesome-gpt-image-2-5-prompts') &&
     homepage.includes('utm_content=homepage') &&
     !homepage.includes('\n');
   check("metadata/homepage.txt is the repo's tagged About URL", ok, homepage.slice(0, 60) + '…');

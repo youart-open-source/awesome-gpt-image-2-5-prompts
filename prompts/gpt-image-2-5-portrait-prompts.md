@@ -6,7 +6,7 @@
 
 Editorial portraits, headshots and film-look photography. These live or die on camera direction: the format, the focal length, the light source and the grade do more work than any adjective about mood.
 
-**[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=portrait#portrait)**
+**[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=portrait#portrait)**
 
 [Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
@@ -54,7 +54,7 @@ Style: Luxury fashion editorial photography, soft cinematic realism, warm beige 
 Camera: 35mm lens, medium wide framing, eye level camera angle, 16:9 widescreen.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=cinematography-analysis-frame#cinematography-analysis-frame)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=cinematography-analysis-frame#cinematography-analysis-frame)
 
 <a id="p-collectible-figure-workspace-photo"></a>
 
@@ -82,7 +82,7 @@ Lighting is a mix of soft studio lighting and indoor workspace lighting. The for
 photorealistic, ultra detailed, cinematic studio lighting, realistic figurine, collectible statue, 3D character design studio, from digital model to real figure, vertical composition
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=collectible-figure-workspace-photo#collectible-figure-workspace-photo)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=collectible-figure-workspace-photo#collectible-figure-workspace-photo)
 
 <a id="p-futuristic-martial-arts-heroine-portrait"></a>
 
@@ -106,7 +106,7 @@ Captured using a medium-format professional camera system, 110mm portrait lens, 
 Hyper-detailed skin rendering, subsurface scattering, realistic global illumination, advanced ray tracing, physically based rendering, volumetric atmosphere, ultra-clean composition, museum-quality portrait photography, luxury campaign aesthetics, editorial masterpiece, award-winning fashion photography, extraordinary realism, 32k detail, ultra-high fidelity textures, cinematic depth, breathtaking realism, next-generation rendering quality, photorealistic perfection.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=futuristic-martial-arts-heroine-portrait#futuristic-martial-arts-heroine-portrait)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=futuristic-martial-arts-heroine-portrait#futuristic-martial-arts-heroine-portrait)
 
 <a id="p-identity-locked-portrait-edit"></a>
 
@@ -191,7 +191,7 @@ Negative prompt:
 - no watermark
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=identity-locked-portrait-edit#identity-locked-portrait-edit)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=identity-locked-portrait-edit#identity-locked-portrait-edit)
 
 <a id="p-nostalgic-16-photo-couple-grid"></a>
 
@@ -203,7 +203,7 @@ Negative prompt:
 {"type":"16-photo nostalgic contact sheet collage","style":"dreamy film photography, soft blur, slightly underexposed, candid youthful romance, flash snapshots mixed with ambient dusk light, subtle grain, sentimental and bittersweet mood","subject":{"people_count":2,"relationship":"young couple or former lovers spending time together","ages":"early 20s","appearance":{"male":{"build":"slim","hair":"short dark hair","clothing":"loose white short-sleeve shirt, camera strap around neck in several shots"},"female":{"build":"slim","hair":"shoulder-length dark hair","clothing":"light sleeveless tops or soft casual summer clothes"}},"faces":"intentionally obscured by soft rectangular blur blocks over every visible face"},"layout":{"grid":{"rows":4,"columns":4,"count":16,"border":"thin white dividers, equal square cells"},"images":[{"position":"row 1 col 1","description":"close cropped portrait of the woman in a white top at night, soft flash, dark background"},{"position":"row 1 col 2","description":"close cropped blurred two-person selfie framing, both subjects partially visible, dark nighttime setting"},{"position":"row 1 col 3","description":"young man standing at night and holding a compact silver camera up to his face, white shirt, distant lights behind him"},{"position":"row 1 col 4","description":"woman on a beach or shoreline in low light, softly blurred, ocean horizon behind her"},{"position":"row 2 col 1","description":"street candid of the man holding a camera near his face while walking outdoors in the evening, urban background with motion blur"},{"position":"row 2 col 2","description":"close-up of the woman indoors or in a dim warm setting, hand raised near her face, flash-lit snapshot"},{"position":"row 2 col 3","description":"blurred two-shot of the couple sitting close together by water at dusk, intimate candid composition"},{"position":"row 2 col 4","description":"young man outdoors in greenery during daytime or early evening, looking down at a camera in his hands, white shirt and camera strap visible"},{"position":"row 3 col 1","description":"woman close to the camera giving a peace sign, casual sleeveless top, sandy or beachlike background"},{"position":"row 3 col 2","description":"back view of the man in a white shirt looking out over a cityscape at night from a high vantage point"},{"position":"row 3 col 3","description":"woman indoors at night holding a compact camera directly toward the viewer, city lights beyond a window, flash aesthetic"},{"position":"row 3 col 4","description":"tight cropped two-person selfie-like frame with both subjects partially visible, dark background"},{"position":"row 4 col 1","description":"young man at the waterfront at dusk holding a camera to his eye, cloudy blue sky and distant shoreline behind him"},{"position":"row 4 col 2","description":"soft night portrait of the woman on a city street with warm bokeh lights in the background"},{"position":"row 4 col 3","description":"close intimate couple snapshot with both faces near each other, one subject making a peace sign, heavy blur and flash look"},{"position":"row 4 col 4","description":"rear view of the woman walking alone down a warmly lit narrow street at night, shoulder-length hair and light top visible"}]},"composition":"each square feels like a memory fragment from one summer evening and a few nearby outings, varied framing, natural imperfection, casual amateur photography","color_palette":"muted blues, warm tungsten yellows, soft skin tones, dark greens, charcoal night shadows, faded white clothing","camera_look":"35mm point-and-shoot or disposable camera feel, shallow focus, motion blur, bloom around lights, occasional flash overexposure","quality":"high-resolution collage with authentic analog softness, emotionally evocative and realistic"}
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=nostalgic-16-photo-couple-grid#nostalgic-16-photo-couple-grid)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=nostalgic-16-photo-couple-grid#nostalgic-16-photo-couple-grid)
 
 <a id="p-printable-paint-by-numbers"></a>
 
@@ -215,7 +215,7 @@ Negative prompt:
 🎨 This GPT Image 2 prompt turns any image into a printable paint-by-numbers page. For best results, use ChatGPT in Thinking mode. I think we should call it numberfying. The intellectuals can call it Colorbookification. 😂 I tried it with a few TurboToadToken images and the results are wild. 🐸💛 Create it. Print it. Paint it. For kids, adults, and anyone who wants an easy creative activity. Try it and post your results in the comments. Prompt below 👇 Create a professional high-resolution paint-by-numbers template from the provided image as a single PNG only. Use an A4 portrait ratio canvas at 300 DPI with a pure white background. The main artwork must be a clean black-and-white line drawing containing only black outlines, black numbers, and white unfilled paintable areas. Do not create a PDF, document, mockup, multi-page layout, or colored version. Do not use color, gray, shading, texture, gradients, transparency, or pre-filled areas in the main artwork. Analyze the original image and choose the number of colors adaptively based on image complexity, from 1 to a maximum of 14 colors. If the image has only 1-2 important colors, use only 1-2 colors; for simple images use 3-6 colors; for medium complexity use 7-10 colors; for complex, photographic, or highly detailed images use 11-14 colors. Do not force unnecessary colors. Assign each selected color one unique number and merge similar shades unless separation is essential for recognition. Convert the image into simplified, fully closed, easy-to-paint regions while preserving the recognizable composition, main objects, characters, text, logos, foreground, background, and key details. Every paintable white region must contain the correct black number, centered clearly inside the matching area, readable, upright, and not touching outlines. Large black or dark areas from the original must remain white paintable regions with the correct number, not filled black. Only tiny permanent black line details, such as mouth lines, nostrils, pupils, eyelashes, seams, or small decorative strokes, may remain unnumbered. At the bottom of the same PNG, add a neat legend section with the heading "Instructions", the sentence "Paint the areas with the matching colors.", and a list of every used number with a small color swatch and the English color name. Color swatches may appear only in the legend. Ensure the numbering exactly matches the legend, every paintable area is numbered, all regions are closed, and the final result is clean, professional, print-ready, and recognizable as the original image.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=printable-paint-by-numbers#printable-paint-by-numbers)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=printable-paint-by-numbers#printable-paint-by-numbers)
 
 <a id="p-profile-avatar-editorial-portrait-with-retro-headphones"></a>
 
@@ -304,7 +304,7 @@ Negative prompt:
 }
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=profile-avatar-editorial-portrait-with-retro-headphones#profile-avatar-editorial-portrait-with-retro-headphones)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=profile-avatar-editorial-portrait-with-retro-headphones#profile-avatar-editorial-portrait-with-retro-headphones)
 
 <a id="p-profile-avatar-garden-balcony-smartphone-candid"></a>
 
@@ -316,7 +316,7 @@ Negative prompt:
 A completely natural, photorealistic candid smartphone photo of a {argument name="subject" default="young East Asian woman"} sitting comfortably cross-legged on a balcony garden terrace. She has {argument name="hair style" default="long, naturally wavy dark brown hair"} falling loosely over her shoulders and down the front of her body, with soft individual strands moving naturally. Her features are delicate and realistic, with subtle natural makeup and authentic skin texture.\nShe is wearing an {argument name="clothing" default="oversized cozy light-gray sweatshirt"} with relaxed-fit light-blue jeans. Sitting casually and naturally, she gently rests one hand against her cheek while looking upward and slightly off to the side. Her expression feels genuinely cute and thoughtful, with a Balcony slightly pouty look, as if the photo was captured during a quiet unposed moment.\nShe sits on a light-colored outdoor terrace surface surrounded by lush green plants, leafy potted foliage, and small blooming pink flowers. A simple black metal balcony railing runs behind her, with dense trees and natural greenery filling the background. The setting feels peaceful, private, and like a real everyday garden balcony.\nSoft warm natural daylight falls gently across her face and clothing, creating realistic subtle shadows. Natural skin pores, authentic hair texture, realistic sweatshirt fabric, and believable denim details are clearly visible. Nothing looks overly polished or artificially posed.\nShot as an authentic casual smartphone photograph with a natural eye-level perspective. Full-body seated composition, vertical framing, with the subject positioned slightly toward the lower-middle of the frame. The background has gentle natural depth of field—softly blurred while remaining clearly recognizable.\nUltra-realistic photography, natural proportions, candid everyday moment, Korean-inspired casual fashion aesthetic, muted soft colors, subtle film grain, realistic lighting, slightly imperfect smartphone-camera details, 4K realism, no beauty-filter effect, no excessive retouching.\nNegative prompt: cartoon, anime, illustration, CGI, artificial-looking skin, plastic skin, excessive makeup, distorted facial features, extra fingers, malformed hands, extra limbs, incorrect anatomy, unnatural body proportions, stiff pose, oversaturated colors, dramatic studio lighting, blurry face, low resolution, watermark, text, logo.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=profile-avatar-garden-balcony-smartphone-candid#profile-avatar-garden-balcony-smartphone-candid)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=profile-avatar-garden-balcony-smartphone-candid#profile-avatar-garden-balcony-smartphone-candid)
 
 <a id="p-profile-avatar-window-sunlight-and-lace-top"></a>
 
@@ -350,7 +350,7 @@ Negative:
 Do not reverse the direction of the window light and shadows; do not have the cardigan fully worn up to the shoulders.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=profile-avatar-window-sunlight-and-lace-top#profile-avatar-window-sunlight-and-lace-top)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=profile-avatar-window-sunlight-and-lace-top#profile-avatar-window-sunlight-and-lace-top)
 
 <a id="p-sketch-portrait-breaking-paper"></a>
 
@@ -372,7 +372,7 @@ Do not reverse the direction of the window light and shadows; do not have the ca
 }
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=sketch-portrait-breaking-paper#sketch-portrait-breaking-paper)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=sketch-portrait-breaking-paper#sketch-portrait-breaking-paper)
 
 <a id="p-sleep-deprived-chibi-creator"></a>
 
@@ -445,7 +445,7 @@ Art Style:
 Ultra-premium stylized realism, luxury designer collectible quality, highly detailed hair fibers, realistic fabric textures, soft skin rendering, cinematic depth of field, subtle emotional storytelling, cozy lifestyle aesthetic, handcrafted figurine finish, social-media-worthy presentation.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=sleep-deprived-chibi-creator#sleep-deprived-chibi-creator)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=sleep-deprived-chibi-creator#sleep-deprived-chibi-creator)
 
 <a id="p-social-media-post-five-panel-cafe-influencer-collage"></a>
 
@@ -472,7 +472,7 @@ Visual style: Hyper-realistic Asian influencer photography, soft beauty-retouche
 Constraints: Keep the same woman consistent across all 5 panels. Use exactly the 5 poses listed, exactly the 2-over-3 collage structure, thin white borders, and the recurring small blue-dot "LINHNHI" watermark. Avoid extra panels, extra people, distorted hands, unreadable main text, or cartoon/anime styling.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=social-media-post-five-panel-cafe-influencer-collage#social-media-post-five-panel-cafe-influencer-collage)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=social-media-post-five-panel-cafe-influencer-collage#social-media-post-five-panel-cafe-influencer-collage)
 
 <a id="p-social-media-post-motorcycle-lifestyle-golden-hour"></a>
 
@@ -504,7 +504,7 @@ Composition: vertical portrait orientation, full-to-three-quarter body framing, 
 Style: ultra-realistic professional photography, premium motorcycle lifestyle editorial, cinematic golden-hour lighting, highly detailed leather and metal textures, realistic skin, natural proportions, sharp focus, subtle depth of field, sophisticated masculine atmosphere, photorealistic 8K quality.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=social-media-post-motorcycle-lifestyle-golden-hour#social-media-post-motorcycle-lifestyle-golden-hour)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=social-media-post-motorcycle-lifestyle-golden-hour#social-media-post-motorcycle-lifestyle-golden-hour)
 
 <a id="p-toy-camera-balcony-candid"></a>
 
@@ -534,7 +534,7 @@ Super thick plastic toy-lens softness, motion smear, focus miss, smeared highlig
 Negative prompt: beauty filter, modern smartphone quality, DSLR quality, cinematic grading, HDR photography, professional composition, studio lighting, ultra sharp face, perfect skin, flawless focus, fashion editorial, influencer photo, polished digital rendering, AI perfection, hyper-detailed eyes, premium camera quality, luxury portrait photography
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=toy-camera-balcony-candid#toy-camera-balcony-candid)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=toy-camera-balcony-candid#toy-camera-balcony-candid)
 
 <a id="p-travel-selfie-portrait-reference"></a>
 
@@ -560,7 +560,7 @@ Negative Prompt：
 watermark, logo, text, caption, signature, AI label, brand mark, extra fingers, missing fingers, fused fingers, deformed hands, oversized malformed palm, asymmetrical eyes, crossed eyes, warped face, plastic skin, waxy skin, over-smoothed beauty filter, blurry face, low detail, low resolution, heavy compression artifacts, distorted anatomy, duplicate person, bad perspective, bent flag strings, warped flags, fake CGI look, overexposed face, muddy colors
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=travel-selfie-portrait-reference#travel-selfie-portrait-reference)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=travel-selfie-portrait-reference#travel-selfie-portrait-reference)
 
 <a id="p-ultra-realistic-cinematic-dslr-photograph-of-an-18-year-old-handsome-you"></a>
 
@@ -582,7 +582,7 @@ Negative Prompt:
 face changed, different identity, beautified face, edited face, smooth plastic skin, fake skin glow, wrong hairstyle, short hair, fade haircut, buzzcut, messy deformed hair, female features, muscular body, fat body, broad shoulders, bad anatomy, long neck, short legs, extra fingers, missing fingers, mutated hands, distorted arms, broken posture, crossed eyes, lazy eye, bad sunglasses, blurry face, low resolution, pixelated, noisy image, overexposed, underexposed, harsh shadows, unrealistic reflections, fake car shape, wrong car model, damaged car, extra wheels, warped Mustang logo, incorrect. proportions, bad pavement texture, background artifacts, duplicate objects, watermark, logo errors, text artifacts, cropped feet, cut car, unnatural perspective, CGI render, cartoon style, painting, Al artifacts, oversaturated colors, motion blur, lens distortion 1664x2080-ar 4:5
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=ultra-realistic-cinematic-dslr-photograph-of-an-18-year-old-handsome-you#ultra-realistic-cinematic-dslr-photograph-of-an-18-year-old-handsome-you)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ultra-realistic-cinematic-dslr-photograph-of-an-18-year-old-handsome-you#ultra-realistic-cinematic-dslr-photograph-of-an-18-year-old-handsome-you)
 
 ---
 

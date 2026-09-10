@@ -17,7 +17,7 @@
 
 150 条提示词 · 110 位署名创作者 · 9 个用途分类 · 其中 25 条以 JSON 编写 · 更新于 2026-09-10
 
-**[打开生成器](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=hero&utm_campaign=awesome-gpt-image-prompts&utm_content=hero)**
+**[打开生成器](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=hero&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=hero)**
 
 GPT、GPT Image 和 ChatGPT 是 OpenAI 的商标。YouArt 是独立平台，与 OpenAI 没有关联，也未获得其背书。 GPT Image 2.5 仍在逐步开放，还没有对所有账号放开；等它开放时，这些提示词可以原封不动地迁过去。
 
@@ -45,15 +45,15 @@ GPT、GPT Image 和 ChatGPT 是 OpenAI 的商标。YouArt 是独立平台，与 
 
 提示词本身不作翻译，一律保留作者写下的原文。提示词是喂给模型的输入，不是文章：这一代模型最为人称道的能力就是把引号里的字符串原样画进画面，翻译它就等于改掉了输出。
 
-- **[海报](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=poster#poster)** — 电影预告海报、活动传单、旅行海报和专辑封面。这类提示词的篇幅大多花在构图和排版上，因为海报首先是一个构图问题，其次才是风格问题：标题落在哪里、它上方留多少留白、画面下三分之一由什么占据。 [打开这 17 条](prompts/gpt-image-2-5-poster-prompts.md)
-- **[图中文字](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=typography-text#typography-text)** — 在画面里渲染出清晰可读的文字，是这一代模型最为人称道的能力。这类提示词会把要渲染的字符串原样引出来，点明字体的性格，并直接安排它在画面中的位置，而不是指望模型自己发挥。 [打开这 17 条](prompts/gpt-image-2-5-text-in-image-prompts.md)
-- **[信息图](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=infographic#infographic)** — 图表、时间线、爆炸图和讲解页。篇幅长的那几条读起来几乎像一份规格说明：要几个标注、分布在哪一侧、标签文字写什么。这正是它们奏效的原因，也是其中不少干脆写成 JSON 的原因。 [打开这 17 条](prompts/gpt-image-2-5-infographic-prompts.md)
-- **[UI 界面稿](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ui-mockup#ui-mockup)** — 仪表盘、移动端页面、落地页和直播画面框。UI 提示词必须点名它要哪些组件，否则模型会自己编出一套看着挺像回事的界面，而不是你心里想的那一套。 [打开这 17 条](prompts/gpt-image-2-5-ui-mockup-prompts.md)
-- **[商品图](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ecommerce-product#ecommerce-product)** — 影棚商品图、包装渲染和目录图。这些是真正能回本的提示词：它们把布光方案、台面材质和机位说得足够精确，精确到能在一整条产品线上稳定复现。 [打开这 17 条](prompts/gpt-image-2-5-product-photo-prompts.md)
-- **[广告创意](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ad-creative#ad-creative)** — 营销主视觉、横幅和社交媒体广告素材。它们大多同时给出画面方向和一句要渲染进画面的文案——这也是它们属于这一代模型的原因，上一代连字都写不对。 [打开这 17 条](prompts/gpt-image-2-5-ad-creative-prompts.md)
-- **[角色设定](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=character-design#character-design)** — 三视图、表情表、装备拆解和吉祥物。这里真正好用的套路是要一张设定图，而不是要一张画：把同一个角色的多个视角放进同一张图里，你拿到的才是一份能一直用下去的设计。 [打开这 16 条](prompts/gpt-image-2-5-character-design-prompts.md)
-- **[人像](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=portrait#portrait)** — 杂志人像、形象照和电影质感摄影。它们的成败全在镜头调度上：画幅、焦段、光源和调色，比任何描述氛围的形容词都更管用。 [打开这 16 条](prompts/gpt-image-2-5-portrait-prompts.md)
-- **[插画](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=illustration#illustration)** — 动漫、水彩、线稿、3D 渲染、等距视角和像素画。风格类提示词是全库里最短的，也是最值得改写的：换掉主体、留下风格那句，你就得到了一个系列。 [打开这 16 条](prompts/gpt-image-2-5-illustration-prompts.md)
+- **[海报](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=poster#poster)** — 电影预告海报、活动传单、旅行海报和专辑封面。这类提示词的篇幅大多花在构图和排版上，因为海报首先是一个构图问题，其次才是风格问题：标题落在哪里、它上方留多少留白、画面下三分之一由什么占据。 [打开这 17 条](prompts/gpt-image-2-5-poster-prompts.md)
+- **[图中文字](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=typography-text#typography-text)** — 在画面里渲染出清晰可读的文字，是这一代模型最为人称道的能力。这类提示词会把要渲染的字符串原样引出来，点明字体的性格，并直接安排它在画面中的位置，而不是指望模型自己发挥。 [打开这 17 条](prompts/gpt-image-2-5-text-in-image-prompts.md)
+- **[信息图](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=infographic#infographic)** — 图表、时间线、爆炸图和讲解页。篇幅长的那几条读起来几乎像一份规格说明：要几个标注、分布在哪一侧、标签文字写什么。这正是它们奏效的原因，也是其中不少干脆写成 JSON 的原因。 [打开这 17 条](prompts/gpt-image-2-5-infographic-prompts.md)
+- **[UI 界面稿](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ui-mockup#ui-mockup)** — 仪表盘、移动端页面、落地页和直播画面框。UI 提示词必须点名它要哪些组件，否则模型会自己编出一套看着挺像回事的界面，而不是你心里想的那一套。 [打开这 17 条](prompts/gpt-image-2-5-ui-mockup-prompts.md)
+- **[商品图](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ecommerce-product#ecommerce-product)** — 影棚商品图、包装渲染和目录图。这些是真正能回本的提示词：它们把布光方案、台面材质和机位说得足够精确，精确到能在一整条产品线上稳定复现。 [打开这 17 条](prompts/gpt-image-2-5-product-photo-prompts.md)
+- **[广告创意](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ad-creative#ad-creative)** — 营销主视觉、横幅和社交媒体广告素材。它们大多同时给出画面方向和一句要渲染进画面的文案——这也是它们属于这一代模型的原因，上一代连字都写不对。 [打开这 17 条](prompts/gpt-image-2-5-ad-creative-prompts.md)
+- **[角色设定](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=character-design#character-design)** — 三视图、表情表、装备拆解和吉祥物。这里真正好用的套路是要一张设定图，而不是要一张画：把同一个角色的多个视角放进同一张图里，你拿到的才是一份能一直用下去的设计。 [打开这 16 条](prompts/gpt-image-2-5-character-design-prompts.md)
+- **[人像](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=portrait#portrait)** — 杂志人像、形象照和电影质感摄影。它们的成败全在镜头调度上：画幅、焦段、光源和调色，比任何描述氛围的形容词都更管用。 [打开这 16 条](prompts/gpt-image-2-5-portrait-prompts.md)
+- **[插画](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=illustration#illustration)** — 动漫、水彩、线稿、3D 渲染、等距视角和像素画。风格类提示词是全库里最短的，也是最值得改写的：换掉主体、留下风格那句，你就得到了一个系列。 [打开这 16 条](prompts/gpt-image-2-5-illustration-prompts.md)
 
 <a id="guide"></a>
 
@@ -155,17 +155,17 @@ GitHub 只在单个文件页面上把提示词全文交给不做渲染的抓取�
 
 | 内容 | 文件 | 字节 |
 |---|---|--:|
-| 全部提示词 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/data/prompts.json) | 495,016 |
-| 给大模型和智能体 | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/llms.txt) | 10,806 |
-| 海报 | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,833 |
-| 图中文字 | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,155 |
-| 信息图 | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,169 |
-| UI 界面稿 | [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) | 41,532 |
-| 商品图 | [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) | 45,495 |
-| 广告创意 | [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) | 60,746 |
-| 角色设定 | [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) | 50,153 |
-| 人像 | [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) | 54,217 |
-| 插画 | [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) | 58,302 |
+| 全部提示词 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 495,016 |
+| 给大模型和智能体 | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,902 |
+| 海报 | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,905 |
+| 图中文字 | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,227 |
+| 信息图 | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,241 |
+| UI 界面稿 | [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) | 41,604 |
+| 商品图 | [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) | 45,567 |
+| 广告创意 | [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) | 60,818 |
+| 角色设定 | [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) | 50,221 |
+| 人像 | [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) | 54,285 |
+| 插画 | [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) | 58,370 |
 
 面向助手的索引，惯例地址是站点自己的 llms.txt，那里已经收录了这个提示词库。本仓库里的这份是它的镜像。 [`llms.txt`](llms.txt)
 
@@ -177,7 +177,7 @@ GitHub 只在单个文件页面上把提示词全文交给不做渲染的抓取�
 
 复制一条提示词，粘进输入框，再把该属于你的那部分改掉。无需任何配置，还有免费额度可以先试。
 
-**[打开生成器](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-prompts&utm_content=footer)** · [在 youart.ai 上浏览全部 150 条](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-prompts&utm_content=footer)
+**[打开生成器](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=footer)** · [在 youart.ai 上浏览全部 150 条](https://youart.ai/zh/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=footer)
 
 <a id="about"></a>
 
@@ -187,4 +187,4 @@ GitHub 只在单个文件页面上把提示词全文交给不做渲染的抓取�
 
 YouArt 是一个 AI 图像与视频创作平台。这 150 条提示词在站上也有一份，配了一键填入的输入框，不用做任何配置就能直接跑，还有免费额度可以先试。
 
-[youart.ai](https://youart.ai/zh/?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-prompts&utm_content=brand)
+[youart.ai](https://youart.ai/zh/?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=brand)

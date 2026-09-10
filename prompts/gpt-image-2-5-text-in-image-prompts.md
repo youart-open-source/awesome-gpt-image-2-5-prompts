@@ -6,7 +6,7 @@
 
 Legible words rendered inside the picture is the capability this generation of the model is known for. These prompts quote the exact string to render, name the typeface character, and place the text in the frame instead of hoping for it.
 
-**[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=typography-text#typography-text)**
+**[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=typography-text#typography-text)**
 
 [Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
@@ -34,7 +34,7 @@ Image 4: a red-haired stylized cartoon girl standing in front of a wall mirror i
 Global quality: 8K, ultra-high definition, high-detail 3D render, realistic soft shadows, extreme clarity, crisp edges, no noise, no compression, premium editorial composition, color-block backgrounds, cinematic but minimal.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=3d-character-editorial-quartet#3d-character-editorial-quartet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=3d-character-editorial-quartet#3d-character-editorial-quartet)
 
 <a id="p-artistic-sketch-portrait-young-man"></a>
 
@@ -46,7 +46,7 @@ Global quality: 8K, ultra-high definition, high-detail 3D render, realistic soft
 Create a unique artistic sketch-style portrait of a modern young man wearing black sunglasses, with textured pencil and ink drawing effects mixed with abstract collage elements. Change the shirt color to deep olive green with soft watercolor shading. Add layered geometric frames around the face, expressive cross-hatching, ink splashes, handwritten typography notes, and contemporary fashion mood-board aesthetics. Keep the hairstyle detailed and voluminous with realistic sketch strokes. Use an off-white textured paper background with artistic grunge accents, dynamic composition, and editorial magazine-style illustration. High detail, cinematic lighting, modern urban art style, creative mixed-media sketch effect.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=artistic-sketch-portrait-young-man#artistic-sketch-portrait-young-man)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=artistic-sketch-portrait-young-man#artistic-sketch-portrait-young-man)
 
 <a id="p-brand-identity-oil-painting"></a>
 
@@ -74,7 +74,7 @@ Scrawl brand keywords, slogans, and values in charcoal and graphite across the c
 Contemporary mixed-media pop-art. 8K macro photography highlighting the physical thickness of the oil paint and raw canvas grain texture.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=brand-identity-oil-painting#brand-identity-oil-painting)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=brand-identity-oil-painting#brand-identity-oil-painting)
 
 <a id="p-coffee-girl-by-the-river"></a>
 
@@ -99,7 +99,7 @@ Contemporary mixed-media pop-art. 8K macro photography highlighting the physical
 避免：文字、水印、logo、畸形结构
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=coffee-girl-by-the-river#coffee-girl-by-the-river)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=coffee-girl-by-the-river#coffee-girl-by-the-river)
 
 <a id="p-embossed-metal-logo-bas-relief"></a>
 
@@ -123,7 +123,7 @@ Typography: Below the embossed mark, minimal lockup on the same surface. Small f
 Render: Ray tracing enabled for self-shadowing. Full sharpness edge to edge. Uniform film grain. No chromatic aberration. The mark must read as PUSHED OUTWARD from the surface.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=embossed-metal-logo-bas-relief#embossed-metal-logo-bas-relief)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=embossed-metal-logo-bas-relief#embossed-metal-logo-bas-relief)
 
 <a id="p-fifa-world-cup-country-emblem-badge"></a>
 
@@ -147,7 +147,7 @@ The central body section should use a contrasting flag color and contain the cou
 Use thick black outlines throughout to separate every section and define the entire trophy silhouette. Maintain a highly graphic, iconic, and immediately country-identifiable appearance. Use a pure black background with no gradients or textures. The final result should feel exactly like a premium enamel pin, screen-print poster, or modern sports identity mark while preserving the official FIFA World Cup 2026 stacked emblem structure and central trophy integration, with no unnecessary stylistic deviations and no changes to the established layout.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=fifa-world-cup-country-emblem-badge#fifa-world-cup-country-emblem-badge)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=fifa-world-cup-country-emblem-badge#fifa-world-cup-country-emblem-badge)
 
 <a id="p-fluorescent-foam-logo-hero"></a>
 
@@ -186,7 +186,7 @@ Houdini FLIP fluid simulation + Redshift/Octane or equivalent photorealistic CGI
 FINAL CHECK: (1) Does the fluid silhouette exactly match the [BRAND NAME] logo? (2) Is it inside a container? If yes, regenerate. (3) Any fluid outside the boundary? If yes, regenerate. (4) Both foam and liquid states visible? If no, regenerate.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=fluorescent-foam-logo-hero#fluorescent-foam-logo-hero)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=fluorescent-foam-logo-hero#fluorescent-foam-logo-hero)
 
 <a id="p-luxury-golf-editorial-collage"></a>
 
@@ -207,7 +207,7 @@ Style Keywords:
 luxury sports campaign, editorial photography, Nike-style aesthetic, muted green tones, sharp focus, 85mm lens look, depth of field, cinematic lighting, premium composition, 4K, hyper-realistic
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=luxury-golf-editorial-collage#luxury-golf-editorial-collage)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=luxury-golf-editorial-collage#luxury-golf-editorial-collage)
 
 <a id="p-monochrome-hermes-inspired-avatar"></a>
 
@@ -219,7 +219,7 @@ luxury sports campaign, editorial photography, Nike-style aesthetic, muted green
 Create a minimalist black-and-white vector avatar logo of a mythic anime woman shown in elegant side profile facing right, cropped from the chest up on a plain white background. Give her long flowing {argument name="hair color" default="black"} hair with bold white highlight streaks and smooth graphic shapes, rendered as high-contrast ink silhouette art with clean sharp edges. She wears a winged headpiece reminiscent of Hermes or a messenger god helmet, with one large white feathered wing visible on the side of her head and a circular metallic earpiece detail. Dress her in a sleek high-collar garment with a luxury-fashion feel, and hang a prominent pendant or zipper pull shaped like the letter {argument name="monogram letter" default="H"} at the center of the collar. The face is intentionally obscured by a centered soft gray rectangular blur block covering most facial features, creating a censored anonymous profile-image effect. Overall style: luxury brand avatar, fashion logo, anime-inspired goddess silhouette, monochrome vector emblem, smooth negative-space highlights, balanced composition, modern and iconic, suitable for a social media profile picture.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=monochrome-hermes-inspired-avatar#monochrome-hermes-inspired-avatar)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=monochrome-hermes-inspired-avatar#monochrome-hermes-inspired-avatar)
 
 <a id="p-satellite-terrain-letter-typography-map"></a>
 
@@ -245,7 +245,7 @@ straight-down satellite perspective, NASA Earth imagery aesthetic, hyper-detaile
 #AIart #GPTImage2
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=satellite-terrain-letter-typography-map#satellite-terrain-letter-typography-map)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=satellite-terrain-letter-typography-map#satellite-terrain-letter-typography-map)
 
 <a id="p-scandinavian-branding-mockup"></a>
 
@@ -263,7 +263,7 @@ Minimal personal branding identity mockup for a female entrepreneur or creator, 
 #AIart #GPTImage2
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=scandinavian-branding-mockup#scandinavian-branding-mockup)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=scandinavian-branding-mockup#scandinavian-branding-mockup)
 
 <a id="p-sitcom-intro-storyboard-sheet"></a>
 
@@ -275,7 +275,7 @@ Minimal personal branding identity mockup for a female entrepreneur or creator, 
 Create a professional film production storyboard for a 15-second sitcom intro montage in a premium pitch deck presentation. Use multi-panel storyboard sheet layout, cinematic 16:9 framing per panel, clean panel borders, shot descriptions beneath each frame, timing notes, and transition indicators between panels. Maintain strict character consistency for Super Mei, Edvard, and Fenrir across all panels. Include a complete sequence of title flash, living room, backyard walkies, kitchen powers, convenience store raid, monster battle, bonus domestic comedy beats, closing hero shot, and logo slam. Visual style: cinematic sitcom, high-budget live-action network comedy, production-ready fidelity, not animated or illustrated.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=sitcom-intro-storyboard-sheet#sitcom-intro-storyboard-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=sitcom-intro-storyboard-sheet#sitcom-intro-storyboard-sheet)
 
 <a id="p-social-media-post-oakland-streetwear-editorial"></a>
 
@@ -287,7 +287,7 @@ Create a professional film production storyboard for a 15-second sitcom intro mo
 Create an ultra realistic vertical 9:16 editorial streetwear photograph of a {argument name="subject" default="young man with thick curly dark hair"}, wearing black sunglasses, a {argument name="clothing" default="cream and black oversized polo shirt with bold 'OAKLAND' collegiate lettering"}, loose black cargo-style pants, white sneakers, and a classic metal wristwatch. He is casually leaning against the front of a vintage American car with his hands in his pockets and one leg crossed over the other.\nSet the scene on a gritty urban street with an old weathered building behind him. Add large faded wall typography reading “{argument name="city name" default="OAKLAND"}”, with “CALIFORNIA” and “EST. 1852” underneath. Warm late-afternoon sunlight, muted brown and beige color palette, subtle film grain, soft shadows, nostalgic 1990s street-fashion aesthetic, realistic skin texture, natural pose, cinematic depth of field, detailed vintage car, authentic editorial photography.\nFull body composition, low eye-level camera, 35mm lens, warm cinematic lighting, photorealistic, high detail, 4K.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=social-media-post-oakland-streetwear-editorial#social-media-post-oakland-streetwear-editorial)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=social-media-post-oakland-streetwear-editorial#social-media-post-oakland-streetwear-editorial)
 
 <a id="p-social-media-post-toddler-fast-food-comedy-still"></a>
 
@@ -299,7 +299,7 @@ Create an ultra realistic vertical 9:16 editorial streetwear photograph of a {ar
 Create a vertical 9:16 photorealistic social-media video still inside a bright fast-food burger restaurant. Show exactly 2 people at a wooden counter: a cute toddler boy on the left, standing and facing slightly toward the camera, wearing a white paper fast-food hat with red stripes, a light blue T-shirt, and a white apron with small red restaurant lettering; and a smiling adult woman on the right, leaning forward with both hands on the counter, wearing a blue denim jacket over a gray shirt, shoulder-length wavy blonde hair, and a wedding ring. The woman looks warmly at the child with an amused, encouraging expression, while the child has a calm, slightly mischievous face. Add a bold centered subtitle over the lower middle of the image reading {argument name="caption text" default="Please"} in large white rounded letters with a black drop shadow. Background: softly blurred fast-food interior with exactly 2 red pendant lamps hanging from the ceiling, 1 large digital menu board in the upper left, 1 glowing circular neon sign behind them, tiled wall, red seating, and daylight through windows. Use shallow depth of field, realistic skin texture, natural indoor lighting, warm colors, candid viral comedy-video framing, no extra characters, no watermark.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=social-media-post-toddler-fast-food-comedy-still#social-media-post-toddler-fast-food-comedy-still)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=social-media-post-toddler-fast-food-comedy-still#social-media-post-toddler-fast-food-comedy-still)
 
 <a id="p-soft-serve-cozy-aesthetic"></a>
 
@@ -319,7 +319,7 @@ Prompt : (Iced Coffee Cozy Aesthetic)
 Close-up aesthetic shot of a hand holding iced coffee in a transparent branded cup, warm golden cafe ambience, creamy iced latte with ice cubes, cozy sunlight and soft bokeh background, cute white doodle overlays and handwritten text, kawaii cartoon boy and bunny stickers, scrapbook aesthetic, soft brown and green color palette, dreamy lifestyle photography, playful sparkles and hearts around the drink, “Good Vibes, Good Coffee” typography style, warm cinematic tones, ultra realistic beverage photography, cozy Instagram aesthetic, soft glow effect, highly detailed, cheerful and refreshing mood.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=soft-serve-cozy-aesthetic#soft-serve-cozy-aesthetic)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=soft-serve-cozy-aesthetic#soft-serve-cozy-aesthetic)
 
 <a id="p-vintage-paper-collage-set"></a>
 
@@ -331,7 +331,7 @@ Close-up aesthetic shot of a hand holding iced coffee in a transparent branded c
 Aesthetic vintage paper collage portrait of a stylish woman taking a mirror selfie, made entirely from torn magazine and newspaper pieces, layered mixed-media artwork, neutral beige and brown tones, Vogue-inspired fashion editorial style, black sunglasses, sleek ponytail hairstyle, white corset top, silver jewelry, purple smartphone, textured ripped paper edges, handcrafted mosaic effect, realistic shadows and depth, chic typography cutouts, inspirational quotes scattered around, cozy luxury aesthetic, highly detailed analog collage art, soft warm lighting, Instagram moodboard vibe, premium editorial composition, ultra detailed, 4k Prompt : Vintage breakfast aesthetic collage made from torn magazine and newspaper clippings, artistic mixed-media paper mosaic style, croissants on a plate with jam, black coffee in a dark cup, fresh fruits and berries, butter dish with knife, café table atmosphere, dark green textured background, ripped paper layers with visible cracks and folds, lifestyle editorial typography, cozy European café vibe, warm earthy tones, handcrafted scrapbook look, realistic paper texture, aesthetic Pinterest moodboard composition, soft cinematic lighting, luxury brunch aesthetic, ultra detailed, high realism, 4k collage art style
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=vintage-paper-collage-set#vintage-paper-collage-set)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=vintage-paper-collage-set#vintage-paper-collage-set)
 
 <a id="p-world-cup-bobblehead-figure"></a>
 
@@ -364,7 +364,7 @@ Format
 •Final output must be in 4:5 portrait orientation.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=world-cup-bobblehead-figure#world-cup-bobblehead-figure)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=world-cup-bobblehead-figure#world-cup-bobblehead-figure)
 
 ---
 

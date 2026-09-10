@@ -6,7 +6,7 @@
 
 Studio product shots, packaging renders and catalog imagery. These are the prompts that pay for themselves: they describe a lighting setup, a surface and a camera position precisely enough to be repeatable across a whole product line.
 
-**[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ecommerce-product#ecommerce-product)**
+**[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ecommerce-product#ecommerce-product)**
 
 [Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
@@ -34,7 +34,7 @@ Typography: minimal editorial style, subtle captions only, no large headlines, s
 Overall mood: design catalog / product design journal — architectural, premium, calm. No clutter, no bold colors, no heavy branding, no decorative graphics, no perspective distortion in the technical drawings.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=architectural-product-catalog-page#architectural-product-catalog-page)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=architectural-product-catalog-page#architectural-product-catalog-page)
 
 <a id="p-e-commerce-main-image-3d-footstool-mesh-comparison"></a>
 
@@ -46,7 +46,7 @@ Overall mood: design catalog / product design journal — architectural, premium
 Create a realistic architectural visualization comparing two 3D-generated ottoman stools in an interior showroom scene. Canvas: wide landscape 16:9 render, camera at low eye level looking slightly downward. Scene: two small Barcelona-style footstools placed side by side on a dark charcoal tiled floor, in front of a tall glossy stone wall with dramatic brown, cream, rust, and gold onyx/marble veining; a narrow strip of green-tinted glass or window appears at the far right edge, with pale exterior floor tiles visible beyond. Subjects: exactly 2 footstools: left stool is the HD version, slightly smaller and lower, with a white tufted square cushion divided into a 4-by-4 grid, rounded soft edges, light gray leather straps underneath, and reflective polished metal X-shaped legs; right stool is the Smart Mesh version, slightly larger and cleaner, with a thicker smooth white cushion, parallel white underside straps, and gray polished X-shaped metal legs. Add thin black 3D viewport guide lines or wireframe axis lines crossing through and around both stools, including vertical and horizontal alignment lines, as if shown in a 3D modeling comparison viewport. Materials: white leather cushions with subtle seams and soft highlights, chrome legs with reflections, dark matte floor tiles with faint grout lines, glossy veined stone wall. Lighting: soft indoor studio lighting, moderate shadows, realistic but slightly CGI-rendered look. Composition: left stool around one-third of the frame, right stool around two-thirds, both facing forward at a slight angle, enough floor visible in front, marble wall filling the background. No people, no labels, no UI panels, no watermark.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-3d-footstool-mesh-comparison#e-commerce-main-image-3d-footstool-mesh-comparison)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-3d-footstool-mesh-comparison#e-commerce-main-image-3d-footstool-mesh-comparison)
 
 <a id="p-e-commerce-main-image-advanced-wardrobe-consistency-rules"></a>
 
@@ -58,7 +58,7 @@ Create a realistic architectural visualization comparing two 3D-generated ottoma
 保護されたワードローブのルール — 最優先事項：以下の各衣服の説明を、不変の最終製品アイデンティティとして扱ってください。構造、パーツ、金具、素材、パターン、および登録されたすべてのグラフィックやマーキング（その表面、側面、向き、スケール、色、内容、スペル、数）を保持してください。最終的な着用状態は、対象となるアイテムの使用、位置、側面、向き、留め具、レイヤリング、折り目、タック、結び目、ドレープのみを上書きします。「ソース衣服」ラベルはスタイリング前のアイテムを表し、完成したシルエットではありません。保護された詳細を再設計、追加、削除、反転、複製、再配置、または描き直さないでください。ワードローブ：トップス：軽量で柔らかくシワ加工されたアイボリーのコットン製のクロップドオフショルダーブラウス。体にフィットする胴体と、密にギャザーを寄せたバストパネルが特徴です。ギャザーの入ったネックラインの上に深いV字型のフローラルレースインセットがあり、2つのレースの頂点から伸びる細いアイボリーのホルターコードが調節可能なタイを形成しています。伸縮性のある短い袖は柔らかいフリルを作り、フロント中央のドローストリングチャネルがバストにギャザーを寄せ、2本の細長いタイが垂れ下がっています。下端は幅広のアイボリーのアイレット刺繍バンド、フローラルカットワーク、スカラップヘムで仕上げられています。背面は伸縮性のある上端とアイレットバンドが続き、完全に対称的なクロップドシルエットになっています。レースのインセット、袖、タイ、アイレットヘムを一着の衣服として統合し、別のアンダーレイヤー、ロゴ、ラベル、テキストは含めないでください。ボトムス：中濃色のインディゴストレッチデニムを使用した、ローライズでフィット感のある5ポケットジーンズ。ヒップと太ももはタイトで、そのままクリーンなスリムレッグに続きます。等間隔のベルトループ、中央のジッパーフライ、円形のシルバーブルーのフロントボタンを備えたシェイプされたウエストバンドを作成してください。カーブしたフロントポケット、小さなコインポケット、外側のポケット角に合わせたシルバーブルーのアクセントリベット、ダークメタルの補強リベット、リアヨーク、クリーンなパッチポケットを追加してください。同系色のインディゴのステッチ、フロントライズの微妙なヒゲ加工、脚上部のソフトな縦落ち、そして綺麗に仕上げられた裾を使用してください。ベルト、プリントグラフィック、ロゴ、読み取り可能なテキストは含めないでください。フットウェア：解剖学的にミラーリングされた一対の、ダスティスカイブルーのキャンバス製ローカットレースアップスニーカー。局所的なミントアクアのグラフィックとアイボリーのラバーが特徴です。各シューズはコンパクトなロープロファイル、幅広の丸みを帯びたクローズドトゥ、そしてわずかにかかとが上がった厚みのあるほぼ水平なプラットフォームを備えています。パッド入りの低い履き口が長いシュータンを囲んでいます。アッパーは、ブルーのキャンバスヴァンプ、対向するアイレットフェイシング、幅広のクオーターパネル、補強されたヒールパネルを組み合わせています。アイボリーのラバーシェルトゥキャップと深いアイボリーのフォキシングサイドウォールが下端を縁取っています。外側のクオーターには、ギザギザの葉、2本のカールした茎、細かい脈のハッチング、ドットのアクセントがある、密度の高いミントアクアのアネモネ3輪のスプレーが描かれています。「IVY ARC」という大文字の単語が、アイボリーのフォキシング全周に沿って、1単語3文字の等間隔の単一行ユニットとして広いトラッキングで連続して繰り返されています。銀色の小さなアイレットが偶数列に並び、平らなアイボリーの靴紐が通常の十字路を通っており、紐は中央でコンパクトなリボン結びになっています。内側のクオーターは無地のブルーキャンバスのままで、リアパネル、アイボリーの裏地、ダークなトレッドは、解剖学的な反転を除いて左右で一致しています。キャンバスはマットに、ラバーはソフトな質感に、植物のラインワークは鮮明に、そしてすべての浮き出し文字を明確に判読できるようにしてください。バッグ：滑らかな連続フォイル表面、しっかりとした形状保持、丸みを帯びたエッジパイピング、ポリッシュ仕上げのシルバー金具を備えた、高光沢メタリックコーティングのレザー風素材で作られたコンパクトなメタリックシルバーのミニトート。ボディは、上部の角がわずかに丸みを帯びた短いほぼ長方形の封筒型で、スリムなサイドガセットと平らな補強ベースがあります。ハンドル間に狭いトップアクセス開口部があります。フロント、リア、ガセット、ベースを、境界エッジの周りに連続したパイピングを持つ一つの構造化されたボディとして構築してください。2つの短いアーチ型ハンドルを、細いステッチタブでフロントとリアのアッパーフェイスに取り付けてください。アッパーサイドシームの小さなリングに固定されたクリップ末端を持つ、細長いお揃いのストラップを1本追加し、長方形の長さ調節スライダーをはっきりと見せてください。上部の開口部は、コンパクトなジッパーと目立たないポリッシュ仕上げのスライダーで閉じてください。フロント、リア、ガセット、ベースには追加のポケットやグラフィックを入れず、ストラップアンカー、ハンドルタブ、パイピング、ジッパー、ベース補強が同じボディに物理的に結合されているようにしてください。鮮明な構造、制御された継ぎ目の厚み、滑らかなメタリックのカバレッジ、そしてソフトな指向性反射を維持してください。最終着用状態：視点条件付きボディサイドマップ：正面図 — 着用者の左は画像の右、着用者の右は画像の左。背面図 — 着用者の左は画像の左、着用者の右は画像の右。側面図、交差した手足、または曖昧な場合は、対応する肩、腰、目、または耳の目印から名前の付いた解剖学的側面を連続的に追跡してください。この状態は指定された解剖学的側面にのみ適用し、反転、入れ替え、または複製は決してしないでください。- バッグの持ち方：最終状態：登録されたねじれのないストラップまたはチェーン1本が、元の両端で取り付けられ、着用者の右肩からすべての重量を支え、解剖学的なフロントセンターラインを一度横切り、着用者の左前の腰でバッグを平らに支えます。バッグの背面は体に向き、前面は外側を向きます。両手は離したままにします。登録されたサポートとコンポーネントを接続したままにし、選択したルートに沿ってのみ接触と重力による余裕を許容してください。この操作内での自然な取り扱い：選択したルートとすべての取り付けポイントを正確に保ちながら、素材に応じた適度な緩みと自然な体との接触を許容してください。
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-advanced-wardrobe-consistency-rules#e-commerce-main-image-advanced-wardrobe-consistency-rules)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-advanced-wardrobe-consistency-rules#e-commerce-main-image-advanced-wardrobe-consistency-rules)
 
 <a id="p-e-commerce-main-image-alabaster-miniature-city-sculpture"></a>
 
@@ -70,7 +70,7 @@ Create a realistic architectural visualization comparing two 3D-generated ottoma
 Create a highly detailed fantasy architectural product shot of an entire miniature city carved inside one continuous curved ribbon of {argument name="stone material" default="translucent white alabaster marble"}, shaped like a large open shell or looping stone band standing upright on a dark teal studio surface. The city should look like a luxurious Baroque Mediterranean micro-kingdom grown from the same stone: smooth white terraces, arched arcades, tiny stairways, bridges, colonnades, balconies, glowing warm windows, and delicate gold-vein inlays running through the stone like kintsugi. Include exactly 5 main landmark elements: 1 large circular domed observatory palace on the upper left with a brass armillary ring on its roof, 1 tall lighthouse-like tower on the upper right, 1 smaller round tower with a brass astrolabe on the center-right terrace, 1 small domed pavilion near the lower center, and 1 long arched aqueduct/gallery along the lower left. Add turquoise water features integrated through the city: 3 visible pools and 3 cascading waterfalls flowing between terraces. Add miniature cypress trees, tiny gardens, flowering shrubs, moss, and planters throughout the terraces, but keep the architecture dominant. Use {argument name="metal accent" default="thin polished brass"} for the astronomical instruments, fine seams, and delicate decorative lines. Lighting should be cinematic and museum-like, with warm golden light glowing from the windows and cool teal ambient light behind the sculpture; the background is a smooth dark {argument name="background color" default="deep teal"} gradient with soft haze. Render as an ultra-detailed macro photograph of a collectible architectural sculpture, three-quarter view from slightly above, crisp ornate details, translucent stone subsurface glow, polished wet reflections on the pools, shallow depth of field, no people, no text, no watermark.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-alabaster-miniature-city-sculpture#e-commerce-main-image-alabaster-miniature-city-sculpture)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-alabaster-miniature-city-sculpture#e-commerce-main-image-alabaster-miniature-city-sculpture)
 
 <a id="p-e-commerce-main-image-friendly-reception-portrait"></a>
 
@@ -82,7 +82,7 @@ Create a highly detailed fantasy architectural product shot of an entire miniatu
 Create a realistic vertical portrait photo of a friendly young Japanese woman, about {argument name="age" default="mid 20s"}, standing behind a modern reception desk in a bright upscale office or clinic lobby. She has {argument name="hair style" default="shoulder-length dark brown bob with soft inward ends and wispy bangs"}, clear natural makeup, warm eyes, and a gentle genuine smile while looking directly at the camera. She is wearing a {argument name="top" default="beige sleeveless ribbed high-neck knit top"} tucked into a {argument name="skirt" default="high-waisted cream pencil skirt"}, with her arms relaxed behind her back and a polite receptionist-like posture. The background shows a curved white marble reception counter, a black monitor partly visible, soft under-counter lighting, pale wood wall panels, a blurred wall logo, glass doors or windows to the left, and a potted plant in the distance. Use soft natural indoor lighting, shallow depth of field, creamy bokeh, realistic skin texture, professional full-body-to-waist framing, 3:4 vertical composition, clean neutral beige and white color palette, high-resolution photorealism, no text overlay, no watermark, no exaggerated fashion styling.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-friendly-reception-portrait#e-commerce-main-image-friendly-reception-portrait)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-friendly-reception-portrait#e-commerce-main-image-friendly-reception-portrait)
 
 <a id="p-e-commerce-main-image-industrial-design-presentation-sheet"></a>
 
@@ -106,7 +106,7 @@ Environment & Lighting: Set against a minimalist, neutral studio gray background
 Style & Finish: Matte textures, clean silhouettes, and sharp edges. Leave designated blank areas on the product surfaces for "Placeholder Branding" and "Graphic Mockups." 4k resolution, Unreal Engine 5 render style, hyper-realistic, clean aesthetic.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-industrial-design-presentation-sheet#e-commerce-main-image-industrial-design-presentation-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-industrial-design-presentation-sheet#e-commerce-main-image-industrial-design-presentation-sheet)
 
 <a id="p-e-commerce-main-image-luxury-fur-lined-loafer-lifestyle-photo"></a>
 
@@ -118,7 +118,7 @@ Style & Finish: Matte textures, clean silhouettes, and sharp edges. Leave design
 A warm, editorial-style lifestyle product photo shot indoors from a low close-up angle, focused on a woman's lower legs and feet as she tries on 1 pair of black leather backless loafers with tan faux-fur lining. One loafer is worn on the right foot and the left foot is bare, hovering just above the textured cream shag rug, while the second matching loafer lies on the rug in the lower left foreground. The shoes have smooth black leather uppers, a rounded almond toe, open mule-style heel, plush brown fur spilling out around the opening, and a small polished gold horsebit hardware detail across the vamp. The model wears cropped medium-blue denim jeans with a raw frayed hem. The setting is a cozy minimalist interior with a cream rug featuring 2 thin irregular black lines, a neutral wall, and a leaning rectangular mirror with a medium wood frame in the upper right background, softly reflecting the rug and part of the scene. Use soft natural window light, shallow depth of field, subtle film grain, realistic skin texture, muted beige and black palette, relaxed candid composition, premium fashion catalog mood, high detail, photorealistic.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-luxury-fur-lined-loafer-lifestyle-photo#e-commerce-main-image-luxury-fur-lined-loafer-lifestyle-photo)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-luxury-fur-lined-loafer-lifestyle-photo#e-commerce-main-image-luxury-fur-lined-loafer-lifestyle-photo)
 
 <a id="p-e-commerce-main-image-premium-gaming-motherboard-studio-shot"></a>
 
@@ -130,7 +130,7 @@ A warm, editorial-style lifestyle product photo shot indoors from a low close-up
 A high-end enthusiast ATX gaming motherboard product photo on a dark studio background, shown in a three-quarter top-down perspective angled from the lower left toward the upper right. The board is mostly matte black and gunmetal with sharp geometric armor plates, brushed metal textures, and subtle RGB edge lighting in blue, purple, and magenta. Feature an exposed modern Intel-style CPU socket near the upper center, 4 black DIMM memory slots on the right, large VRM heatsinks across the top and upper left, and multiple reinforced PCIe slots in the lower half. Include 3 major branded heatsink zones: a tall rear I/O shroud at upper left with an illuminated RGB eye logo and the text "MAXIMUS HERO", a left-side chipset/slot armor piece with the text "SUPREMEFX", and a large angular lower-right chipset cover with a silver ROG-style emblem plus a lower strip that reads "FOR THOSE WHO DARE". Show detailed capacitors, headers, power connectors, debug display reading "88" at the top right, and a small round start button nearby. Ultra-detailed commercial product photography, crisp focus across the board, realistic reflections on metal, premium luxury tech aesthetic, dramatic low-key lighting, clean black seamless backdrop, no cables, no CPU, no RAM, no other objects.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-premium-gaming-motherboard-studio-shot#e-commerce-main-image-premium-gaming-motherboard-studio-shot)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-premium-gaming-motherboard-studio-shot#e-commerce-main-image-premium-gaming-motherboard-studio-shot)
 
 <a id="p-e-commerce-main-image-six-panel-ai-jewelry-portrait-comparison"></a>
 
@@ -154,7 +154,7 @@ Visual style: {argument name="photo style" default="raw editorial macro jewelry 
 Constraints: Do not add any title outside the six panels. Use exactly the six label pills listed above and no extra captions. Keep the jewelry as the visual focus in every panel. Avoid clean studio beauty retouching; preserve pores, redness, flash glare, and imperfect skin detail.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-six-panel-ai-jewelry-portrait-comparison#e-commerce-main-image-six-panel-ai-jewelry-portrait-comparison)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-six-panel-ai-jewelry-portrait-comparison#e-commerce-main-image-six-panel-ai-jewelry-portrait-comparison)
 
 <a id="p-e-commerce-main-image-soft-studio-portrait-with-pink-device"></a>
 
@@ -166,7 +166,7 @@ Constraints: Do not add any title outside the six panels. Use exactly the six la
 Create a photorealistic vertical 2:3 studio portrait of an adult East Asian woman, early 20s, with {argument name="hair color" default="long slightly messy black hair"}, fair skin, a soft natural smile, and large black rectangular eyeglasses. She is seated or leaning slightly forward, shown from upper torso to head, turned three-quarters toward the left side of the frame while looking off-camera left. She wears a simple light gray camisole or lounge top with white shoulder straps, natural minimal makeup, soft pink lips, and a gentle relaxed expression. Her right hand holds exactly 1 object: a slim pastel pink handheld electronic device with rounded corners, a small circular button near the top, and two tiny indicator dots, held vertically near her cheek. Use a clean pale aqua-blue seamless background, soft diffused studio lighting, shallow depth of field, crisp facial detail, natural skin texture, realistic hair strands, and a fresh lifestyle/product-photography feel. Keep the composition airy with the head near the upper center, the hand and device on the lower left, and no text, logos, watermark, or extra props.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=e-commerce-main-image-soft-studio-portrait-with-pink-device#e-commerce-main-image-soft-studio-portrait-with-pink-device)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=e-commerce-main-image-soft-studio-portrait-with-pink-device#e-commerce-main-image-soft-studio-portrait-with-pink-device)
 
 <a id="p-ethnographic-plate-for-tibetan-ceremonial-hat"></a>
 
@@ -178,7 +178,7 @@ Create a photorealistic vertical 2:3 studio portrait of an adult East Asian woma
 Using REFERENCE_0 and REFERENCE_1, create a clean ethnographic archive plate focused on the ceremonial hat. Use REFERENCE_0 as the historical Tibetan context and silhouette reference, and REFERENCE_1 as the color, material, and ornament reference for the hat. Isolate and reconstruct the hat as a museum-style object study, removing the seated body as the main subject. Present the hat on an off-white document page as a scholarly catalog sheet in Chinese with small romanization. Add 8 numbered callouts around the object with fine dashed leader lines, each pointing to a specific structural detail. The centerpiece should be one large three-quarter underside view of the hat. Also include exactly 4 supplementary views/details: 1 side-profile wearing sketch with a faint line-drawn bust, 1 underside interior view, 1 top-down view, and 2 square close-up material swatches. Add exactly 4 thread-color samples near the lower right: blue, red, white, and yellow. At the top center, add the large title {argument name="headline text" default="唐徐帽"} with the romanization {argument name="romanization" default="(thang zhwa)"} beneath it, plus a smaller subtitle describing it as a summer ceremonial hat of high-ranking Tibetan monks. In the upper left, add a boxed metadata panel with multiple short Chinese fields, and in the upper right add a plate number reading {argument name="plate number" default="图版 No. 27"}. At the bottom, add one bordered note paragraph in Chinese. Overall style: meticulous archival infographic, anthropological catalog illustration, historically informed, precise woven texture, ivory-gold base with blue and red ornament, elegant print layout, thin rules and decorative divider marks, high-detail object rendering on a plain paper background.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=ethnographic-plate-for-tibetan-ceremonial-hat#ethnographic-plate-for-tibetan-ceremonial-hat)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ethnographic-plate-for-tibetan-ceremonial-hat#ethnographic-plate-for-tibetan-ceremonial-hat)
 
 <a id="p-premium-food-photography-template"></a>
 
@@ -190,7 +190,7 @@ Using REFERENCE_0 and REFERENCE_1, create a clean ethnographic archive plate foc
 Create a square [ASPECT RATIO] premium food photography image of a steaming [FOOD] served in a dark black stone bowl or cast-iron skillet on a wooden board. The dish should look hot, glossy, spicy, and freshly served, with bite-sized pieces of browned protein, dried red chilies, green scallions, white onion, garlic, chili flakes, and visible Sichuan peppercorns coated in a deep red, oily Szechuan sauce. Use a slightly elevated close-up camera angle with shallow depth of field. Make the food the clear hero of the image, centered and richly detailed. Add visible steam rising naturally from the dish. Surround the bowl with subtle restaurant-style props like a dark red tray, scattered dried chilies, peppercorns, a small sauce bowl, or a blurred teapot in the background. Lighting should feel warm, moody, and editorial, like a high-end restaurant food shoot. Emphasize realistic textures and keep the image appetizing, realistic, cinematic, and polished. Avoid text, logos, hands, people, utensils covering the food, cartoon styling, fake plastic textures, excessive symmetry, or an overly clean stock-photo look.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=premium-food-photography-template#premium-food-photography-template)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=premium-food-photography-template#premium-food-photography-template)
 
 <a id="p-product-marketing-minimalist-fashion-e-commerce-grid"></a>
 
@@ -218,7 +218,7 @@ Create a square [ASPECT RATIO] premium food photography image of a steaming [FOO
 - Aspect Ratio: "--ar 1:1" or "--ar 4:3"
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=product-marketing-minimalist-fashion-e-commerce-grid#product-marketing-minimalist-fashion-e-commerce-grid)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=product-marketing-minimalist-fashion-e-commerce-grid#product-marketing-minimalist-fashion-e-commerce-grid)
 
 <a id="p-romantic-smartphone-couple-scene-product-shot"></a>
 
@@ -250,7 +250,7 @@ Negative prompt:
 Distorted hands, extra fingers, broken anatomy, duplicated limbs, unrealistic reflections, blurry faces, messy composition, unreadable UI, fake lighting, harsh shadows, low resolution, overexposed highlights, warped phones, text errors, AI artifacts, plastic skin, unnatural facial expressions.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=romantic-smartphone-couple-scene-product-shot#romantic-smartphone-couple-scene-product-shot)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=romantic-smartphone-couple-scene-product-shot#romantic-smartphone-couple-scene-product-shot)
 
 <a id="p-showroom-still-life-merch-drop"></a>
 
@@ -292,7 +292,7 @@ Left-aligned composition:
 - Beneath the logo, small white text with the brand's official tagline.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=showroom-still-life-merch-drop#showroom-still-life-merch-drop)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=showroom-still-life-merch-drop#showroom-still-life-merch-drop)
 
 <a id="p-ultra-realistic-product-photography-of-a-rich-strawberry-soft-serve-ice-"></a>
 
@@ -314,7 +314,7 @@ Lighting: soft natural daylight, warm highlights, shallow depth of field, high-e
 Mood: fresh, premium, modern, and inviting — aligned with upscale U.S. dessert branding.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=ultra-realistic-product-photography-of-a-rich-strawberry-soft-serve-ice-#ultra-realistic-product-photography-of-a-rich-strawberry-soft-serve-ice-)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ultra-realistic-product-photography-of-a-rich-strawberry-soft-serve-ice-#ultra-realistic-product-photography-of-a-rich-strawberry-soft-serve-ice-)
 
 <a id="p-wind-up-miniature-world"></a>
 
@@ -326,7 +326,7 @@ Mood: fresh, premium, modern, and inviting — aligned with upscale U.S. dessert
 create a charming but ultra-refined scene centered on [wind-up toy / mechanical miniature world] where a tiny self-contained world is powered by a visible wind-up key and internal spring system. the toy should contain miniature architecture, characters, moving scenery, rotating signage, tiny lifts, oscillating parts, and small narrative moments that all activate from one central mechanism. mini world features: include visual zones for [main scene], [secondary scene], [moving prop], [character action], and [secret detail / easter egg]. surrounding close-ups can reveal the key, spring chamber, cams, and hidden moving linkages. visual style: japanese capsule toy magic meets luxury miniature cinematography meets premium collectible product photography. whimsical, intricate, emotionally irresistible. composition guidelines: the toy remains the hero, but the viewer should feel invited to peer into its tiny world. balance cuteness with high craftsmanship. make the mechanisms visible enough to create fascination. lighting & background: soft studio lighting with theatrical micro-shadows, premium pastel, lacquer, or dark velvet backdrop depending on [mood], hyper-detailed miniature realism, no watermark. variables: [wind-up toy / mechanical miniature world], [main scene], [secondary scene], [moving prop], [character action], [secret detail / easter egg], [mood]
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=wind-up-miniature-world#wind-up-miniature-world)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=wind-up-miniature-world#wind-up-miniature-world)
 
 ---
 

@@ -6,7 +6,7 @@
 
 Turnaround sheets, expression grids, equipment breakdowns and mascots. The useful pattern here is asking for a sheet rather than a picture: several views of one character in a single image, which is how you get a design you can keep using.
 
-**[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=character-design#character-design)**
+**[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=character-design#character-design)**
 
 [Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
@@ -103,7 +103,7 @@ production-ready character sheet,
 suitable as a reference image for storyboard and AI video generation.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=animated-character-design-sheet#animated-character-design-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=animated-character-design-sheet#animated-character-design-sheet)
 
 <a id="p-anime-short-film-dev-board"></a>
 
@@ -152,7 +152,7 @@ FINAL GOAL:
 Make this a clean, highly polished, premium-quality anime pre-production board with beautiful cinematic presentation, emotional storytelling, strong readability, and a heartwarming ending. The image should look visually rich, refined, and high-end."
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=anime-short-film-dev-board#anime-short-film-dev-board)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=anime-short-film-dev-board#anime-short-film-dev-board)
 
 <a id="p-comic-storyboard-valorant-agent-concept-reference-sheet"></a>
 
@@ -188,7 +188,7 @@ Graphic design: professional VALORANT-style character dossier, black cinematic s
 Typography: prominently display “VALORANT” and a completely new agent codename, “{argument name="agent name" default="VANTA"}”. Add short tactical phrases such as “MOVE WITHOUT WARNING.”, “CONTROL THE ANGLE.”, and “PLAY DIFFERENT.”
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=comic-storyboard-valorant-agent-concept-reference-sheet#comic-storyboard-valorant-agent-concept-reference-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=comic-storyboard-valorant-agent-concept-reference-sheet#comic-storyboard-valorant-agent-concept-reference-sheet)
 
 <a id="p-comic-storyboard-watercolor-hobbit-adventurer"></a>
 
@@ -200,7 +200,7 @@ Typography: prominently display “VALORANT” and a completely new agent codena
 Create a charming full-body fantasy character illustration in a hand-painted watercolor storybook style on a warm off-white paper background. Center a stocky, muscular, friendly male hobbit-like adventurer named {argument name="character name" default="Milo"}, standing barefoot and facing forward with a slight turn, smiling warmly and holding up a peace sign with his left hand. He has {argument name="hair color" default="curly chestnut brown"} messy hair, thick eyebrows, large expressive brown eyes, rounded ears, mutton-chop sideburns, light stubble, hairy arms and feet, and a cheerful approachable expression. Dress him in a sleeveless deep {argument name="tunic color" default="cobalt blue"} tunic with rough scalloped hem, a golden patterned sash belt, brown cropped trousers, leather wrist bracers, and colorful beaded bracelets on one wrist. Add one large visible travel backpack with exactly 4 distinct attached items: a rolled bedroll on top, a metal mug hanging on the side, a coiled rope, and leather straps with buckles. Across his chest place a brown leather shoulder strap with a square metal buckle and a small red accent strap. Behind him, include a simple wooden window frame like a rustic picture frame showing a bright blue sky with fluffy white clouds and a faint green horizon; the character overlaps the window, standing in front of it. Use soft pencil outlines, textured watercolor washes, gentle shading, warm earth tones, whimsical children’s book proportions, and a clean centered composition with no text, no logo, no watermark, and no extra characters.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=comic-storyboard-watercolor-hobbit-adventurer#comic-storyboard-watercolor-hobbit-adventurer)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=comic-storyboard-watercolor-hobbit-adventurer#comic-storyboard-watercolor-hobbit-adventurer)
 
 <a id="p-cosmic-campfire-concept-art"></a>
 
@@ -222,7 +222,7 @@ Lighting should be dramatic and cinematic. Use warm orange firelight as the prim
 The image should communicate human connection, cosmic wonder, the contrast between ordinary life and the infinite universe, and shared warmth in an endless dark space. Render with ultra-detailed photorealistic textures, cinematic lighting, sharp focus, and high dynamic range.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=cosmic-campfire-concept-art#cosmic-campfire-concept-art)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=cosmic-campfire-concept-art#cosmic-campfire-concept-art)
 
 <a id="p-game-asset-colorful-3d-girl-character-sheet"></a>
 
@@ -248,7 +248,7 @@ Visual style: High-quality stylized 3D animation look, similar to a modern famil
 Constraints: Keep proportions consistent between all 4 depictions, preserve the same outfit colors and hairstyle in every view, use a white background only, do not add labels, props, scenery, extra characters, or text.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=game-asset-colorful-3d-girl-character-sheet#game-asset-colorful-3d-girl-character-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=game-asset-colorful-3d-girl-character-sheet#game-asset-colorful-3d-girl-character-sheet)
 
 <a id="p-game-asset-cosmic-galaxy-dual-portrait-template"></a>
 
@@ -273,7 +273,7 @@ Ultra-realistic, premium cinematic lighting, high contrast, glossy luxury fantas
 Vertical portrait composition, 9:16 for both images.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=game-asset-cosmic-galaxy-dual-portrait-template#game-asset-cosmic-galaxy-dual-portrait-template)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=game-asset-cosmic-galaxy-dual-portrait-template#game-asset-cosmic-galaxy-dual-portrait-template)
 
 <a id="p-game-asset-fantasy-worlds-triptych-wallpaper"></a>
 
@@ -299,7 +299,7 @@ Visual style: Epic fantasy sci-fi concept art, photorealistic detail blended wit
 Constraints: Use exactly 3 panels; keep the thin black vertical borders visible; do not add captions or typography; avoid extra human figures beyond the single woman in the center panel and the single astronaut in the right panel.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=game-asset-fantasy-worlds-triptych-wallpaper#game-asset-fantasy-worlds-triptych-wallpaper)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=game-asset-fantasy-worlds-triptych-wallpaper#game-asset-fantasy-worlds-triptych-wallpaper)
 
 <a id="p-game-asset-tokyo-police-flood-rescue-mech"></a>
 
@@ -311,7 +311,7 @@ Constraints: Use exactly 3 panels; keep the thin black vertical borders visible;
 Create a cinematic photorealistic disaster-response scene in rainy Tokyo: a massive bipedal police construction robot from the {argument name="organization" default="Tokyo Metropolitan Police Department heavy machinery countermeasure robot unit"} stands waist-deep in a flooded urban river or canal, clearing a huge debris jam that is damming the water. The robot is seen from behind-left at street level, towering over the scene, with bulky white-and-black industrial armor plates, exposed hydraulics, pistons, cables, tracked-looking leg components, mud splatter, red emergency beacons glowing on both shoulders, and visible markings reading 「警視庁」 and “MPD” on its back armor. It grips and lifts one enormous tangled debris pile containing exactly 7 distinguishable item types: broken tree branches and logs, bamboo-like sticks, dead leaves and vines, bent metal railings, a blue plastic crate, a white rectangular signboard, and a bicycle wheel/frame. The floodwater is brown, violent, and foamy, splashing around the robot’s legs and pouring from the lifted debris. In the foreground, show exactly 5 human emergency workers/police observers in helmets and rain gear behind metal barricades: 2 navy MPD officers with white helmets at lower left, 1 pointing toward the robot, 1 orange-and-navy rescue worker at lower right, and 2 partially visible helmeted workers near the bottom edge. Add a crowd of civilians with umbrellas along the left sidewalk behind barriers. The city background should feature tall office buildings, wet reflective streets, heavy rain streaks, mist, evening-gray light, and urban signage including a vertical Japanese police slogan sign on the left and a blue road sign on the right indicating Asakusa, Kuramae, and route 6, plus a bridge or wall label for a river. Use a realistic telephoto news-photo look, high detail, dramatic scale, shallow atmospheric depth, water droplets on surfaces, emergency lights reflecting in rain, no cartoon styling. Main customizable subject: {argument name="robot description" default="a massive white-and-black MPD heavy rescue mech"}. Main action: {argument name="action" default="clearing a debris dam from a flooded river"}. Location: {argument name="location" default="rainy Asakusa/Kuramae, Tokyo"}. Weather and mood: {argument name="weather and mood" default="torrential rain, chaotic but heroic disaster response"}.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=game-asset-tokyo-police-flood-rescue-mech#game-asset-tokyo-police-flood-rescue-mech)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=game-asset-tokyo-police-flood-rescue-mech#game-asset-tokyo-police-flood-rescue-mech)
 
 <a id="p-gas-giant-descent-storyboard"></a>
 
@@ -323,7 +323,7 @@ Create a cinematic photorealistic disaster-response scene in rainy Tokyo: a mass
 {"type":"cinematic sci-fi storyboard contact sheet","subject":{"primary":"a small futuristic spacecraft descending into a massive gas giant storm system","secondary":"an enormous leviathan-like silhouette hidden within the clouds","mood":"oppressive, catastrophic, awe-struck, high tension, cosmic dread","style":"photorealistic cinematic concept art with dark sci-fi realism, volumetric storm clouds, strong contrast, amber and black palette with occasional cold blue lightning","aspect_ratio":"16:9"},"vehicle":{"design":"compact armored deep-atmosphere ship with 3 bright rear engines, angular industrial hull, worn metallic panels","scale":"tiny compared to the planet and creature"},"layout":{"grid":{"rows":3,"columns":4,"count":12},"sections":[{"position":"row 1 col 1","description":"wide exterior shot of the ship entering the upper atmosphere of a colossal gas giant at extreme speed, glowing clouds streaked with fire and friction around the vessel, curved planetary horizon visible"},{"position":"row 1 col 2","description":"cockpit POV, dark interior filled with red and cyan holographic instruments, forward visibility collapsing into turbulent storm layers and electrical haze"},{"position":"row 1 col 3","description":"exterior mid-wide shot of the ship diving into a gigantic rotating cloud funnel, surrounded by violent spiraling storm structure"},{"position":"row 1 col 4","description":"extreme close exterior of the ship hull as bright lightning strikes dangerously close, white electric energy crawling across the metal surface"},{"position":"row 2 col 1","description":"dashboard warning screen in red, showing a critical systems failure interface with the exact visible text count of 4 warning lines and 1 large percentage readout: ['WARNING','ENGINES COMPROMISED','THRUST FLUCTUATION','GRAVITY SPIKE DETECTED','DESCENT RATE -453%']"},{"position":"row 2 col 2","description":"rear three-quarter exterior of the ship fighting turbulence inside dense storm clouds, engines burning hard while the craft barely holds course"},{"position":"row 2 col 3","description":"massive circular disturbance forming in the clouds like an eye or maw, entire storm systems displaced by something huge moving beneath"},{"position":"row 2 col 4","description":"second cockpit view with radar-like navigation display and red alert text, pilot making a blind evasive maneuver through lightning-filled darkness"},{"position":"row 3 col 1","description":"first reveal of the colossal creature shape rising near the ship, black organic surface and immense curved anatomy emerging from darkness, ship tiny at lower left"},{"position":"row 3 col 2","description":"spiral descent shot, ship caught inside a vortex tunnel of clouds, spinning downward with engines flaring as it struggles to recover"},{"position":"row 3 col 3","description":"sudden breakthrough into a calm void, minimal composition, ship flying in eerie silence through dark open space with soft mist and no visible storm around it"},{"position":"row 3 col 4","description":"final reveal, gigantic leviathan fully emerging behind or beside the ship in cleared space, backlit by a pale circular storm opening, enormous open maw-like silhouette dwarfing the craft"}],"continuity":"all 12 panels depict one continuous descent sequence from atmospheric entry to final creature reveal"},"lighting":{"primary":"glowing amber storm light","secondary":"red cockpit interface glow","accents":"blue-white lightning and engine exhaust"},"environment":{"location":"inside the upper and middle storm layers of a gigantic gas giant","weather":"violent turbulence, electrical storms, vortex funnels, cloud walls, pressure chaos","threat":"no safe zone, repeated near-failure, unknown colossal presence driving the storm"}}
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=gas-giant-descent-storyboard#gas-giant-descent-storyboard)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=gas-giant-descent-storyboard#gas-giant-descent-storyboard)
 
 <a id="p-mecha-girl-sea-city-key-visual"></a>
 
@@ -335,7 +335,7 @@ Create a cinematic photorealistic disaster-response scene in rainy Tokyo: a mass
 A mecha girl mid-teens, pale skin smudged with soot and salt spray, sharp amber eyes with glowing HUD reticles, waist-length ash-white hair tied in a high ponytail whipping in the sea wind, matte gunmetal exoskeleton armor plating her shoulders, forearms and shins, exposed hydraulic pistons at the joints, chest rig with glowing cyan coolant lines, oversized oil-stained hangar jacket half slipping off one shoulder, a massive rail cannon resting on her right shoulder, dog tags and frayed red ribbon at her collar , standing off-center to the left on the rusted edge of a tilted steel platform jutting out over dark water, weight shifted onto one leg, left hand gripping the cannon strap, head turned slightly toward camera with a quiet defiant stare, steam venting from her back thrusters, her ponytail and jacket streaming sideways in the salt wind , a vast derelict sea-city at dusk, colossal megastructures of unknown purpose rising from the ocean in staggered silhouettes, bone-white monolithic towers fused with barnacled steel, cyclopean ring-shaped constructs canted at broken angles, rusted skeletal gantries threaded with dead cables, dark swells rolling between the pylons, shipwrecks half-swallowed at their feet, thick sea fog clinging to the bases while the upper structures pierce into a bruised sky, scattered faint lights blinking high in the towers like distant eyes , moody low-key lighting, cold teal ambient from the overcast sky, warm amber sodium glow leaking from a distant structure camera-right, hard backlight from a low sun behind the towers carving her silhouette, volumetric god rays cutting through sea mist, wet specular highlights on her armor , 35mm anamorphic lens, slight low angle looking up past her shoulder toward the structures, medium-wide shot, shallow depth of field with foreground rust in soft focus, horizontal lens flares, fine atmospheric haze compressing the distant megastructures into layered silhouettes , cinematic anime key visual, painterly digital illustration with crisp line art, desaturated oceanic palette of teal, bone-white and rust punched by small warm accent lights, film grain, high-contrast editorial poster aesthetic . Format 16:9.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=mecha-girl-sea-city-key-visual#mecha-girl-sea-city-key-visual)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=mecha-girl-sea-city-key-visual#mecha-girl-sea-city-key-visual)
 
 <a id="p-medieval-alchemist-character-sheet"></a>
 
@@ -375,7 +375,7 @@ Use this tri-fold layout:
 Ensure complete character and costume consistency across all sections. The Hero Spotlight must visually anchor the sheet, offering a clean, open, and professional layout that avoids dense, repetitive, or cluttered grids.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=medieval-alchemist-character-sheet#medieval-alchemist-character-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=medieval-alchemist-character-sheet#medieval-alchemist-character-sheet)
 
 <a id="p-pixar-3d-character-design-sheet"></a>
 
@@ -416,7 +416,7 @@ THE POLE BENDS. THE BAR STAYS. PAUL DOES NOT KNOW HOW.
 STYLE NOTES: Pixar 3D vivid rendering. Clean white background on both character sides. Electric blue stat bars throughout. Bottom strip cinematic and tight — close-ups bleeding into each other with transparent edges like a film production sheet, not boxed panels with full backgrounds. Paul identical across all poses. Maximum brightness and color throughout.”
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=pixar-3d-character-design-sheet#pixar-3d-character-design-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=pixar-3d-character-design-sheet#pixar-3d-character-design-sheet)
 
 <a id="p-plush-mascot-companion-portrait"></a>
 
@@ -428,7 +428,7 @@ STYLE NOTES: Pixar 3D vivid rendering. Clean white background on both character 
 Use the uploaded portrait as the identity reference and preserve the person's recognizable facial features, hairstyle, skin tone, expression, fashion sense, and overall presence. Create a premium full-body portrait of the same person alongside a large custom-designed plush companion that feels like their mascot alter ego. The plush should be inspired by the subject's mood, facial impression, styling, posture, and overall energy rather than being a generic animal or mascot. Automatically choose a creature concept that best matches the person's unique vibe, avoiding predictable or stereotype-based selections. The mascot must clearly be an oversized plush toy with soft fuzzy fabrics, rounded shapes, detailed stitching, premium textures, and a collectible designer-toy aesthetic. Its design, expression, silhouette, and proportions should subtly reflect the person's character and visual identity. Build a harmonious color palette using cues from the subject's hair, skin tone, clothing, and atmosphere so the person, mascot, and scene feel naturally connected. Show both the person and plush fully visible from head to toe, including shoes and all parts of the mascot, with balanced framing and comfortable spacing. Choose a natural interaction that suits the subject, such as standing beside, sitting with, leaning on, lightly hugging, or casually engaging with the plush companion. Keep the person's expression relaxed, warm, and authentic with a subtle smile or calm gaze, avoiding stiff poses or mannequin-like appearances. If the original image only shows part of the outfit, intelligently complete the full look in a believable and stylish way. Place the scene in a clean, aesthetically pleasing environment such as a minimalist studio, cozy lifestyle setting, or refined editorial backdrop that complements both the person and mascot without distractions. The final image should feel charming, cozy, stylish, emotionally engaging, visually cohesive, and suitable for a high-end character campaign or social-media editorial. Avoid cropped bodies, hidden shoes, incomplete mascot visibility, generic animal choices, real animals, horror elements, cheap toy aesthetics, awkward poses, cluttered backgrounds, distorted anatomy, extra limbs, text, logos, or watermarks.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=plush-mascot-companion-portrait#plush-mascot-companion-portrait)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=plush-mascot-companion-portrait#plush-mascot-companion-portrait)
 
 <a id="p-racer-character-model-sheet"></a>
 
@@ -440,7 +440,7 @@ Use the uploaded portrait as the identity reference and preserve the person's re
 [layout_setup]: A comprehensive, full-page character model design sheet layout strictly on a pristine solid white background with no gradients, no environmental art, and no photorealistic elements whatsoever. [identity_module]: On the left side, large ultra-bold minimalist design typography spelling 'REINA VOSS' next to clean monospace text columns detailing character age 24, classification traits as underground circuit legend and drift specialist, tactical description blocks reading former getaway wheelman turned undefeated canyon queen with a photographic memory for road geometry and an obsessive ritual of wrapping her knuckles before every race. [turnaround_module]: Centered prominently on the sheet is a full-body orthographic turnaround lineup showing identical front view, side profile view, and back view of a tall, sharp-jawed young woman with deep terracotta skin and dense voluminous shoulder-length locs gathered loosely at the nape with a worn leather cord, a few golden cuff beads threaded throughout, wearing a cropped vintage racing-inspired bomber jacket in faded oxblood leather with oversized wool-lined collar and hand-stitched sponsor patches from defunct fictional brands, layered over a ribbed charcoal compression top, high-waisted wide-leg mechanic trousers in dark indigo canvas with reinforced knee panels and dangling carabiner key rings clipped to a canvas utility belt slung low on one hip, hands wrapped in fraying ivory hand-wrap tape extending past the wrists, and chunky platform steel-toe boots in scuffed matte black with thick ridged rubber soles and asymmetric buckle straps, showing a poised calm stance with weight shifted to one leg and arms relaxed at her sides, designed where 3D is only the base structure, maintaining highly stylized elongated lanky proportions with sharp chiseled skeletal structures and exaggerated long fingers. [gear_module]: On the right side, an array of close-up callout square panels highlighting macro texture painting details of the cracked aged oxblood leather grain and frayed wool collar fibers of her bomber jacket, blueprint-style vector schematic line drawings of her custom titanium steering wheel with thumb-trigger nitrous activation and ergonomic suede grip wrapping, and technical lists detailing her modified 1997 coupe specifications including sequential twin-turbo inline six, hydraulic handbrake integration, roll cage geometry, and a cracked rearview mirror she refuses to replace for superstitious reasons. [expression_module]: Running along the bottom quadrant, a perfectly aligned horizontal row of 5 isolated headshot expressions displaying Neutral with half-lidded confidence, Smirk with one corner of her mouth pulled into a sly knowing grin, Focused with narrowed eyes and clenched jaw studying a road ahead, Shocked with widened asymmetrical eyes and parted lips, and Aggressive with bared teeth and deep furrowed brow veins visible at the temple, all featuring highly stylized 2.5D planar anatomy with volumetric chiseled shadow planes, soft textured loc volumes with golden bead glints rendered as flat pigment shapes, and vibrating grease-pencil outlines with heavy line-weight variation. [style_tags]: hand-painted 2.5D, texture painting, 3D is only the base structure, vibrating grease-pencil outlines, Arcane style painterly textures, thick oil-painterly brushstrokes with visible impasto canvas grain, non-action character study, deep ambient occlusion shadow planes, stepped cel-shading, printer halftone dot textures in transitional shadows, graphic ink slashes on clothing folds, matte sophisticated color blocking, masterwork model pack.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=racer-character-model-sheet#racer-character-model-sheet)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=racer-character-model-sheet#racer-character-model-sheet)
 
 <a id="p-soft-pastel-anime-girl-full-body"></a>
 
@@ -452,7 +452,7 @@ Use the uploaded portrait as the identity reference and preserve the person's re
 A full-body anime girl character design on a plain white background, centered and floating slightly, drawn in a soft minimalist pastel style with very thin gray linework and delicate flat colors. She has a petite youthful build and a cute, gentle silhouette, with special emphasis on a soft rounded face shape, smooth cheeks, and a softened jawline and chin. Her face is completely obscured by a blank skin-colored rectangular block with no facial features visible. She has short bob hair in {argument name="hair color" default="light ash brown"}, slightly tousled with wispy ends, long bangs covering part of the forehead, and a small ribbon hair tie on the right side in pale blue-gray. She wears 3 visible clothing pieces: an oversized pale blue cardigan with loose sleeves and front buttons, a cream-white slip dress with a scalloped neckline and a tiny button detail at the chest, and a frilled hem with a small ribbon near the right thigh. She is barefoot with slim pale legs, posed front-facing with both arms relaxed slightly outward, open hands, one leg straight and the other gently bent inward for a shy, weightless look. The illustration should feel airy, cute, understated, and clean, like a simple Japanese anime fashion sketch, with lots of negative space and no props, no shadows, and no background elements.
 ```
 
-[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-prompts&utm_content=soft-pastel-anime-girl-full-body#soft-pastel-anime-girl-full-body)
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=soft-pastel-anime-girl-full-body#soft-pastel-anime-girl-full-body)
 
 ---
 

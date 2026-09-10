@@ -72,7 +72,7 @@ const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
 // ---------------------------------------------------------------------------
 
 const REPO_OWNER = 'youart-open-source';
-const REPO_NAME = 'awesome-gpt-image-prompts';
+const REPO_NAME = 'awesome-gpt-image-2-5-prompts';
 const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
 const RAW_BASE = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main`;
 const UTM_CAMPAIGN = REPO_NAME;
@@ -453,7 +453,7 @@ function derived(label, ok, measured) {
   hard(label, ok, measured);
 }
 
-console.log(`awesome-gpt-image-prompts build (mode: ${MODE})\n`);
+console.log(`awesome-gpt-image-2-5-prompts build (mode: ${MODE})\n`);
 
 // ---------------------------------------------------------------------------
 // Inputs

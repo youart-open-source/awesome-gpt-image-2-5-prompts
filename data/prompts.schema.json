@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/data/prompts.schema.json",
-  "title": "awesome-gpt-image-prompts corpus",
+  "$id": "https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.schema.json",
+  "title": "awesome-gpt-image-2-5-prompts corpus",
   "description": "The ONLY declaration of the row shape in this repository. scripts/build.mjs reads #/properties/prompts/items/required for both its key list and its hash projection, so this file is the single source of that contract and no second copy of it exists to drift. Constraints JSON Schema cannot express, and which scripts/build.mjs enforces instead: slug, promptSha256 and prompt are each unique across rows (statusId is NOT — see its description); sha256(prompt) === promptSha256; url === _meta.siteBase + \"#\" + slug; row.upstream is the id of an entry in _meta.upstreams; every id in _meta.categories has at least one row; _meta.rowCount, _meta.authorCount, _meta.categoryCount and _meta.totalPromptChars re-derive from the rows; and _meta.corpusSha256 matches the canonical serialisation described in _meta.corpusSha256Algorithm.",
   "type": "object",
   "required": [
