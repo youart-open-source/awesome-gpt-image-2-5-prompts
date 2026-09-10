@@ -30,7 +30,7 @@ that reads badly — all welcome, as issues or pull requests.
 
 ## Working on the repo
 
-Everything readable here is generated. `README.md` and its five translations,
+Most of the readable files are built rather than edited. `README.md` and its five translations,
 `prompts/*.md`, `ATTRIBUTION.md`, `llms.txt` and `metadata/about.txt` all come
 from `data/prompts.json`, `locales/*.json` and `content/`:
 
