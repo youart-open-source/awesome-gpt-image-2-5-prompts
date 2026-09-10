@@ -1,0 +1,13 @@
+{
+  "name": "awesome-gpt-image-prompts",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "verify": "node scripts/verify.mjs"
+  }
+}

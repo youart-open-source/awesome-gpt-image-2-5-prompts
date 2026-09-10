@@ -1,0 +1,1 @@
+Everything readable in this repository is generated. `node scripts/build.mjs` renders every README, every file under `prompts/` and `llms.txt` from `data/prompts.json`, `locales/*.json` and the prose in `content/`. Those inputs are the only files a human edits, and the build reads no clock and no network, so an unchanged input rebuilds byte for byte.

@@ -1,0 +1,12 @@
+# This repository commits its generated output on purpose. Every README, every
+# file under prompts/, llms.txt and metadata/about.txt is emitted by
+# scripts/build.mjs and reviewed in the pull request that changes it, so there
+# is nothing to hide from git here and this file stays deliberately short.
+#
+# Nothing the build reads or writes may ever be listed below. scripts/verify.mjs
+# fails the build if a script or the data file appears in this file: the two
+# repositories this one learned from each keep their generator out of the tree,
+# and both stopped moving when the one person holding it did.
+
+node_modules/
+.DS_Store

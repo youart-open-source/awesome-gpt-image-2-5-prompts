@@ -1,0 +1,47 @@
+# Awesome GPT Image Prompts
+
+> {{PROMPT_COUNT}} production prompts for OpenAI's GPT Image models, including GPT Image 2.5,
+> reproduced verbatim from the {{AUTHOR_COUNT}} people who published them. Each row carries the
+> handle that wrote it and a link to the post it came from. Grouped into {{CATEGORY_COUNT}} use
+> cases; {{JSON_COUNT}} of them are written as JSON rather than prose. Corpus dated
+> {{CORPUS_DATE}}. Maintained by YouArt.
+
+The prompt bodies are third-party text. They are reproduced unchanged, in English only, and
+this repository hosts no images. Every readable file listed here is emitted by
+`scripts/build.mjs` from `data/prompts.json`, so no count in it was typed by a human and none
+of them can go stale.
+
+The conventional address for an assistant index is <https://youart.ai/llms.txt>, and that is
+the primary index for this library. The file you are reading mirrors that section, for agents
+that reach the repository first.
+
+<!-- TODO(licence): rights section intentionally omitted from this draft. -->
+
+## Machine-readable corpus
+
+- [prompts.json]({{RAW_BASE}}/data/prompts.json): all {{PROMPT_COUNT}} records with their full prompt text, {{PROMPTS_JSON_BYTES}} bytes. Per-row keys: slug, title, category, author, authorUrl, sourceUrl, statusId, isJson, upstream, upstreamStatedTerms, promptSha256, url, prompt. Corpus sha256: {{CORPUS_SHA256}}.
+- [prompts.schema.json]({{RAW_BASE}}/data/prompts.schema.json): JSON Schema (draft 2020-12) for the file above. Its root description lists the constraints the build enforces that the schema cannot express.
+- [removed.json]({{RAW_BASE}}/data/removed.json): rows withdrawn on request, keyed by the id of the post they came from. It carries no prompt text and no requester identity.
+- [README.md]({{RAW_BASE}}/README.md): the human-readable index of all {{PROMPT_COUNT}} prompts, with the writing guide and the FAQ.
+- [Run the library on YouArt]({{LIBRARY_URL_TAGGED}}): the same {{PROMPT_COUNT}} prompts on the web, with a composer.
+
+## Prompts by use case, full text
+
+One file per use case, English only. A crawler that does not run JavaScript is served the
+full text of these files; the repository overview page will not give it to you.
+
+{{PROMPT_FILE_LINES}}
+
+## Browse a use case on the web
+
+{{CATEGORY_LINES}}
+
+## Citation
+
+Cite as: YouArt, "Awesome GPT Image Prompts", {{SITE_BASE}}
+
+Repository: {{REPO_URL}}
+
+If you quote a prompt, carry its `author` and its `sourceUrl` with it. Every prompt here was
+written by the person named on its row and first published in the post that row links to.
+YouArt wrote none of them.

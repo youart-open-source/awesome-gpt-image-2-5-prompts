@@ -1,0 +1,63 @@
+# Awesome GPT Image Prompts
+
+> 150 production prompts for OpenAI's GPT Image models, including GPT Image 2.5,
+> reproduced verbatim from the 110 people who published them. Each row carries the
+> handle that wrote it and a link to the post it came from. Grouped into 9 use
+> cases; 25 of them are written as JSON rather than prose. Corpus dated
+> 2026-09-10. Maintained by YouArt.
+
+The prompt bodies are third-party text. They are reproduced unchanged, in English only, and
+this repository hosts no images. Every readable file listed here is emitted by
+`scripts/build.mjs` from `data/prompts.json`, so no count in it was typed by a human and none
+of them can go stale.
+
+The conventional address for an assistant index is <https://youart.ai/llms.txt>, and that is
+the primary index for this library. The file you are reading mirrors that section, for agents
+that reach the repository first.
+
+<!-- TODO(licence): rights section intentionally omitted from this draft. -->
+
+## Machine-readable corpus
+
+- [prompts.json](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/data/prompts.json): all 150 records with their full prompt text, 495,016 bytes. Per-row keys: slug, title, category, author, authorUrl, sourceUrl, statusId, isJson, upstream, upstreamStatedTerms, promptSha256, url, prompt. Corpus sha256: 8d8438ddcf1196a2ab9acf44da442ef61669347a15713b3f8f24e1d218d15d9c.
+- [prompts.schema.json](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/data/prompts.schema.json): JSON Schema (draft 2020-12) for the file above. Its root description lists the constraints the build enforces that the schema cannot express.
+- [removed.json](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/data/removed.json): rows withdrawn on request, keyed by the id of the post they came from. It carries no prompt text and no requester identity.
+- [README.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/README.md): the human-readable index of all 150 prompts, with the writing guide and the FAQ.
+- [Run the library on YouArt](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=hero&utm_campaign=awesome-gpt-image-prompts&utm_content=library): the same 150 prompts on the web, with a composer.
+
+## Prompts by use case, full text
+
+One file per use case, English only. A crawler that does not run JavaScript is served the
+full text of these files; the repository overview page will not give it to you.
+
+- [prompts/gpt-image-2-5-poster-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-poster-prompts.md): Posters, 17 prompts, full text, 59,833 bytes. Movie teasers, event flyers, travel posters and album covers. These prompts spend most of their length on layout, because a poster is a composition problem before it is a style problem: where the title sits, how much negative space is above it, what occupies the lower third.
+- [prompts/gpt-image-2-5-text-in-image-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md): Text in image, 17 prompts, full text, 38,155 bytes. Legible words rendered inside the picture is the capability this generation of the model is known for. These prompts quote the exact string to render, name the typeface character, and place the text in the frame instead of hoping for it.
+- [prompts/gpt-image-2-5-infographic-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md): Infographics, 17 prompts, full text, 70,169 bytes. Charts, timelines, exploded views and explainer slides. The long ones read almost like a spec: how many callouts, on which side, with what label text. That is the reason they work, and the reason many of them are written as JSON.
+- [prompts/gpt-image-2-5-ui-mockup-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md): UI mockups, 17 prompts, full text, 41,532 bytes. Dashboards, mobile screens, landing pages and stream overlays. A UI prompt has to name its components, because the model will invent a plausible interface if you do not tell it which one you meant.
+- [prompts/gpt-image-2-5-product-photo-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md): Product shots, 17 prompts, full text, 45,495 bytes. Studio product shots, packaging renders and catalog imagery. These are the prompts that pay for themselves: they describe a lighting setup, a surface and a camera position precisely enough to be repeatable across a whole product line.
+- [prompts/gpt-image-2-5-ad-creative-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md): Ad creative, 17 prompts, full text, 60,746 bytes. Campaign key visuals, banners and social ad creative. Most of these carry both an image direction and a piece of copy to render, which is why they belong to this model rather than to a generation that could not spell.
+- [prompts/gpt-image-2-5-character-design-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md): Character design, 16 prompts, full text, 50,153 bytes. Turnaround sheets, expression grids, equipment breakdowns and mascots. The useful pattern here is asking for a sheet rather than a picture: several views of one character in a single image, which is how you get a design you can keep using.
+- [prompts/gpt-image-2-5-portrait-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md): Portraits, 16 prompts, full text, 54,217 bytes. Editorial portraits, headshots and film-look photography. These live or die on camera direction: the format, the focal length, the light source and the grade do more work than any adjective about mood.
+- [prompts/gpt-image-2-5-illustration-prompts.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md): Illustration, 16 prompts, full text, 58,302 bytes. Anime, watercolour, line art, 3D render, isometric and pixel art. Style prompts are the shortest in the library, and the ones most worth editing: swap the subject and keep the style clause, and you have a series.
+
+## Browse a use case on the web
+
+- [Posters](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=poster#poster): 17 prompts. Movie teasers, event flyers, travel posters and album covers. These prompts spend most of their length on layout, because a poster is a composition problem before it is a style problem: where the title sits, how much negative space is above it, what occupies the lower third.
+- [Text in image](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=typography-text#typography-text): 17 prompts. Legible words rendered inside the picture is the capability this generation of the model is known for. These prompts quote the exact string to render, name the typeface character, and place the text in the frame instead of hoping for it.
+- [Infographics](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=infographic#infographic): 17 prompts. Charts, timelines, exploded views and explainer slides. The long ones read almost like a spec: how many callouts, on which side, with what label text. That is the reason they work, and the reason many of them are written as JSON.
+- [UI mockups](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ui-mockup#ui-mockup): 17 prompts. Dashboards, mobile screens, landing pages and stream overlays. A UI prompt has to name its components, because the model will invent a plausible interface if you do not tell it which one you meant.
+- [Product shots](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ecommerce-product#ecommerce-product): 17 prompts. Studio product shots, packaging renders and catalog imagery. These are the prompts that pay for themselves: they describe a lighting setup, a surface and a camera position precisely enough to be repeatable across a whole product line.
+- [Ad creative](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=ad-creative#ad-creative): 17 prompts. Campaign key visuals, banners and social ad creative. Most of these carry both an image direction and a piece of copy to render, which is why they belong to this model rather than to a generation that could not spell.
+- [Character design](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=character-design#character-design): 16 prompts. Turnaround sheets, expression grids, equipment breakdowns and mascots. The useful pattern here is asking for a sheet rather than a picture: several views of one character in a single image, which is how you get a design you can keep using.
+- [Portraits](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=portrait#portrait): 16 prompts. Editorial portraits, headshots and film-look photography. These live or die on camera direction: the format, the focal length, the light source and the grade do more work than any adjective about mood.
+- [Illustration](https://youart.ai/gpt-image-2-5-prompts?utm_source=llmstxt&utm_medium=category&utm_campaign=awesome-gpt-image-prompts&utm_content=illustration#illustration): 16 prompts. Anime, watercolour, line art, 3D render, isometric and pixel art. Style prompts are the shortest in the library, and the ones most worth editing: swap the subject and keep the style clause, and you have a series.
+
+## Citation
+
+Cite as: YouArt, "Awesome GPT Image Prompts", https://youart.ai/gpt-image-2-5-prompts
+
+Repository: https://github.com/youart-open-source/awesome-gpt-image-prompts
+
+If you quote a prompt, carry its `author` and its `sourceUrl` with it. Every prompt here was
+written by the person named on its row and first published in the post that row links to.
+YouArt wrote none of them.
