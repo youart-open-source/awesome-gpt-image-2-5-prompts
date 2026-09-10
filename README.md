@@ -13,6 +13,11 @@
 
 # Awesome GPT Image Prompts
 
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
+![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
+
 150 production prompts for OpenAI's GPT Image models, including GPT Image 2.5. Every one is reproduced verbatim from the person who published it, with their account and a link to the post it came from.
 
 150 prompts · 110 creators credited · 9 use cases · 25 written as JSON · updated 2026-09-10
@@ -113,15 +118,13 @@ What that length is spent on is measurable, and it is not adjectives. 73 of the 
 
 <a id="rights"></a>
 
-## Rights, credit, and what we do not claim
+## Licence and credit
 
-What we made is the collection: which prompts are here, the nine use cases, the ordering, the build scripts and the words around them. That much is ours, and it is openly licensed.
+The scripts are MIT and everything else we wrote — the collection, the categories, the prose, the translations — is CC BY 4.0. Fork it, build on it, ship it commercially.
 
-The prompts themselves are not ours. Each one was written by the person credited on its row and first published in the post linked beside it. We did not change the text.
+The prompts are their authors' work, not ours. Each row credits the person who wrote it and links the post it came from, and we did not change the text. If you want to build on one for something that matters, that credit line tells you whose it is.
 
-So we cannot tell you a prompt is yours to reuse, and we do not. If you want to use one for something that matters, the credit line tells you whose work it is and where to find them.
-
-If you wrote one of these and want it gone, say so and it goes. You do not need to explain why.
+Wrote one of these and want it gone? Ask, and it goes — no explanation needed.
 
 [`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 

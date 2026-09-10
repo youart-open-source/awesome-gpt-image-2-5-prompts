@@ -13,6 +13,11 @@
 
 # GPT Image 2.5 提示词
 
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
+![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
+
 150 条可直接上手的提示词，面向 OpenAI 的 GPT Image 系列模型，含 GPT Image 2.5。每一条都按发布者的原文照录，并附上其账号和原帖链接。
 
 150 条提示词 · 110 位署名创作者 · 9 个用途分类 · 其中 25 条以 JSON 编写 · 更新于 2026-09-10
@@ -99,15 +104,13 @@ GPT、GPT Image 和 ChatGPT 是 OpenAI 的商标。YouArt 是独立平台，与 
 
 <a id="rights"></a>
 
-## 版权、署名，以及我们不主张的部分
+## 许可与署名
 
-我们做的是这个合集本身：收录哪些提示词、九个使用场景、排列顺序、构建脚本，以及周围这些文字。这部分归我们，并且是开放授权的。
+脚本是 MIT，我们写的其他部分——合集本身、分类、文案、翻译——是 CC BY 4.0。随便 fork、二次开发、商用都可以。
 
-提示词本身不属于我们。每一条都由该行署名的作者撰写，最初发布在旁边链接的那条帖子里。原文我们一个字没改。
+提示词是作者们的作品，不是我们的。每一行都署上了作者、链回原帖，原文我们一个字没改。要拿某条用在重要的地方，署名那行会告诉你它属于谁。
 
-所以我们无法告诉你某条提示词你可以拿去用，我们也不会这么说。真要用在重要的地方，署名那一行会告诉你它是谁写的、去哪里找他。
-
-如果其中某条是你写的、你希望撤下，说一声就撤，不需要给理由。
+其中某条是你写的、想撤下？说一声就撤，不用给理由。
 
 [`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 

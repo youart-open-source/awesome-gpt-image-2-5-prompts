@@ -1196,6 +1196,19 @@ function renderReadme(locale, sizes, dropCols = []) {
   d.block(GENERATED_BANNER(`data/prompts.json and locales/${locale}.json`));
   d.block(renderSwitcher(d, locale));
   d.block(`# ${esc(t('chrome.title'))}`);
+  // Badges. Only claims we can back: the two licences we actually grant, a
+  // contribution invitation the issue templates honour, a CI badge for a
+  // workflow that exists, and a count the build computed. Deliberately NOT the
+  // awesome.re badge -- this list is not in sindresorhus/awesome, and both
+  // rivals wear it anyway.
+  d.block(
+    [
+      `[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)`,
+      `[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)`,
+      `[![verify](https://github.com/${REPO_OWNER}/${REPO_NAME}/actions/workflows/verify.yml/badge.svg)](https://github.com/${REPO_OWNER}/${REPO_NAME}/actions/workflows/verify.yml)`,
+      `![Prompts](https://img.shields.io/badge/prompts-${rows.length}-111111.svg)`,
+    ].join('\n'),
+  );
   d.block(rlmGuard(locale, esc(t('chrome.tagline', COUNTS))));
   d.block(rlmGuard(locale, esc(t('chrome.stats', COUNTS))));
   d.block(`**[${esc(t('cta.primary'))}](${destination({ locale, medium: 'hero', content: 'hero' })})**`);
@@ -1239,7 +1252,6 @@ function renderReadme(locale, sizes, dropCols = []) {
   sect('rights', 'rights.heading');
   d.block(rlmGuard(locale, esc(t('rights.ours'))));
   d.block(rlmGuard(locale, esc(t('rights.theirs'))));
-  d.block(rlmGuard(locale, esc(t('rights.reuse'))));
   d.block(rlmGuard(locale, esc(t('rights.removal'))));
   d.block(
     `${d.rel('LICENSE', '`LICENSE`')} \u00b7 ${d.rel('ATTRIBUTION.md', '`ATTRIBUTION.md`')} \u00b7 ${d.rel('TAKEDOWN.md', '`TAKEDOWN.md`')}`,
@@ -1673,6 +1685,8 @@ check('README.ar.md has no table and no blockquote', !arTable && !arQuote, `tabl
 // The licence layer is present, so the invariants change shape: instead of
 // asserting that no rights prose exists, assert that the obligations we took on
 // are actually discharged in the bytes we publish.
+const badBadge = [...outputs].filter(([, t]) => /img\.shields\.io\/badge\/[^)]*\b(undefined|null|NaN)\b/.test(t)).map(([p]) => p);
+hard('no badge interpolates undefined', badBadge.length === 0, badBadge.length ? badBadge.join(', ') : 'shields URLs carry real values');
 const readmePaths = [...outputs.keys()].filter((p) => p.startsWith('README'));
 const noRights = readmePaths.filter((p) => !outputs.get(p).includes('ATTRIBUTION.md'));
 check('every README points at the attribution ledger', noRights.length === 0, noRights.length ? noRights.join(', ') : `${readmePaths.length} READMEs`);

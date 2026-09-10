@@ -1,0 +1,27 @@
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Repo invariants: schema, locale key parity, link graph, no hand-typed counts.
+      - run: node scripts/verify.mjs
+
+      # The generated files must already match the data. A contributor who edits
+      # data/prompts.json runs the build and commits its output, so the diff a
+      # reviewer reads is the diff a reader gets. There is deliberately no
+      # build-and-commit job: no bot identity, no write permission, no push race.
+      - run: node scripts/build.mjs --check

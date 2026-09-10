@@ -24,22 +24,12 @@ stable for a duller reason.
 
 ## Why keep their licence files rather than just name them
 
-Two reasons, and the second is the interesting one.
-
-The first is evidence: if anyone asks what we relied on, the answer is a file,
-not a memory.
-
-The second is that `youmind-41572075-LICENSE.txt` is **not the CC BY 4.0
-licence**. It is 1,364 bytes of the licence *deed* -- the human-readable summary
-Creative Commons publishes alongside the real thing -- with a copyright line
-added. It contains the word "Section" zero times and the phrase "Licensed
-Material" zero times; the actual licence uses both throughout. Compare it with
-`../LICENSES/CC-BY-4.0.txt`, which is the real 18,657-byte legalcode.
-
-That does not make the intention unclear -- the file says CC BY 4.0 and links
-it -- and we have treated it as the grant it plainly means to be. But it is the
-kind of detail that is much easier to check when the file is sitting here than
-when it is a line in a commit message.
+Evidence. If anyone asks what we relied on, the answer should be a file rather
+than a memory — including the detail that YouMind's `LICENSE` is the CC BY
+*deed* (the human-readable summary) rather than the legalcode, which is easier
+to see with the file in front of you than described in a commit message. The
+intention is not in doubt: it names CC BY 4.0 and links it, and we have treated
+it as the grant it plainly means to be.
 
 Neither collection wrote the prompts. Who wrote each one is in
 `../ATTRIBUTION.md`.

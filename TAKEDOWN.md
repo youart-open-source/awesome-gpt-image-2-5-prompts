@@ -66,10 +66,8 @@ If the credit is wrong -- wrong name, wrong account, wrong post -- open an
 Getting the credit right matters more to us than getting it fast, and a
 correction is cheaper for everyone than a removal.
 
-## Scope
+## Who to write to
 
-We are the ones publishing this material, not a host for other people's
-uploads: this repository accepts no prompt submissions, so there is nothing
-here that a third party put up. We are therefore not acting as a service
-provider under 17 U.S.C. 512 for this repository, and there is no designated
-agent to write to. Write to us directly and we will deal with it.
+Write to us directly — there is no intermediary here. Everything in this
+repository was either collected by us or sent in by the person who wrote it,
+and either way `support@youart.ai` reaches the people who can remove it.

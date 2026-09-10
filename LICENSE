@@ -1,55 +1,26 @@
-This repository is not under a single licence. It has three layers, with three
-different owners, and the layer decides what you may do.
+Awesome GPT Image 2.5 Prompts is open source.
 
-Layer 1 -- the build scripts
-    scripts/build.mjs, scripts/verify.mjs
-    MIT. Copyright (c) 2026 Formative Intelligence Inc.
-    Full text: LICENSES/MIT.txt
+The scripts are MIT. Everything we wrote around them -- the collection itself,
+the nine use cases, the ordering, the prose, the translations -- is CC BY 4.0.
+Fork it, build on it, ship it commercially. Credit us and you are done.
 
-Layer 2 -- our curation
-    Which 150 prompts are here, the nine use-case categories, the slugs, the
-    ordering, every word of prose we wrote (README.md and its translations,
-    CONTRIBUTING.md, TAKEDOWN.md, provenance/README.md, content/**), and the
-    selection and arrangement expressed in data/prompts.json.
-    CC BY 4.0. Copyright (c) 2026 Formative Intelligence Inc.
-    Full text: LICENSES/CC-BY-4.0.txt
+    Copyright (c) 2026 Formative Intelligence Inc.
 
-Layer 3 -- the prompts themselves
-    The 150 prompt bodies and their titles, wherever they appear: in
-    data/prompts.json, in prompts/*.md, and quoted in any README.
+    scripts/**                     MIT           LICENSES/MIT.txt
+    everything else we wrote       CC BY 4.0     LICENSES/CC-BY-4.0.txt
 
-    WE DID NOT WRITE THESE AND WE DO NOT LICENSE THEM TO YOU.
+The prompts are a different matter, and it is the one thing worth reading
+carefully. We collected them; we did not write them. Each one belongs to the
+person credited on its row, who published it publicly, and ATTRIBUTION.md
+records who that is and where they posted it. 115 reached us through a
+collection that stated CC0 1.0 and 35 through one that stated CC BY 4.0; both
+statements are recorded per row, and copies of what each collection said are in
+provenance/.
 
-    Each was written by the person named on its row in ATTRIBUTION.md and first
-    published by them in the post linked there. That file also records which
-    collection we received each prompt through, and what that collection stated
-    about its own copy -- CC0-1.0 for the 115 received via EvoLinkAI, CC BY 4.0
-    for the 35 received via YouMind-OpenLab. We publish in reliance on those
-    statements and on the fact that each prompt was published publicly by its
-    author, with credit and a link back on every row.
+So: the collection is ours to give you, and the prompts are theirs. If you want
+to build on a prompt for something that matters, the credit line tells you
+whose it is. If you wrote one and want it gone, TAKEDOWN.md -- it goes, no
+explanation needed.
 
-    We have not independently established the chain of rights behind each
-    prompt, and we make no representation to you about it. If you want to reuse
-    a prompt for something that matters, ATTRIBUTION.md tells you whose work it
-    is and where to find them.
-
-    For the 35 rows received under CC BY 4.0, ATTRIBUTION.md carries the
-    notices that licence asks a redistributor to retain: the creator as the
-    licensor supplied it, the copyright notice, the reference to the licence,
-    the warranty disclaimer, a link to the material at the commit we took it
-    from, and a link to the licence text. We did not modify the prompt text.
-
-A note on the badge
-    GitHub reads the file you are reading now, does not recognise it, and will
-    label this repository "Other" (SPDX: NOASSERTION). That is expected. A
-    machine-readable map of which licence applies to which path is in
-    REUSE.toml, which SPDX-aware scanners read instead.
-
-    We could have made the badge say something tidy by putting one licence over
-    the whole repository. That is what the collections upstream of us did, and
-    it is the thing this file exists not to do: neither of them wrote the
-    prompts either.
-
-Removals and corrections
-    TAKEDOWN.md. If you wrote one of these prompts and want it gone, we will
-    remove it -- you do not need to explain why.
+GitHub reads this file, finds no single SPDX identifier, and labels the
+repository "Other". REUSE.toml has the machine-readable map.

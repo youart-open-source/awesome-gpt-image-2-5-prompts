@@ -13,6 +13,11 @@
 
 # GPT Image 2.5 プロンプト集
 
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
+![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
+
 OpenAI の GPT Image シリーズ（GPT Image 2.5 を含む）で使える実用プロンプト 150 本。すべて公開した本人の文面のまま収録し、そのアカウントと元投稿へのリンクを添えています。
 
 プロンプト 150 本 · クレジット掲載クリエイター 110 名 · 用途 9 分類 · うち 25 本は JSON 形式 · 更新日 2026-09-10
@@ -99,15 +104,13 @@ OpenAI の GPT Image シリーズで実際に生成し、公開されたプロ�
 
 <a id="rights"></a>
 
-## 権利、クレジット、そして私たちが主張しないこと
+## ライセンスとクレジット
 
-私たちが作ったのはこのコレクションです。どのプロンプトを収録するか、9 つのユースケース、並び順、ビルドスクリプト、そして周囲の文章。そこまでは私たちのもので、オープンライセンスで公開しています。
+スクリプトは MIT、それ以外に私たちが書いたもの——コレクション、カテゴリ、文章、翻訳——は CC BY 4.0 です。フォークも、改変も、商用利用もご自由に。
 
-プロンプトそのものは私たちのものではありません。各行にクレジットされた本人が書き、隣にリンクした投稿で最初に公開したものです。本文は一切変更していません。
+プロンプトは書いた本人の作品であり、私たちのものではありません。各行に著者をクレジットし、元の投稿にリンクしています。本文は変更していません。重要な用途で使いたい場合は、そのクレジット行が誰の作品かを示します。
 
-ですから、あるプロンプトを自由に再利用してよいとは言えませんし、言いません。重要な用途に使いたい場合は、クレジット行が誰の作品でどこにいるかを示しています。
-
-ご自身が書いたものを削除してほしい場合は、おっしゃってください。理由の説明は不要です。
+ご自身が書いたものを削除してほしい場合は、ひとことで対応します。理由は不要です。
 
 [`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 

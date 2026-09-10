@@ -180,11 +180,10 @@
     }
   },
   "rights": {
-    "heading": "Derechos, crédito y lo que no reclamamos",
-    "ours": "Lo que hicimos es la colección: qué prompts están aquí, los nueve casos de uso, el orden, los scripts de compilación y el texto que los rodea. Eso sí es nuestro, y está bajo licencia abierta.",
-    "theirs": "Los prompts en sí no son nuestros. Cada uno lo escribió la persona acreditada en su fila y se publicó primero en la publicación enlazada al lado. No cambiamos el texto.",
-    "reuse": "Por eso no podemos decirte que un prompt sea tuyo para reutilizarlo, y no lo hacemos. Si quieres usar alguno para algo que importa, la línea de crédito te dice de quién es y dónde encontrarlo.",
-    "removal": "Si escribiste alguno y quieres que desaparezca, dilo y desaparece. No hace falta que expliques por qué."
+    "heading": "Licencia y crédito",
+    "ours": "Los scripts son MIT y todo lo demás que escribimos —la colección, las categorías, el texto, las traducciones— es CC BY 4.0. Haz un fork, constrúyelo, úsalo comercialmente.",
+    "theirs": "Los prompts son obra de sus autores, no nuestra. Cada fila acredita a quien lo escribió y enlaza la publicación original, y no cambiamos el texto. Si quieres partir de uno para algo que importa, esa línea de crédito te dice de quién es.",
+    "removal": "¿Escribiste alguno y quieres que salga? Dilo y sale, sin explicaciones."
   },
   "machines": {
     "heading": "Para LLM y agentes",

@@ -13,6 +13,11 @@
 
 # Prompts do GPT Image 2.5
 
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
+![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
+
 150 prompts prontos para uso nos modelos GPT Image da OpenAI, incluindo o GPT Image 2.5. Cada um é reproduzido literalmente como o autor publicou, com a conta dele e um link para o post de onde veio.
 
 150 prompts · 110 criadores creditados · 9 casos de uso · 25 escritos em JSON · atualizado em 2026-09-10
@@ -99,15 +104,13 @@ Mantenha o produto, o personagem ou a mensagem constantes e mude uma variável: 
 
 <a id="rights"></a>
 
-## Direitos, crédito e o que não reivindicamos
+## Licença e crédito
 
-O que fizemos foi a coleção: quais prompts estão aqui, os nove casos de uso, a ordenação, os scripts de build e o texto ao redor. Isso é nosso, e está sob licença aberta.
+Os scripts são MIT e tudo o mais que escrevemos — a coleção, as categorias, o texto, as traduções — é CC BY 4.0. Faça fork, construa em cima, use comercialmente.
 
-Os prompts em si não são nossos. Cada um foi escrito pela pessoa creditada na sua linha e publicado primeiro no post ligado ao lado. Não alteramos o texto.
+Os prompts são obra de seus autores, não nossa. Cada linha credita quem escreveu e liga ao post original, e não alteramos o texto. Se quiser partir de um para algo que importa, essa linha de crédito diz de quem é.
 
-Por isso não podemos dizer que um prompt é seu para reutilizar, e não dizemos. Se quiser usar algum para algo que importa, a linha de crédito diz de quem é e onde encontrar.
-
-Se você escreveu algum e quer que saia, é só dizer e sai. Não precisa explicar por quê.
+Escreveu um deles e quer que saia? É só dizer, sem explicações.
 
 [`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 

@@ -13,6 +13,11 @@
 
 # Prompts de GPT Image 2.5
 
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
+![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
+
 150 prompts listos para producción para los modelos GPT Image de OpenAI, incluido GPT Image 2.5. Cada uno se reproduce literalmente tal como lo publicó su autor, con su cuenta y un enlace a la publicación de la que salió.
 
 150 prompts · 110 creadores acreditados · 9 casos de uso · 25 escritos en JSON · actualizado el 2026-09-10
@@ -99,15 +104,13 @@ Mantén constante el producto, el personaje o el mensaje y cambia una sola varia
 
 <a id="rights"></a>
 
-## Derechos, crédito y lo que no reclamamos
+## Licencia y crédito
 
-Lo que hicimos es la colección: qué prompts están aquí, los nueve casos de uso, el orden, los scripts de compilación y el texto que los rodea. Eso sí es nuestro, y está bajo licencia abierta.
+Los scripts son MIT y todo lo demás que escribimos —la colección, las categorías, el texto, las traducciones— es CC BY 4.0. Haz un fork, constrúyelo, úsalo comercialmente.
 
-Los prompts en sí no son nuestros. Cada uno lo escribió la persona acreditada en su fila y se publicó primero en la publicación enlazada al lado. No cambiamos el texto.
+Los prompts son obra de sus autores, no nuestra. Cada fila acredita a quien lo escribió y enlaza la publicación original, y no cambiamos el texto. Si quieres partir de uno para algo que importa, esa línea de crédito te dice de quién es.
 
-Por eso no podemos decirte que un prompt sea tuyo para reutilizarlo, y no lo hacemos. Si quieres usar alguno para algo que importa, la línea de crédito te dice de quién es y dónde encontrarlo.
-
-Si escribiste alguno y quieres que desaparezca, dilo y desaparece. No hace falta que expliques por qué.
+¿Escribiste alguno y quieres que salga? Dilo y sale, sin explicaciones.
 
 [`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 
