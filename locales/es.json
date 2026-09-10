@@ -179,6 +179,13 @@
       }
     }
   },
+  "rights": {
+    "heading": "Derechos, crédito y lo que no reclamamos",
+    "ours": "Lo que hicimos es la colección: qué prompts están aquí, los nueve casos de uso, el orden, los scripts de compilación y el texto que los rodea. Eso sí es nuestro, y está bajo licencia abierta.",
+    "theirs": "Los prompts en sí no son nuestros. Cada uno lo escribió la persona acreditada en su fila y se publicó primero en la publicación enlazada al lado. No cambiamos el texto.",
+    "reuse": "Por eso no podemos decirte que un prompt sea tuyo para reutilizarlo, y no lo hacemos. Si quieres usar alguno para algo que importa, la línea de crédito te dice de quién es y dónde encontrarlo.",
+    "removal": "Si escribiste alguno y quieres que desaparezca, dilo y desaparece. No hace falta que expliques por qué."
+  },
   "machines": {
     "heading": "Para LLM y agentes",
     "body": "GitHub entrega el texto completo de los prompts a un rastreador que no renderiza en la página de un archivo, pero no en la portada del repositorio. Por eso las copias legibles por máquina se listan aquí, con su tamaño.",

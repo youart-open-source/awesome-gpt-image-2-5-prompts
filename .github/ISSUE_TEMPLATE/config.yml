@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Removal by email
+    url: mailto:support@youart.ai?subject=%5BTakedown%5D
+    about: Ask for a removal privately instead of in a public issue.
+  - name: How removals work
+    url: https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/blob/main/TAKEDOWN.md
+    about: What we do, and what we cannot do.

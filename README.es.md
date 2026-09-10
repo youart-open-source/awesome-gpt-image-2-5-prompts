@@ -97,7 +97,19 @@ Este modelo admite hasta dieciséis imágenes de referencia, y "imita esto" no e
 
 Mantén constante el producto, el personaje o el mensaje y cambia una sola variable: dos direcciones de luz, dos composiciones, dos estilos. Comparar un conjunto que se diferencia en un solo aspecto te dice qué decisión hizo el trabajo; comparar cuatro imágenes sin relación entre sí no te dice nada. Guarda los prompts que se reproducen: esos se convierten en la plantilla de la próxima campaña.
 
-<!-- TODO(licence): rights section intentionally omitted from this draft. -->
+<a id="rights"></a>
+
+## Derechos, crédito y lo que no reclamamos
+
+Lo que hicimos es la colección: qué prompts están aquí, los nueve casos de uso, el orden, los scripts de compilación y el texto que los rodea. Eso sí es nuestro, y está bajo licencia abierta.
+
+Los prompts en sí no son nuestros. Cada uno lo escribió la persona acreditada en su fila y se publicó primero en la publicación enlazada al lado. No cambiamos el texto.
+
+Por eso no podemos decirte que un prompt sea tuyo para reutilizarlo, y no lo hacemos. Si quieres usar alguno para algo que importa, la línea de crédito te dice de quién es y dónde encontrarlo.
+
+Si escribiste alguno y quieres que desaparezca, dilo y desaparece. No hace falta que expliques por qué.
+
+[`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 
 <a id="json"></a>
 
@@ -155,7 +167,7 @@ GitHub entrega el texto completo de los prompts a un rastreador que no renderiza
 
 | Contenido | Archivo | Bytes |
 |---|---|--:|
-| Todos los prompts | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 495,016 |
+| Todos los prompts | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
 | Para LLM y agentes | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,902 |
 | Carteles | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,905 |
 | Texto en la imagen | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,227 |

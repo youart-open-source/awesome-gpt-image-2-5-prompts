@@ -97,7 +97,19 @@
 
 ثبّت المنتج أو الشخصية أو الرسالة، وغيّر متغيّرًا واحدًا: اتجاهين للإضاءة، أو تكوينين، أو أسلوبين. مقارنة مجموعة تختلف في جانب واحد تخبرك أي قرار أدّى العمل؛ أما مقارنة أربع صور لا رابط بينها فلا تخبرك بشيء. احتفظ بالمطالبات التي تتكرر نتائجها، فهي التي تصير قالب الحملة التالية.
 
-<!-- TODO(licence): rights section intentionally omitted from this draft. -->
+<a id="rights"></a>
+
+## الحقوق والإسناد وما لا ندّعيه
+
+‏ما صنعناه هو المجموعة نفسها: أي المطالبات موجودة هنا، وحالات الاستخدام التسع، والترتيب، وبرامج البناء، والنصوص المحيطة بها. هذا القدر ملكنا، وهو منشور برخصة مفتوحة.
+
+‏أما المطالبات ذاتها فليست ملكنا. كتب كل واحدة منها الشخص المنسوبة إليه في صفّها، ونُشرت أول مرة في المنشور المرتبط بجانبها. ولم نغيّر النص.
+
+‏لذلك لا يمكننا أن نقول لك إن مطالبة ما متاحة لك لإعادة استخدامها، ولا نقول ذلك. إن أردت استخدام إحداها في أمر مهم، فسطر الإسناد يدلّك على صاحبها وأين تجده.
+
+‏إن كنت كتبت إحداها وأردت إزالتها، قل ذلك وستُزال. ولا حاجة لأن تشرح السبب.
+
+[`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 
 <a id="json"></a>
 
@@ -153,7 +165,7 @@
 
 يقدّم GitHub نص المطالبات كاملًا للزواحف التي لا تُنفّذ العرض في صفحة الملف، لا في الصفحة الرئيسية للمستودع. لذلك تجد النسخ المقروءة آليًا مدرجة هنا مع أحجامها.
 
-- المحتوى: كل المطالبات · الملف: [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) · الحجم بالبايت: 495,016
+- المحتوى: كل المطالبات · الملف: [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) · الحجم بالبايت: 496,998
 - المحتوى: لنماذج اللغة والوكلاء · الملف: [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) · الحجم بالبايت: 10,902
 - المحتوى: الملصقات · الملف: [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) · الحجم بالبايت: 59,905
 - المحتوى: النص داخل الصورة · الملف: [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) · الحجم بالبايت: 38,227

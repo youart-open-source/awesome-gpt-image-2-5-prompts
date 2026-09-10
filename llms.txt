@@ -19,7 +19,7 @@ that reach the repository first.
 
 ## Machine-readable corpus
 
-- [prompts.json](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json): all 150 records with their full prompt text, 495,016 bytes. Per-row keys: slug, title, category, author, authorUrl, sourceUrl, statusId, isJson, upstream, upstreamStatedTerms, promptSha256, url, prompt. Corpus sha256: 8d8438ddcf1196a2ab9acf44da442ef61669347a15713b3f8f24e1d218d15d9c.
+- [prompts.json](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json): all 150 records with their full prompt text, 496,998 bytes. Per-row keys: slug, title, category, author, authorUrl, sourceUrl, statusId, isJson, upstream, upstreamStatedTerms, promptSha256, url, prompt. Corpus sha256: 8d8438ddcf1196a2ab9acf44da442ef61669347a15713b3f8f24e1d218d15d9c.
 - [prompts.schema.json](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.schema.json): JSON Schema (draft 2020-12) for the file above. Its root description lists the constraints the build enforces that the schema cannot express.
 - [removed.json](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/removed.json): rows withdrawn on request, keyed by the id of the post they came from. It carries no prompt text and no requester identity.
 - [README.md](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/README.md): the human-readable index of all 150 prompts, with the writing guide and the FAQ.

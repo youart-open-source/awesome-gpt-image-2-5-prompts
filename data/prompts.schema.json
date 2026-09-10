@@ -334,6 +334,24 @@
                 }
               }
             }
+          },
+          {
+            "$comment": "CC BY 4.0 3(a)(1)(A)(i): a row we take under CC BY must carry the creator identification as the licensor supplied it.",
+            "if": {
+              "properties": {
+                "upstreamStatedTerms": {
+                  "const": "CC-BY-4.0"
+                }
+              },
+              "required": [
+                "upstreamStatedTerms"
+              ]
+            },
+            "then": {
+              "required": [
+                "upstreamCreditAsSupplied"
+              ]
+            }
           }
         ],
         "properties": {
@@ -365,6 +383,11 @@
             "type": "string",
             "pattern": "^[A-Za-z0-9_]{1,15}$",
             "description": "X handle without the leading '@', as it resolves today."
+          },
+          "upstreamCreditAsSupplied": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The creator identification exactly as the upstream collection supplied it, retained under CC BY 4.0 section 3(a)(1)(A)(i). Required on every row whose upstreamStatedTerms is CC-BY-4.0, because we rely on that collection's grant and owe its stated attribution. Absent on CC0-1.0 rows, which impose no such condition. Deliberately NOT in `required`, so it stays outside the corpusSha256 projection: that hash covers published content, not our attribution metadata."
           },
           "authorUrl": {
             "type": "string",

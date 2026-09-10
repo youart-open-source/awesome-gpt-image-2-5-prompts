@@ -1,0 +1,57 @@
+version = 1
+SPDX-PackageName = "awesome-gpt-image-2-5-prompts"
+SPDX-PackageSupplier = "Formative Intelligence Inc. <support@youart.ai>"
+SPDX-PackageDownloadLocation = "https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts"
+SPDX-PackageComment = """
+GitHub's licence detector reads LICENSE, does not recognise a three-layer
+instrument, and reports "Other" (NOASSERTION). This file is the machine-readable
+truth per path. See LICENSE for the prose version, and ATTRIBUTION.md for who
+wrote each prompt.
+"""
+
+# Layer 1 -- the build scripts. Ours, and genuinely reusable.
+[[annotations]]
+path = ["scripts/**"]
+SPDX-FileCopyrightText = "2026 Formative Intelligence Inc."
+SPDX-License-Identifier = "MIT"
+
+# Layer 2 -- our curation and our prose.
+[[annotations]]
+path = [
+  "README.md", "README.zh.md", "README.es.md", "README.ja.md",
+  "README.ar.md", "README.pt.md",
+  "content/**", "locales/**", "metadata/**",
+  "llms.txt", "llms.txt.tmpl",
+  "CONTRIBUTING.md", "TAKEDOWN.md", "ATTRIBUTION.md",
+  "provenance/README.md",
+  "data/prompts.schema.json", "data/removed.json",
+  "package.json", ".gitignore", ".github/**",
+]
+SPDX-FileCopyrightText = "2026 Formative Intelligence Inc."
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Layer 3 -- the prompt bodies. NOT ours. The identifiers below describe what
+# the collections we received them through stated over their own copies; they
+# are a record of provenance, not a grant by us. Per-prompt authorship is in
+# ATTRIBUTION.md, which is the file to read before reusing anything here.
+[[annotations]]
+path = ["prompts/**", "data/prompts.json"]
+SPDX-FileCopyrightText = "The individual prompt authors named in ATTRIBUTION.md"
+SPDX-License-Identifier = "CC0-1.0 OR CC-BY-4.0"
+SPDX-FileComment = """
+Mixed and per-row: 115 prompts were received via a collection stating CC0-1.0
+and 35 via a collection stating CC BY 4.0. The authoritative per-row record is
+the `upstream` and `upstreamStatedTerms` fields in data/prompts.json, surfaced
+in ATTRIBUTION.md. Neither collection wrote the prompts either.
+"""
+
+# Vendored evidence of what each upstream stated, at the commit we relied on.
+[[annotations]]
+path = ["provenance/evolink-e2a269ad-LICENSE.txt"]
+SPDX-FileCopyrightText = "EvoLinkAI"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["provenance/youmind-41572075-LICENSE.txt"]
+SPDX-FileCopyrightText = "2026 YouMind OpenLab"
+SPDX-License-Identifier = "CC-BY-4.0"

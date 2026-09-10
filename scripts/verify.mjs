@@ -97,7 +97,7 @@ const OUTPUTS = [
   ...meta.categories.map(promptFilePath),
   'llms.txt',
   'metadata/about.txt',
-];
+  'ATTRIBUTION.md',];
 
 const missingStems = meta.categories.filter((c) => !USE_CASE[c]);
 check('every category has a known file stem', missingStems.length === 0, missingStems.length ? missingStems.join(', ') : `${meta.categories.length} categories`);

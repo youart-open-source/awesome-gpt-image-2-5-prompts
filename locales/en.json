@@ -179,6 +179,13 @@
       }
     }
   },
+  "rights": {
+    "heading": "Rights, credit, and what we do not claim",
+    "ours": "What we made is the collection: which prompts are here, the nine use cases, the ordering, the build scripts and the words around them. That much is ours, and it is openly licensed.",
+    "theirs": "The prompts themselves are not ours. Each one was written by the person credited on its row and first published in the post linked beside it. We did not change the text.",
+    "reuse": "So we cannot tell you a prompt is yours to reuse, and we do not. If you want to use one for something that matters, the credit line tells you whose work it is and where to find them.",
+    "removal": "If you wrote one of these and want it gone, say so and it goes. You do not need to explain why."
+  },
   "machines": {
     "heading": "For LLMs and agents",
     "body": "GitHub serves the full prompt text to a non-rendering crawler on a file page, but not on the repository overview. So the machine-readable copies are listed here, with their sizes.",

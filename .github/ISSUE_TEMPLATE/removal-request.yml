@@ -1,0 +1,45 @@
+name: Removal request
+description: Ask us to remove a prompt. If you wrote it, that is reason enough.
+title: "[Removal] "
+labels: ["removal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you wrote one of these prompts and want it gone, we will remove it.
+        You do not need to explain why.
+
+        Prefer not to do this in public? Email support@youart.ai with
+        `[Takedown]` in the subject instead.
+  - type: input
+    id: slug
+    attributes:
+      label: Which prompt
+      description: >-
+        The slug — the `id` in the prompt's heading, e.g.
+        `monochrome-hermes-inspired-avatar`. Please not a row number: those
+        shift whenever anything is removed.
+      placeholder: monochrome-hermes-inspired-avatar
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Your relationship to it
+      options:
+        - I wrote it and it is credited to my account
+        - I wrote it but it is credited to someone else
+        - I hold other rights in it
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Anything you want to add
+      description: >-
+        Optional. If the row is credited to your account we do not need
+        anything else. Please do not post identity documents here — this is a
+        public issue.
+    validations:
+      required: false

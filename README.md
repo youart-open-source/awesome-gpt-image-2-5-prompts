@@ -111,7 +111,19 @@ The long ones are not longer sentences. The longest quarter of the library — 3
 
 What that length is spent on is measurable, and it is not adjectives. 73 of the 150 name an explicit aspect ratio or page size. 74 of the 125 written as prose quote at least one literal string for the model to render. 57 name a lens, an aperture, a camera angle or a depth-of-field instruction, and they cluster where a result has to be repeatable rather than merely good — heaviest in the Portraits file, at 12 of 16. 73 end on an explicit exclusion clause. And colour is named in words rather than values: 0 of the 150 give a hex code.
 
-<!-- TODO(licence): rights section intentionally omitted from this draft. -->
+<a id="rights"></a>
+
+## Rights, credit, and what we do not claim
+
+What we made is the collection: which prompts are here, the nine use cases, the ordering, the build scripts and the words around them. That much is ours, and it is openly licensed.
+
+The prompts themselves are not ours. Each one was written by the person credited on its row and first published in the post linked beside it. We did not change the text.
+
+So we cannot tell you a prompt is yours to reuse, and we do not. If you want to use one for something that matters, the credit line tells you whose work it is and where to find them.
+
+If you wrote one of these and want it gone, say so and it goes. You do not need to explain why.
+
+[`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 
 <a id="json"></a>
 
@@ -394,7 +406,7 @@ GitHub serves the full prompt text to a non-rendering crawler on a file page, bu
 
 | Contents | File | Bytes |
 |---|---|--:|
-| Every prompt | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 495,016 |
+| Every prompt | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
 | For LLMs and agents | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,902 |
 | Posters | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,905 |
 | Text in image | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,227 |

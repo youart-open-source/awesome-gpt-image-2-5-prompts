@@ -97,7 +97,19 @@ OpenAI の GPT Image シリーズで実際に生成し、公開されたプロ�
 
 商品、キャラクター、メッセージは固定したまま、変数を一つだけ変えます。光の方向を2通り、構図を2通り、スタイルを2通り。一点だけ違う組を見比べれば、どの判断が効いたのかが分かります。無関係な4枚を見比べても何も分かりません。再現できたプロンプトは残しておいてください。それが次のキャンペーンのテンプレートになります。
 
-<!-- TODO(licence): rights section intentionally omitted from this draft. -->
+<a id="rights"></a>
+
+## 権利、クレジット、そして私たちが主張しないこと
+
+私たちが作ったのはこのコレクションです。どのプロンプトを収録するか、9 つのユースケース、並び順、ビルドスクリプト、そして周囲の文章。そこまでは私たちのもので、オープンライセンスで公開しています。
+
+プロンプトそのものは私たちのものではありません。各行にクレジットされた本人が書き、隣にリンクした投稿で最初に公開したものです。本文は一切変更していません。
+
+ですから、あるプロンプトを自由に再利用してよいとは言えませんし、言いません。重要な用途に使いたい場合は、クレジット行が誰の作品でどこにいるかを示しています。
+
+ご自身が書いたものを削除してほしい場合は、おっしゃってください。理由の説明は不要です。
+
+[`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 
 <a id="json"></a>
 
@@ -155,7 +167,7 @@ GitHub は、レンダリングしないクローラーに対してファイル�
 
 | 内容 | ファイル | バイト数 |
 |---|---|--:|
-| プロンプト一覧 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 495,016 |
+| プロンプト一覧 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
 | LLM・エージェント向け | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,902 |
 | ポスター | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,905 |
 | 画像内テキスト | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,227 |

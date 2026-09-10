@@ -97,7 +97,19 @@ GPT、GPT Image 和 ChatGPT 是 OpenAI 的商标。YouArt 是独立平台，与 
 
 把商品、角色或要传达的信息固定下来，只改动一个变量：两种打光方向、两种构图、两种风格。一组只在一处不同的图能告诉你是哪个决定起了作用；四张互不相关的图什么也说明不了。把能稳定复现的提示词留下来，它们就是下一次活动的模板。
 
-<!-- TODO(licence): rights section intentionally omitted from this draft. -->
+<a id="rights"></a>
+
+## 版权、署名，以及我们不主张的部分
+
+我们做的是这个合集本身：收录哪些提示词、九个使用场景、排列顺序、构建脚本，以及周围这些文字。这部分归我们，并且是开放授权的。
+
+提示词本身不属于我们。每一条都由该行署名的作者撰写，最初发布在旁边链接的那条帖子里。原文我们一个字没改。
+
+所以我们无法告诉你某条提示词你可以拿去用，我们也不会这么说。真要用在重要的地方，署名那一行会告诉你它是谁写的、去哪里找他。
+
+如果其中某条是你写的、你希望撤下，说一声就撤，不需要给理由。
+
+[`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
 
 <a id="json"></a>
 
@@ -155,7 +167,7 @@ GitHub 只在单个文件页面上把提示词全文交给不做渲染的抓取�
 
 | 内容 | 文件 | 字节 |
 |---|---|--:|
-| 全部提示词 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 495,016 |
+| 全部提示词 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
 | 给大模型和智能体 | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 10,902 |
 | 海报 | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,905 |
 | 图中文字 | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,227 |
