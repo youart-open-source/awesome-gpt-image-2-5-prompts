@@ -1,42 +1,49 @@
-Awesome GPT Image 2.5 Prompts -- what you may reuse, and what belongs to
-someone else.
+Awesome GPT Image 2.5 Prompts is a mixed-licence repository. Different parts
+have different authors and terms; no single licence applies to every file.
 
-The build scripts are open source.
+1. Build scripts -- MIT
 
     scripts/**    MIT    Copyright (c) 2026 Formative Intelligence Inc.
                          Full text: LICENSES/MIT.txt
 
-Fork them, build on them, ship them commercially. Credit us and our part is
-done. They are the reusable piece here: no dependencies, no network, no
-secrets, and they will rebuild this whole repository from data/prompts.json.
+You may use, copy, modify, distribute and sell the build scripts under the MIT
+licence.
 
-The prompts are not ours to give you.
+2. YouArt-created content and example images -- CC BY 4.0
 
-    The 150 prompt bodies and their titles, wherever they appear -- in
-    data/prompts.json, in prompts/*.md, and quoted in any README.
+    The selection, nine use-case categories, ordering, original explanatory
+    prose, translations, metadata, and files under images/**.
 
-Each was written by the person credited on its row and first published in the
-post linked beside it. ATTRIBUTION.md records who, where, and which collection
-we received it through: 115 via one that stated CC0 1.0, 35 via one that stated
-CC BY 4.0. Copies of what each collection said, at the commit we took them
-from, are in provenance/.
+These parts are Copyright (c) 2026 Formative Intelligence Inc. and licensed
+under Creative Commons Attribution 4.0 International. You may share and adapt
+them, including commercially, provided that you give appropriate credit, link
+to the licence, and indicate whether you made changes.
 
-We have not independently established the chain of rights behind each prompt,
-and we make no representation to you about it. If you want to build on one for
-something that matters, the credit line tells you whose work it is and where to
-find them. If you wrote one and want it gone, TAKEDOWN.md -- it goes, no
-explanation needed.
+    Full text: LICENSES/CC-BY-4.0.txt
+    Licence:   https://creativecommons.org/licenses/by/4.0/
 
-Everything else we assembled -- the selection, the nine use cases, the
-ordering, the prose, the translations -- is
+This grant does not cover third-party prompt bodies or titles merely embedded
+inside a README, index, generated category file, or data record.
 
-    Copyright (c) 2026 Formative Intelligence Inc.
+3. Third-party prompts and titles -- terms recorded per prompt
 
-and we are not offering it under an open licence at this time. Not to be
-awkward: some of that copy came to us from elsewhere in the company and we have
-not traced its origin, so granting you rights in it would mean claiming rights
-we have not verified we hold. That is the mistake this file exists to avoid.
-Ask us if you want to reuse a piece of it.
+The 150 prompt bodies and their titles were written by the people credited in
+ATTRIBUTION.md, not by Formative Intelligence Inc. Each row preserves its
+author, original post, upstream collection, and the terms that collection
+stated for its copy:
 
-GitHub reads this file, finds no single SPDX identifier, and labels the
-repository "Other". REUSE.toml has the machine-readable map.
+    115 prompts received through a collection stating CC0 1.0
+     35 prompts received through a collection stating CC BY 4.0
+
+The authoritative per-prompt record is in the `upstream` and
+`upstreamStatedTerms` fields of data/prompts.json and is rendered in
+ATTRIBUTION.md. Copies of the upstream licence statements, pinned to the
+commits used, are in provenance/.
+
+Formative Intelligence Inc. does not claim authorship of those prompts and
+grants no additional rights in them beyond the terms recorded from their
+sources. If you reuse a prompt, follow its recorded terms and retain its author
+and source attribution. If you wrote one and want it removed, see TAKEDOWN.md.
+
+GitHub may label this repository "Other" because the repository intentionally
+contains more than one licence. REUSE.toml is the machine-readable map.

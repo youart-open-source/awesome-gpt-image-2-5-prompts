@@ -10,7 +10,9 @@
   <a href="README.pt.md">Português</a>
 </p>
 
-# Awesome GPT Image Prompts
+# Awesome GPT Image 2.5 Prompts
+
+<p align="center"><img src="images/examples/travel.webp" alt="Awesome GPT Image 2.5 prompts — cinematic image example generated on YouArt" width="960"></p>
 
 [![License](https://img.shields.io/badge/license-see%20LICENSE-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -48,6 +50,42 @@ Every number in this file — prompts, creators, use cases, characters — is co
 A further 18 prompts use the other placeholder convention their authors wrote in — bracketed capitals such as `[BRAND NAME]` — and those need the same treatment. Swap in your own value, or the model will draw the placeholder into the picture, spelled correctly.
 
 The bodies live in `prompts/gpt-image-2-5-<use-case>-prompts.md`, one file per use case. All 150 are in `data/prompts.json` as well, if you would rather work from the data than from the page.
+
+## GPT Image 2.5 image examples
+
+Every example below was generated on YouArt with GPT Image 2.5. The prompts and
+editable templates are available on the [GPT Image 2.5 prompts page](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=examples&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=gallery).
+
+<table>
+  <tr>
+    <td width="25%"><img src="images/examples/portrait.webp" alt="Photorealistic portrait generated with a GPT Image 2.5 prompt on YouArt"></td>
+    <td width="25%"><img src="images/examples/product.webp" alt="Premium product campaign image generated with a GPT Image 2.5 prompt on YouArt"></td>
+    <td width="25%"><img src="images/examples/poster.webp" alt="Typography poster generated with a GPT Image 2.5 prompt on YouArt"></td>
+    <td width="25%"><img src="images/examples/travel.webp" alt="Cinematic travel scene generated with a GPT Image 2.5 prompt on YouArt"></td>
+  </tr>
+  <tr>
+    <td align="center">Portrait</td>
+    <td align="center">Product campaign</td>
+    <td align="center">Typography poster</td>
+    <td align="center">Cinematic scene</td>
+  </tr>
+  <tr>
+    <td width="25%"><img src="images/examples/character-sheet.webp" alt="Character design sheet generated with a GPT Image 2.5 prompt on YouArt"></td>
+    <td width="25%"><img src="images/examples/storyboard.webp" alt="Six-panel storyboard generated with a GPT Image 2.5 prompt on YouArt"></td>
+    <td width="25%"><img src="images/examples/infographic.webp" alt="Information graphic generated with a GPT Image 2.5 prompt on YouArt"></td>
+    <td width="25%"><img src="images/examples/edit.webp" alt="Focused image edit generated with a GPT Image 2.5 prompt on YouArt"></td>
+  </tr>
+  <tr>
+    <td align="center">Character sheet</td>
+    <td align="center">Storyboard</td>
+    <td align="center">Infographic</td>
+    <td align="center">Focused edit</td>
+  </tr>
+</table>
+
+The example images are © 2026 Formative Intelligence Inc. and available under
+[CC BY 4.0](LICENSES/CC-BY-4.0.txt). The third-party prompts elsewhere in this
+repository retain their separate authorship and terms.
 
 <a id="browse"></a>
 
@@ -119,9 +157,9 @@ What that length is spent on is measurable, and it is not adjectives. 73 of the 
 
 ## Licence and credit
 
-The build scripts are MIT — fork them, ship them commercially, credit us and our part is done. Everything else we assembled is not offered under an open licence yet; ask if you want to reuse a piece of it.
+The build scripts are MIT. The curation, original prose, translations and YouArt-generated example images are CC BY 4.0: reuse and adapt them, including commercially, with attribution.
 
-The prompts and their titles are their authors' work, not ours. Each row credits the person who wrote it and links the post it came from, and we did not change the text. We have not traced the chain of rights behind each one, so if you want to build on a prompt for something that matters, that credit line tells you whose it is.
+The prompts and their titles remain their authors' work. Each row preserves the author, original post and the licence terms stated by the collection it came through — CC0 1.0 or CC BY 4.0 — in ATTRIBUTION.md. We grant no additional rights in third-party work.
 
 Wrote one of these and want it gone? Ask, and it goes — no explanation needed.
 
@@ -145,7 +183,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-poster"></a>
 
-### Poster and key-art prompts
+### GPT Image 2.5 poster and key-art prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -169,7 +207,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-typography-text"></a>
 
-### Typography and in-image text prompts
+### GPT Image 2.5 typography and in-image text prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -193,7 +231,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-infographic"></a>
 
-### Infographic and diagram prompts
+### GPT Image 2.5 infographic and diagram prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -217,7 +255,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-ui-mockup"></a>
 
-### App and web UI mockup prompts
+### GPT Image 2.5 app and web UI mockup prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -241,7 +279,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-ecommerce-product"></a>
 
-### Product photography and packaging prompts
+### GPT Image 2.5 product photography and packaging prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -265,7 +303,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-ad-creative"></a>
 
-### Advertising and campaign prompts
+### GPT Image 2.5 advertising and campaign prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -289,7 +327,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-character-design"></a>
 
-### Character design and concept art prompts
+### GPT Image 2.5 character design and concept art prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -312,7 +350,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-portrait"></a>
 
-### Portrait and photography prompts
+### GPT Image 2.5 portrait and photography prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -335,7 +373,7 @@ All 150. The Prompt link opens the full text in this repository; Run opens it on
 
 <a id="cat-illustration"></a>
 
-### Illustration and art style prompts
+### GPT Image 2.5 illustration and art style prompts
 
 | Prompt | Author | Source | Run |
 |---|---|---|---|
@@ -409,16 +447,16 @@ GitHub serves the full prompt text to a non-rendering crawler on a file page, bu
 | Contents | File | Bytes |
 |---|---|--:|
 | Every prompt | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
-| For LLMs and agents | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 11,014 |
-| Posters | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 59,854 |
-| Text in image | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,176 |
-| Infographics | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,190 |
-| UI mockups | [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) | 41,553 |
-| Product shots | [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) | 45,516 |
-| Ad creative | [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) | 60,767 |
-| Character design | [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) | 50,170 |
-| Portraits | [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) | 54,234 |
-| Illustration | [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) | 58,319 |
+| For LLMs and agents | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 11,022 |
+| Posters | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 60,016 |
+| Text in image | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,349 |
+| Infographics | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,351 |
+| UI mockups | [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) | 41,745 |
+| Product shots | [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) | 45,681 |
+| Ad creative | [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) | 60,933 |
+| Character design | [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) | 50,346 |
+| Portraits | [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) | 54,404 |
+| Illustration | [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) | 58,486 |
 
 The conventional address for an assistant index is the site's own llms.txt, which already lists this library. The copy in this repository mirrors that section. [`llms.txt`](llms.txt)
 

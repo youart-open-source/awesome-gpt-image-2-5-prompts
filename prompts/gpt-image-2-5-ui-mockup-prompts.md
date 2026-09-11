@@ -1,13 +1,15 @@
 <!-- Built from data/prompts.json and locales/en.json by `node scripts/build.mjs`.
      Edit the source, not this file; `--check` fails CI on a hand edit. -->
 
-# App and web UI mockup prompts
+# GPT Image 2.5 app and web UI mockup prompts
 
 Dashboards, mobile screens, landing pages and stream overlays. A UI prompt has to name its components, because the model will invent a plausible interface if you do not tell it which one you meant.
 
+<p align="center"><img src="../images/examples/storyboard.webp" alt="GPT Image 2.5 multi-panel interface and storyboard layout example generated on YouArt" width="720"></p>
+
 **[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ui-mockup#ui-mockup)**
 
-[Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
+[Awesome GPT Image 2.5 Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
 GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent platform and is not affiliated with or endorsed by OpenAI. GPT Image 2.5 is still rolling out and is not yet open to every account; when it opens, these prompts move across unchanged.
 

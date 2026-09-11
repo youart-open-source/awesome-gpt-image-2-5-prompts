@@ -181,8 +181,8 @@
   },
   "rights": {
     "heading": "Licença e crédito",
-    "ours": "Os scripts de build são MIT — faça fork, use comercialmente, credite-nos e a nossa parte está feita. Todo o resto que reunimos ainda não é oferecido sob licença aberta; pergunte se quiser reutilizar alguma parte.",
-    "theirs": "Os prompts e seus títulos são obra de seus autores, não nossa. Cada linha credita quem escreveu e liga ao post original, e não alteramos o texto. Não rastreamos a cadeia de direitos por trás de cada um, então se quiser partir de um prompt para algo que importa, essa linha de crédito diz de quem é.",
+    "ours": "Os scripts de build usam a licença MIT. A curadoria, o texto original, as traduções e as imagens de exemplo geradas pela YouArt usam CC BY 4.0: podem ser reutilizados, adaptados e usados comercialmente com atribuição.",
+    "theirs": "Os prompts e seus títulos continuam sendo obra de seus autores. O ATTRIBUTION.md preserva em cada linha o autor, a publicação original e os termos declarados pela coleção de origem — CC0 1.0 ou CC BY 4.0. Não concedemos direitos adicionais sobre obras de terceiros.",
     "removal": "Escreveu um deles e quer que saia? É só dizer, sem explicações."
   },
   "machines": {

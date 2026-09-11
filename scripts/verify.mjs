@@ -121,11 +121,35 @@ function walk(dir = ROOT, prefix = '') {
 }
 const allFiles = walk();
 
-// No images, ever. One rival checks in 1,219 files and 258 MB of output it has
-// no licence to; the other rehosts 182 from its own CDN.
+// Only the small, explicitly licensed YouArt example set may be committed.
+// This keeps visual proof in the README without turning the repository into a
+// large, ambiguously licensed media archive.
 const IMAGE_RE = /\.(png|jpe?g|gif|webp|avif|svg|bmp|tiff?|ico|mp4|mov|webm)$/i;
 const images = allFiles.filter((p) => IMAGE_RE.test(p));
-check('zero image or video files in the tree', images.length === 0, images.length ? images.slice(0, 5).join(', ') : `${allFiles.length} files scanned`);
+const EXPECTED_IMAGES = [
+  'images/examples/character-sheet.webp',
+  'images/examples/edit.webp',
+  'images/examples/infographic.webp',
+  'images/examples/portrait.webp',
+  'images/examples/poster.webp',
+  'images/examples/product.webp',
+  'images/examples/storyboard.webp',
+  'images/examples/travel.webp',
+];
+const unexpectedImages = images.filter((p) => !EXPECTED_IMAGES.includes(p));
+const missingImages = EXPECTED_IMAGES.filter((p) => !images.includes(p));
+check(
+  'only the licensed example image set is present',
+  unexpectedImages.length === 0 && missingImages.length === 0,
+  [...unexpectedImages.map((p) => `unexpected ${p}`), ...missingImages.map((p) => `missing ${p}`)].join(' | ') ||
+    `${EXPECTED_IMAGES.length} WebP files`,
+);
+const oversizedImages = images.filter((p) => statSync(join(ROOT, p)).size > 300_000);
+check(
+  'each example image stays below 300 KB',
+  oversizedImages.length === 0,
+  oversizedImages.length ? oversizedImages.join(', ') : `${num(images.reduce((n, p) => n + statSync(join(ROOT, p)).size, 0))} B total`,
+);
 
 // A generator that is gitignored is a generator that dies with the laptop it
 // lives on. One rival's is untracked, and its loop stopped when its author left.

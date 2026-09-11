@@ -1,13 +1,15 @@
 <!-- Built from data/prompts.json and locales/en.json by `node scripts/build.mjs`.
      Edit the source, not this file; `--check` fails CI on a hand edit. -->
 
-# Product photography and packaging prompts
+# GPT Image 2.5 product photography and packaging prompts
 
 Studio product shots, packaging renders and catalog imagery. These are the prompts that pay for themselves: they describe a lighting setup, a surface and a camera position precisely enough to be repeatable across a whole product line.
 
+<p align="center"><img src="../images/examples/product.webp" alt="GPT Image 2.5 product photography example generated on YouArt" width="720"></p>
+
 **[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ecommerce-product#ecommerce-product)**
 
-[Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
+[Awesome GPT Image 2.5 Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
 GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent platform and is not affiliated with or endorsed by OpenAI. GPT Image 2.5 is still rolling out and is not yet open to every account; when it opens, these prompts move across unchanged.
 

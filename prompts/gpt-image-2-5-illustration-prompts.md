@@ -1,13 +1,15 @@
 <!-- Built from data/prompts.json and locales/en.json by `node scripts/build.mjs`.
      Edit the source, not this file; `--check` fails CI on a hand edit. -->
 
-# Illustration and art style prompts
+# GPT Image 2.5 illustration and art style prompts
 
 Anime, watercolour, line art, 3D render, isometric and pixel art. Style prompts are the shortest in the library, and the ones most worth editing: swap the subject and keep the style clause, and you have a series.
 
+<p align="center"><img src="../images/examples/travel.webp" alt="GPT Image 2.5 cinematic illustration example generated on YouArt" width="720"></p>
+
 **[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=illustration#illustration)**
 
-[Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
+[Awesome GPT Image 2.5 Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
 GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent platform and is not affiliated with or endorsed by OpenAI. GPT Image 2.5 is still rolling out and is not yet open to every account; when it opens, these prompts move across unchanged.
 

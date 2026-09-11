@@ -1,13 +1,15 @@
 <!-- Built from data/prompts.json and locales/en.json by `node scripts/build.mjs`.
      Edit the source, not this file; `--check` fails CI on a hand edit. -->
 
-# Character design and concept art prompts
+# GPT Image 2.5 character design and concept art prompts
 
 Turnaround sheets, expression grids, equipment breakdowns and mascots. The useful pattern here is asking for a sheet rather than a picture: several views of one character in a single image, which is how you get a design you can keep using.
 
+<p align="center"><img src="../images/examples/character-sheet.webp" alt="GPT Image 2.5 character design sheet example generated on YouArt" width="720"></p>
+
 **[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=character-design#character-design)**
 
-[Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
+[Awesome GPT Image 2.5 Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
 GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent platform and is not affiliated with or endorsed by OpenAI. GPT Image 2.5 is still rolling out and is not yet open to every account; when it opens, these prompts move across unchanged.
 

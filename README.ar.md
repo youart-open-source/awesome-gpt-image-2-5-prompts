@@ -12,6 +12,8 @@
 
 # مطالبات GPT Image 2.5
 
+<p align="center"><img src="images/examples/travel.webp" alt="Awesome GPT Image 2.5 prompts — cinematic image example generated on YouArt" width="960"></p>
+
 [![License](https://img.shields.io/badge/license-see%20LICENSE-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
@@ -105,9 +107,9 @@
 
 ## الترخيص والإسناد
 
-‏برامج البناء بترخيص MIT — انسخها واستخدمها تجاريًا، وبذكرنا ينتهي ما يخصّنا. أما بقية ما جمّعناه فلا نقدّمه بعد برخصة مفتوحة؛ اسألنا إن أردت إعادة استخدام جزء منه.
+‏برامج البناء بترخيص MIT. أما التنسيق والنص الأصلي والترجمات والصور النموذجية التي أنشأتها YouArt فهي بترخيص CC BY 4.0، ويمكن إعادة استخدامها وتعديلها تجاريًا مع الإسناد.
 
-‏المطالبات وعناوينها من عمل كاتبيها لا من عملنا. كل صف ينسبها إلى من كتبها ويصل إلى منشوره الأصلي، ولم نغيّر النص. ولم نتتبّع سلسلة الحقوق وراء كل واحدة، فإن أردت البناء على إحداها في أمر مهم، فسطر الإسناد يدلّك على صاحبها.
+‏تبقى المطالبات وعناوينها من عمل مؤلفيها. يحتفظ ATTRIBUTION.md لكل صف بالمؤلف والمنشور الأصلي والشروط التي أعلنتها المجموعة المصدر، CC0 1.0 أو CC BY 4.0. ولا نمنح حقوقًا إضافية في أعمال الغير.
 
 ‏كتبت إحداها وتريد إزالتها؟ قل ذلك وستُزال، دون الحاجة إلى شرح.
 
@@ -168,16 +170,16 @@
 يقدّم GitHub نص المطالبات كاملًا للزواحف التي لا تُنفّذ العرض في صفحة الملف، لا في الصفحة الرئيسية للمستودع. لذلك تجد النسخ المقروءة آليًا مدرجة هنا مع أحجامها.
 
 - المحتوى: كل المطالبات · الملف: [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) · الحجم بالبايت: 496,998
-- المحتوى: لنماذج اللغة والوكلاء · الملف: [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) · الحجم بالبايت: 11,014
-- المحتوى: الملصقات · الملف: [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) · الحجم بالبايت: 59,854
-- المحتوى: النص داخل الصورة · الملف: [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) · الحجم بالبايت: 38,176
-- المحتوى: الرسوم المعلوماتية · الملف: [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) · الحجم بالبايت: 70,190
-- المحتوى: واجهات التطبيقات · الملف: [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) · الحجم بالبايت: 41,553
-- المحتوى: صور المنتجات · الملف: [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) · الحجم بالبايت: 45,516
-- المحتوى: المواد الإعلانية · الملف: [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) · الحجم بالبايت: 60,767
-- المحتوى: تصميم الشخصيات · الملف: [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) · الحجم بالبايت: 50,170
-- المحتوى: الصور الشخصية · الملف: [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) · الحجم بالبايت: 54,234
-- المحتوى: الرسم التوضيحي · الملف: [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) · الحجم بالبايت: 58,319
+- المحتوى: لنماذج اللغة والوكلاء · الملف: [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) · الحجم بالبايت: 11,022
+- المحتوى: الملصقات · الملف: [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) · الحجم بالبايت: 60,016
+- المحتوى: النص داخل الصورة · الملف: [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) · الحجم بالبايت: 38,349
+- المحتوى: الرسوم المعلوماتية · الملف: [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) · الحجم بالبايت: 70,351
+- المحتوى: واجهات التطبيقات · الملف: [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) · الحجم بالبايت: 41,745
+- المحتوى: صور المنتجات · الملف: [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) · الحجم بالبايت: 45,681
+- المحتوى: المواد الإعلانية · الملف: [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) · الحجم بالبايت: 60,933
+- المحتوى: تصميم الشخصيات · الملف: [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) · الحجم بالبايت: 50,346
+- المحتوى: الصور الشخصية · الملف: [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) · الحجم بالبايت: 54,404
+- المحتوى: الرسم التوضيحي · الملف: [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) · الحجم بالبايت: 58,486
 
 العنوان المتعارف عليه لفهرس المساعدين هو ملف llms.txt الخاص بالموقع، وهو يذكر هذه المكتبة أصلًا. والنسخة الموجودة في هذا المستودع مرآة لذلك القسم. [`llms.txt`](llms.txt)
 

@@ -1,13 +1,15 @@
 <!-- Built from data/prompts.json and locales/en.json by `node scripts/build.mjs`.
      Edit the source, not this file; `--check` fails CI on a hand edit. -->
 
-# Advertising and campaign prompts
+# GPT Image 2.5 advertising and campaign prompts
 
 Campaign key visuals, banners and social ad creative. Most of these carry both an image direction and a piece of copy to render, which is why they belong to this model rather than to a generation that could not spell.
 
+<p align="center"><img src="../images/examples/product.webp" alt="GPT Image 2.5 advertising creative example generated on YouArt" width="720"></p>
+
 **[Open the 17 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ad-creative#ad-creative)**
 
-[Awesome GPT Image Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
+[Awesome GPT Image 2.5 Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
 
 GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent platform and is not affiliated with or endorsed by OpenAI. GPT Image 2.5 is still rolling out and is not yet open to every account; when it opens, these prompts move across unchanged.
 

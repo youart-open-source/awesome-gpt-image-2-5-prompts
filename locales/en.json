@@ -12,7 +12,7 @@
     "omissions": "Derived from the shipped page namespace; strings are lifted verbatim where one exists. Deliberately absent: the faq items what_is_a_good_prompt, free_to_use and commercial_use (SPEC 8.5 — a measurably wrong median, and two licence claims), every rights/licence string, and the index Upstream-collection column label (deferred to the rights pass). Page-only namespaces metadata, structured, nav, card and templates are not carried. Values are plain text: no markdown, and no literal braces other than the placeholders that the en file declares for that key."
   },
   "chrome": {
-    "title": "Awesome GPT Image Prompts",
+    "title": "Awesome GPT Image 2.5 Prompts",
     "page_title": "GPT Image 2.5 Prompts",
     "tagline": "{prompts} production prompts for OpenAI's GPT Image models, including GPT Image 2.5. Every one is reproduced verbatim from the person who published it, with their account and a link to the post it came from.",
     "stats": "{prompts} prompts · {authors} creators credited · {categories} use cases · {json} written as JSON · updated {date}",
@@ -39,47 +39,47 @@
   "categories": {
     "poster": {
       "label": "Posters",
-      "heading": "Poster and key-art prompts",
+      "heading": "GPT Image 2.5 poster and key-art prompts",
       "blurb": "Movie teasers, event flyers, travel posters and album covers. These prompts spend most of their length on layout, because a poster is a composition problem before it is a style problem: where the title sits, how much negative space is above it, what occupies the lower third."
     },
     "typography-text": {
       "label": "Text in image",
-      "heading": "Typography and in-image text prompts",
+      "heading": "GPT Image 2.5 typography and in-image text prompts",
       "blurb": "Legible words rendered inside the picture is the capability this generation of the model is known for. These prompts quote the exact string to render, name the typeface character, and place the text in the frame instead of hoping for it."
     },
     "infographic": {
       "label": "Infographics",
-      "heading": "Infographic and diagram prompts",
+      "heading": "GPT Image 2.5 infographic and diagram prompts",
       "blurb": "Charts, timelines, exploded views and explainer slides. The long ones read almost like a spec: how many callouts, on which side, with what label text. That is the reason they work, and the reason many of them are written as JSON."
     },
     "ui-mockup": {
       "label": "UI mockups",
-      "heading": "App and web UI mockup prompts",
+      "heading": "GPT Image 2.5 app and web UI mockup prompts",
       "blurb": "Dashboards, mobile screens, landing pages and stream overlays. A UI prompt has to name its components, because the model will invent a plausible interface if you do not tell it which one you meant."
     },
     "ecommerce-product": {
       "label": "Product shots",
-      "heading": "Product photography and packaging prompts",
+      "heading": "GPT Image 2.5 product photography and packaging prompts",
       "blurb": "Studio product shots, packaging renders and catalog imagery. These are the prompts that pay for themselves: they describe a lighting setup, a surface and a camera position precisely enough to be repeatable across a whole product line."
     },
     "ad-creative": {
       "label": "Ad creative",
-      "heading": "Advertising and campaign prompts",
+      "heading": "GPT Image 2.5 advertising and campaign prompts",
       "blurb": "Campaign key visuals, banners and social ad creative. Most of these carry both an image direction and a piece of copy to render, which is why they belong to this model rather than to a generation that could not spell."
     },
     "character-design": {
       "label": "Character design",
-      "heading": "Character design and concept art prompts",
+      "heading": "GPT Image 2.5 character design and concept art prompts",
       "blurb": "Turnaround sheets, expression grids, equipment breakdowns and mascots. The useful pattern here is asking for a sheet rather than a picture: several views of one character in a single image, which is how you get a design you can keep using."
     },
     "portrait": {
       "label": "Portraits",
-      "heading": "Portrait and photography prompts",
+      "heading": "GPT Image 2.5 portrait and photography prompts",
       "blurb": "Editorial portraits, headshots and film-look photography. These live or die on camera direction: the format, the focal length, the light source and the grade do more work than any adjective about mood."
     },
     "illustration": {
       "label": "Illustration",
-      "heading": "Illustration and art style prompts",
+      "heading": "GPT Image 2.5 illustration and art style prompts",
       "blurb": "Anime, watercolour, line art, 3D render, isometric and pixel art. Style prompts are the shortest in the library, and the ones most worth editing: swap the subject and keep the style clause, and you have a series."
     }
   },
@@ -181,8 +181,8 @@
   },
   "rights": {
     "heading": "Licence and credit",
-    "ours": "The build scripts are MIT — fork them, ship them commercially, credit us and our part is done. Everything else we assembled is not offered under an open licence yet; ask if you want to reuse a piece of it.",
-    "theirs": "The prompts and their titles are their authors' work, not ours. Each row credits the person who wrote it and links the post it came from, and we did not change the text. We have not traced the chain of rights behind each one, so if you want to build on a prompt for something that matters, that credit line tells you whose it is.",
+    "ours": "The build scripts are MIT. The curation, original prose, translations and YouArt-generated example images are CC BY 4.0: reuse and adapt them, including commercially, with attribution.",
+    "theirs": "The prompts and their titles remain their authors' work. Each row preserves the author, original post and the licence terms stated by the collection it came through — CC0 1.0 or CC BY 4.0 — in ATTRIBUTION.md. We grant no additional rights in third-party work.",
     "removal": "Wrote one of these and want it gone? Ask, and it goes — no explanation needed."
   },
   "machines": {
