@@ -3,9 +3,10 @@ SPDX-PackageName = "awesome-gpt-image-2-5-prompts"
 SPDX-PackageSupplier = "Formative Intelligence Inc. <support@youart.ai>"
 SPDX-PackageDownloadLocation = "https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts"
 SPDX-PackageComment = """
-This is a mixed-licence repository. This file is the machine-readable map per
-path; see LICENSE for the prose version and ATTRIBUTION.md for the terms and
-author recorded for each third-party prompt.
+GitHub's licence detector reads LICENSE, does not recognise a three-layer
+instrument, and reports "Other" (NOASSERTION). This file is the machine-readable
+truth per path. See LICENSE for the prose version, and ATTRIBUTION.md for who
+wrote each prompt.
 """
 
 # Layer 1 -- the build scripts. Ours, and genuinely reusable.
@@ -14,7 +15,7 @@ path = ["scripts/**"]
 SPDX-FileCopyrightText = "2026 Formative Intelligence Inc."
 SPDX-License-Identifier = "MIT"
 
-# Layer 2 -- YouArt-created curation, prose and translations.
+# Layer 2 -- our curation and our prose.
 [[annotations]]
 path = [
   "README.md", "README.zh.md", "README.es.md", "README.ja.md",
@@ -27,30 +28,29 @@ path = [
   "package.json", ".gitignore", ".github/**",
 ]
 SPDX-FileCopyrightText = "2026 Formative Intelligence Inc."
-SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-License-Identifier = "LicenseRef-YouArt-Curation-No-Grant"
 SPDX-FileComment = """
-The CC BY 4.0 grant covers the YouArt-created portions of these files. The
-third-party prompt titles and bodies embedded in generated files remain covered
-by LicenseRef-Prompt-Authors-Per-Row and their records in ATTRIBUTION.md.
+Not openly licensed -- see LICENSES/LicenseRef-YouArt-Curation-No-Grant.txt.
+Note also that the READMEs quote all 150 third-party prompt titles; those words
+are covered by LicenseRef-Prompt-Authors-No-Grant, not by this line.
 """
 
-# Layer 3 -- YouArt-generated example images.
-[[annotations]]
-path = ["images/**"]
-SPDX-FileCopyrightText = "2026 Formative Intelligence Inc."
-SPDX-License-Identifier = "CC-BY-4.0"
-
-# Layer 4 -- third-party prompt bodies and titles. Each row retains the terms
-# stated by its source collection; see ATTRIBUTION.md and data/prompts.json.
+# Layer 3 -- the prompt bodies. NOT ours. The identifiers below describe what
+# the collections we received them through stated over their own copies; they
+# are a record of provenance, not a grant by us. Per-prompt authorship is in
+# ATTRIBUTION.md, which is the file to read before reusing anything here.
 [[annotations]]
 path = ["prompts/**", "data/prompts.json"]
 SPDX-FileCopyrightText = "The individual prompt authors named in ATTRIBUTION.md"
-SPDX-License-Identifier = "LicenseRef-Prompt-Authors-Per-Row"
+SPDX-License-Identifier = "LicenseRef-Prompt-Authors-No-Grant"
 SPDX-FileComment = """
-8 of the 9 prompts/*.md files mix rows received under different stated terms,
-so no single SPDX expression is accurate per file. The authoritative per-row
-record is the `upstream` and `upstreamStatedTerms` fields in data/prompts.json,
-surfaced in ATTRIBUTION.md.
+NOT a grant by us. 8 of the 9 prompts/*.md files mix rows received via both
+upstream collections, so no single SPDX expression is accurate even per file;
+115 came via one stating CC0-1.0 and 35 via one stating CC BY 4.0, and an
+earlier "CC0-1.0 OR CC-BY-4.0" here read as a disjunctive grant of exactly the
+rights this repository declines to grant. The authoritative per-row record is
+the `upstream` and `upstreamStatedTerms` fields in data/prompts.json, surfaced
+in ATTRIBUTION.md. Neither collection wrote the prompts either.
 """
 
 # Vendored evidence of what each upstream stated, at the commit we relied on.

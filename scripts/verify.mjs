@@ -121,9 +121,9 @@ function walk(dir = ROOT, prefix = '') {
 }
 const allFiles = walk();
 
-// Only the small, explicitly licensed YouArt example set may be committed.
+// Only the small, explicitly acknowledged YouArt example set may be committed.
 // This keeps visual proof in the README without turning the repository into a
-// large, ambiguously licensed media archive.
+// large media archive. Rights and source are recorded in images/README.md.
 const IMAGE_RE = /\.(png|jpe?g|gif|webp|avif|svg|bmp|tiff?|ico|mp4|mov|webm)$/i;
 const images = allFiles.filter((p) => IMAGE_RE.test(p));
 const EXPECTED_IMAGES = [
@@ -139,7 +139,7 @@ const EXPECTED_IMAGES = [
 const unexpectedImages = images.filter((p) => !EXPECTED_IMAGES.includes(p));
 const missingImages = EXPECTED_IMAGES.filter((p) => !images.includes(p));
 check(
-  'only the licensed example image set is present',
+  'only the acknowledged example image set is present',
   unexpectedImages.length === 0 && missingImages.length === 0,
   [...unexpectedImages.map((p) => `unexpected ${p}`), ...missingImages.map((p) => `missing ${p}`)].join(' | ') ||
     `${EXPECTED_IMAGES.length} WebP files`,

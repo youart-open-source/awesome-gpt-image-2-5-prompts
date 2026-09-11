@@ -107,9 +107,9 @@ Mantenha o produto, o personagem ou a mensagem constantes e mude uma variável: 
 
 ## Licença e crédito
 
-Os scripts de build usam a licença MIT. A curadoria, o texto original, as traduções e as imagens de exemplo geradas pela YouArt usam CC BY 4.0: podem ser reutilizados, adaptados e usados comercialmente com atribuição.
+Os scripts de build são MIT — faça fork, use comercialmente, credite-nos e a nossa parte está feita. Todo o resto que reunimos ainda não é oferecido sob licença aberta; pergunte se quiser reutilizar alguma parte.
 
-Os prompts e seus títulos continuam sendo obra de seus autores. O ATTRIBUTION.md preserva em cada linha o autor, a publicação original e os termos declarados pela coleção de origem — CC0 1.0 ou CC BY 4.0. Não concedemos direitos adicionais sobre obras de terceiros.
+Os prompts e seus títulos são obra de seus autores, não nossa. Cada linha credita quem escreveu e liga ao post original, e não alteramos o texto. Não rastreamos a cadeia de direitos por trás de cada um, então se quiser partir de um prompt para algo que importa, essa linha de crédito diz de quem é.
 
 Escreveu um deles e quer que saia? É só dizer, sem explicações.
 

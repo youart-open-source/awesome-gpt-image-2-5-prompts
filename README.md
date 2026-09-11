@@ -83,9 +83,10 @@ editable templates are available on the [GPT Image 2.5 prompts page](https://you
   </tr>
 </table>
 
-The example images are © 2026 Formative Intelligence Inc. and available under
-[CC BY 4.0](LICENSES/CC-BY-4.0.txt). The third-party prompts elsewhere in this
-repository retain their separate authorship and terms.
+The example images are reproduced from YouArt for demonstration. Image rights
+remain with their respective creators; this repository grants no additional
+licence for them. The third-party prompts retain their separate authorship and
+terms as well.
 
 <a id="browse"></a>
 
@@ -157,9 +158,9 @@ What that length is spent on is measurable, and it is not adjectives. 73 of the 
 
 ## Licence and credit
 
-The build scripts are MIT. The curation, original prose, translations and YouArt-generated example images are CC BY 4.0: reuse and adapt them, including commercially, with attribution.
+The build scripts are MIT — fork them, ship them commercially, credit us and our part is done. Everything else we assembled is not offered under an open licence yet; ask if you want to reuse a piece of it.
 
-The prompts and their titles remain their authors' work. Each row preserves the author, original post and the licence terms stated by the collection it came through — CC0 1.0 or CC BY 4.0 — in ATTRIBUTION.md. We grant no additional rights in third-party work.
+The prompts and their titles are their authors' work, not ours. Each row credits the person who wrote it and links the post it came from, and we did not change the text. We have not traced the chain of rights behind each one, so if you want to build on a prompt for something that matters, that credit line tells you whose it is.
 
 Wrote one of these and want it gone? Ask, and it goes — no explanation needed.
 

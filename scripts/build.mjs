@@ -52,9 +52,12 @@
 // row of data/prompts.json and the Run link beside every prompt body. Nobody
 // should re-derive the false claim that the id you write is the id you link.
 //
-// Licensing is deliberately layered. YouArt-created code and content have open
-// licences; each third-party prompt retains the source terms recorded on its
-// row. LICENSE is the readable summary and REUSE.toml is the path-level map.
+// LICENCE PASS DEFERRED. This draft renders no rights section, no per-row terms
+// verdict and no licence column. The DATA carries provenance — author, author
+// URL, source post, upstream repo and `upstreamStatedTerms` — because that is a
+// factual record of what we received. Rendering rights is a separate pass; the
+// place it will go carries one TODO line, which arrives inside the content
+// fragments and inside llms.txt.tmpl and must survive verbatim.
 
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
@@ -94,8 +97,9 @@ const USE_CASE = {
   illustration: 'illustration',
 };
 
-// YouArt-owned examples generated with GPT Image 2.5. Keep these local so the
-// README remains useful in forks and archives instead of depending on a CDN.
+// Examples reproduced from YouArt's GPT Image 2.5 prompts page. Keep these local
+// so the README remains useful in forks and archives instead of depending on a
+// CDN. Rights remain with their respective creators; see images/README.md.
 const EXAMPLE_IMAGE = {
   poster: ['poster.webp', 'GPT Image 2.5 typography poster example generated on YouArt'],
   'typography-text': ['poster.webp', 'GPT Image 2.5 typography and in-image text example generated on YouArt'],
@@ -133,6 +137,11 @@ const BUDGET = {
   promptsJson: 500_000,
   aboutChars: 155,
 };
+
+// The rights section is deliberately absent from this draft. This exact line
+// stands where it will go. It arrives inside content/20-guide.md and inside
+// llms.txt.tmpl; build.mjs emits it itself in the five translated READMEs,
+// which have no fragment.
 
 // content/ holds the hand-written English prose. Two shapes are accepted, and
 // which one a file uses is decided by where it sits:
@@ -1047,9 +1056,9 @@ function fenceLang(r) {
 }
 
 // --- prompts/gpt-image-2-5-<use-case>-prompts.md ---------------------------
-// English only. The bodies stay verbatim so attribution hashes remain useful,
-// and 25 of them are JSON with English keys. This is the only place a whole
-// prompt body is published by us.
+// English only. The bodies are verbatim third-party text; translating one makes
+// a derivative work we cannot authorise, and 25 of them are JSON with English
+// keys. This is the only place a whole prompt body is published by us.
 
 function renderPromptFile(category) {
   const d = new Doc(promptFilePath(category), 'en');
@@ -1262,8 +1271,11 @@ function renderReadme(locale, sizes, dropCols = []) {
     }
   }
   extra('guide');
-  // Keep this summary short: the path-level details live in LICENSE and
-  // REUSE.toml, while ATTRIBUTION.md carries every third-party prompt record.
+  // The rights section goes here and is deliberately empty in this draft. Emit
+  // the marker unless a fragment already carried it, so it appears exactly once.
+  // The rights section. Short on purpose: it says what we made, what we did not,
+  // and who to ask -- the long form lives in LICENSE, ATTRIBUTION.md and
+  // TAKEDOWN.md, which this links rather than restates.
   sect('rights', 'rights.heading');
   d.block(rlmGuard(locale, esc(t('rights.ours'))));
   d.block(rlmGuard(locale, esc(t('rights.theirs'))));
@@ -1753,7 +1765,7 @@ const unlisted = rows.filter((r) => !attrText.includes(`\`${r.slug}\``));
 hard('ATTRIBUTION.md covers every published row', unlisted.length === 0, unlisted.length ? unlisted.slice(0, 5).map((r) => r.slug).join(' | ') : `${rows.length} rows`);
 
 // The vendored evidence and the legalcodes have to exist on disk.
-const rightsFiles = ['LICENSE', 'LICENSES/MIT.txt', 'LICENSES/CC-BY-4.0.txt', 'LICENSES/CC0-1.0.txt', 'LICENSES/LicenseRef-Prompt-Authors-Per-Row.txt', 'REUSE.toml', 'TAKEDOWN.md', 'CONTRIBUTING.md', 'provenance/README.md', 'images/README.md', ...meta.upstreams.map((u) => `provenance/${u.id}-${u.commit.slice(0, 8)}-LICENSE.txt`)];
+const rightsFiles = ['LICENSE', 'LICENSES/MIT.txt', 'LICENSES/CC-BY-4.0.txt', 'LICENSES/CC0-1.0.txt', 'LICENSES/LicenseRef-Prompt-Authors-No-Grant.txt', 'LICENSES/LicenseRef-YouArt-Curation-No-Grant.txt', 'REUSE.toml', 'TAKEDOWN.md', 'CONTRIBUTING.md', 'provenance/README.md', ...meta.upstreams.map((u) => `provenance/${u.id}-${u.commit.slice(0, 8)}-LICENSE.txt`)];
 const absent = rightsFiles.filter((f) => !existsSync(f));
 hard('every licence and provenance file is present', absent.length === 0, absent.length ? absent.join(', ') : `${rightsFiles.length} files`);
 

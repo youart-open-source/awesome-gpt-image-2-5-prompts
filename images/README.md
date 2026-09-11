@@ -8,10 +8,9 @@ https://youart.ai/gpt-image-2-5-prompts
 The files are committed as compressed WebP images so README pages remain
 portable, fast to load, and useful in forks and archives.
 
-Copyright © 2026 Formative Intelligence Inc.
+Image rights remain with their respective creators. The images are reproduced
+here for demonstration and acknowledgment only; this repository grants no
+additional licence for them.
 
-Licensed under [CC BY 4.0](../LICENSES/CC-BY-4.0.txt).
-
-This licence applies only to the example images in this directory. It does not
-change the authorship or terms of the third-party prompts in `data/`,
-`prompts/`, or the generated README files.
+Their inclusion does not change the authorship or terms of the third-party
+prompts in `data/`, `prompts/`, or the generated README files.

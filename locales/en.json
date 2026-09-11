@@ -181,8 +181,8 @@
   },
   "rights": {
     "heading": "Licence and credit",
-    "ours": "The build scripts are MIT. The curation, original prose, translations and YouArt-generated example images are CC BY 4.0: reuse and adapt them, including commercially, with attribution.",
-    "theirs": "The prompts and their titles remain their authors' work. Each row preserves the author, original post and the licence terms stated by the collection it came through — CC0 1.0 or CC BY 4.0 — in ATTRIBUTION.md. We grant no additional rights in third-party work.",
+    "ours": "The build scripts are MIT — fork them, ship them commercially, credit us and our part is done. Everything else we assembled is not offered under an open licence yet; ask if you want to reuse a piece of it.",
+    "theirs": "The prompts and their titles are their authors' work, not ours. Each row credits the person who wrote it and links the post it came from, and we did not change the text. We have not traced the chain of rights behind each one, so if you want to build on a prompt for something that matters, that credit line tells you whose it is.",
     "removal": "Wrote one of these and want it gone? Ask, and it goes — no explanation needed."
   },
   "machines": {

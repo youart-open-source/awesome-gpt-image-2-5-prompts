@@ -34,6 +34,7 @@ editable templates are available on the [GPT Image 2.5 prompts page]({{URL_EXAMP
   </tr>
 </table>
 
-The example images are © 2026 Formative Intelligence Inc. and available under
-[CC BY 4.0](LICENSES/CC-BY-4.0.txt). The third-party prompts elsewhere in this
-repository retain their separate authorship and terms.
+The example images are reproduced from YouArt for demonstration. Image rights
+remain with their respective creators; this repository grants no additional
+licence for them. The third-party prompts retain their separate authorship and
+terms as well.
