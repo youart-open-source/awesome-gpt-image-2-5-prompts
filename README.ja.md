@@ -1,0 +1,206 @@
+<!-- Built from data/prompts.json and locales/ja.json by `node scripts/build.mjs`.
+     Edit the source, not this file; `--check` fails CI on a hand edit. -->
+
+<p align="center" dir="ltr">
+  <a href="README.md">English</a> ·
+  <a href="README.zh.md">中文</a> ·
+  <a href="README.es.md">Español</a> ·
+  <strong>日本語</strong> ·
+  <a href="README.ar.md">العربية</a> ·
+  <a href="README.pt.md">Português</a>
+</p>
+
+# GPT Image 2.5 プロンプト集
+
+<p align="center"><img src="images/examples/travel.webp" alt="Awesome GPT Image 2.5 prompts — cinematic image example generated on YouArt" width="960"></p>
+
+[![License](https://img.shields.io/badge/license-see%20LICENSE-blue.svg)](LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![verify](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml/badge.svg)](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts/actions/workflows/verify.yml)
+![Prompts](https://img.shields.io/badge/prompts-150-111111.svg)
+
+OpenAI の GPT Image シリーズ（GPT Image 2.5 を含む）で使える実用プロンプト 150 本。すべて公開した本人の文面のまま収録し、そのアカウントと元投稿へのリンクを添えています。
+
+プロンプト 150 本 · クレジット掲載クリエイター 110 名 · 用途 9 分類 · うち 25 本は JSON 形式 · 更新日 2026-09-10
+
+**[生成画面を開く](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=hero&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=hero)**
+
+GPT、GPT Image、ChatGPT は OpenAI の商標です。YouArt は独立したプラットフォームであり、OpenAI と提携関係にはなく、OpenAI から推奨を受けているものでもありません。 GPT Image 2.5は段階的な提供が続いており、まだすべてのアカウントには開放されていません。開放されたときには、これらのプロンプトはそのまま移行できます。
+
+<a id="what"></a>
+
+## これは何か
+
+OpenAI の GPT Image シリーズで実際に生成し、公開されたプロンプトを選んでクレジット付きでまとめたライブラリです。スタイルではなく「何をつくりたいか」で分類しています。需要そのものがその形をしているからです。どのプロンプトも、元の文面、作者、出典の投稿へのリンクをそのまま残しています。
+
+出どころをはっきり書いておきます。ここにクレジットしている 110 名が X に投稿したもので、私たちが参照した二つのオープンソースのリポジトリが集めたものです。日付の分かる 149 件の投稿のうち 144 件は、GPT Image 2.5 の公開日である 2026-09-08 より前のものです。これらは自然言語のプロンプトであってモデル固有の記法ではないため、GPT Image 2 向けに書かれたプロンプトも 2.5 でそのまま動きます。GPT Image 2 時代のライブラリを 2.5 ネイティブのように見せるより、そう書くほうを選びました。ここにいる誰かが 2.5 で実行したとは主張していません。
+
+<a id="how"></a>
+
+## 使い方
+
+1. 下から用途を選び、そのファイルを開きます。
+2. コードブロックのプロンプトを丸ごとコピーします。言い換えないでください。引用符の中の文字列は、モデルにそのまま描かせるためにあります。
+3. 自分のものにしたい部分だけ書き換えます。被写体、文言、配色。そして実行します。
+
+このうち 56 本には、作者が波かっこで書いたテンプレート用の差し込み記号がそのまま残っています。実行する前に自分の値へ置き換えてください。そのままだと記号が文字として描き込まれます。
+
+<a id="browse"></a>
+
+## 用途から探す
+
+プロンプト自体は翻訳していません。作者が書いた言葉のままにしてあります。プロンプトは読み物ではなくモデルへの入力であり、このモデルの看板の能力は引用符の中の文字列をそのまま画面に描くことなので、訳した時点で出力が変わってしまうからです。
+
+- **[ポスター](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=poster#poster)** — 映画のティザー、イベントのフライヤー、トラベルポスター、アルバムジャケット。これらのプロンプトは、文章の大半をレイアウトの指定に使っています。ポスターはスタイルの問題である前に構図の問題だからです。タイトルをどこに置くか、その上にどれだけ余白を取るか、下三分の一に何を入れるか。 [17 本を開く](prompts/gpt-image-2-5-poster-prompts.md)
+- **[画像内テキスト](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=typography-text#typography-text)** — 画像の中に読める文字を描くことは、この世代のモデルが最も評価されている能力です。これらのプロンプトは、描かせたい文字列をそのまま引用し、書体の性格を指定し、フレーム内の位置まで決めています。うまく出ることを期待せず、指定しているのが違いです。 [17 本を開く](prompts/gpt-image-2-5-text-in-image-prompts.md)
+- **[インフォグラフィック](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=infographic#infographic)** — グラフ、タイムライン、分解図、解説スライド。長いものはほとんど仕様書のように読めます。吹き出しを何個、どちら側に、どんなラベルで置くか。それが機能する理由であり、多くがJSONで書かれている理由でもあります。 [17 本を開く](prompts/gpt-image-2-5-infographic-prompts.md)
+- **[UIモックアップ](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ui-mockup#ui-mockup)** — ダッシュボード、モバイル画面、ランディングページ、配信用オーバーレイ。UIのプロンプトでは構成要素を名指しする必要があります。どれを指しているか伝えなければ、モデルはそれらしいインターフェースを勝手に作ってしまうからです。 [17 本を開く](prompts/gpt-image-2-5-ui-mockup-prompts.md)
+- **[商品撮影](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ecommerce-product#ecommerce-product)** — スタジオでの商品撮影、パッケージのレンダリング、カタログ用のビジュアル。元が取れるプロンプトはこの分野です。ライティング、設置面、カメラ位置を、商品ライン全体で再現できるほど正確に書いているからです。 [17 本を開く](prompts/gpt-image-2-5-product-photo-prompts.md)
+- **[広告クリエイティブ](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=ad-creative#ad-creative)** — キャンペーンのキービジュアル、バナー、SNS広告のクリエイティブ。ほとんどが、画像の方向性と描画するコピーの両方を含んでいます。だからこそ、文字をまともに書けなかった世代ではなく、このモデルの領域なのです。 [17 本を開く](prompts/gpt-image-2-5-ad-creative-prompts.md)
+- **[キャラクターデザイン](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=character-design#character-design)** — 三面図、表情差分、装備の分解図、マスコット。ここで役に立つ型は、1枚絵ではなくシートを頼むことです。1体のキャラクターを複数の角度から1枚にまとめる。それが、使い続けられるデザインを手に入れる方法です。 [16 本を開く](prompts/gpt-image-2-5-character-design-prompts.md)
+- **[ポートレート](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=portrait#portrait)** — 雑誌風のポートレート、ヘッドショット、フィルムルックの写真。ここで結果を決めるのはカメラの指示です。フォーマット、焦点距離、光源、カラーグレーディングは、雰囲気を語るどんな形容詞よりも効きます。 [16 本を開く](prompts/gpt-image-2-5-portrait-prompts.md)
+- **[イラスト](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=illustration#illustration)** — アニメ、水彩、線画、3Dレンダー、アイソメトリック、ドット絵。スタイル系のプロンプトはライブラリの中で最も短く、最も書き換える価値があります。被写体だけを差し替えてスタイルの部分を残せば、そのままシリーズになります。 [16 本を開く](prompts/gpt-image-2-5-illustration-prompts.md)
+
+<a id="guide"></a>
+
+## GPT Image 2.5のプロンプトの書き方
+
+ライブラリ全体で何度も現れる6つの型です。言い回しのルールではなく、自分で決めなければモデルが代わりに決めてしまう項目であり、一度しかうまくいかないプロンプトと、何度でも使い回せるプロンプトの差になります。
+
+### 被写体ではなく、成果物を名指しする
+
+完成した「もの」が何であるかから書きはじめてください。「16:9の映画ティザーポスター」と「部屋にいる女性を映画的に描いたシーン」は、同じ説明でも違う画像になります。前者はフォーマットと目的、そしてお約束のセットを決めているからです。このライブラリのほぼすべてのプロンプトが、この書き出しで始まります。
+
+### スタイルより先にレイアウトを固める
+
+何をどこに置くかを書いてください。被写体はどの三分割に入るのか、ヘッダーには何が入るのか、パネルは何枚か、下の帯には何があるのか。スタイルの形容詞は後からいくらでも変えられますが、指定しなかった構図は、直そうとして5回作り直すことになる部分です。
+
+### 入れたい文字は引用符でそのまま書く
+
+画像の中に出したい文字列があるなら、引用符で囲んでそのまま書き、置く場所も指定してください。「下部に太字のタイトル」のように説明すると、太字のタイトルは出ますが文言が違います。このモデルは文字を正しく書けるので、失敗の中身は崩れた文字から「頼んでいない文字」へと変わりました。
+
+### シーンだけでなく、カメラを指示する
+
+フォーマット、アングル、焦点距離、光源、そしてカラーグレーディング。「35mmフィルム、硬い正面フラッシュ、ローアングルの斜め45度」は仕様です。「シネマティックで雰囲気のある」は願望です。再現できるポートレートのプロンプトと、そうでないものを分ける最大の差がここにあります。
+
+### 配色を絞る
+
+色名を3〜4色挙げるほうが、雰囲気を表すどんな言葉よりも効きます。プロンプトをテンプレートとして使い回せるようになるのも、この指定のおかげです。「海沿いの街はアクア、コーラル、クリーム。山の街はアルパインブルーとスノーホワイト」と書いたトラベルポスターのプロンプトは、1枚の画像ではなくシリーズになります。
+
+### 出してはいけないものを書く
+
+最後に短い除外リストを置くと、はっきり効きます。ウォーターマークなし、余分な文字なし、隅に太陽を入れない、肌をプラスチックのように光らせない。短く具体的に保ってください。否定の指定が長くなると、モデルの注意を説明文と奪い合いはじめます。
+
+### 編集では、制約より先に変更点を伝える
+
+変えるべき一点を先に説明し、そのうえで変わってはいけないものを挙げます。被写体、ポーズ、カメラアングル、光、背景、スタイルなどです。この順序を逆にすると指示が埋もれてしまいますし、3つの変更を一度に頼むと、どれが結果を動かしたのか判別できなくなります。新しい要素は元のパース、影、質感に合わせてください。合っていないと、編集部分が貼り付けたように見えます。
+
+### 参考画像が何のためのものかを伝える
+
+このモデルは参考画像を最大16枚まで受け取りますが、「これに合わせて」は指示になりません。参考画像が何を与えるのか（被写体、シルエット、配色、レイアウト、素材）を挙げ、そのうち何を新しい画像に引き継ぐのかを示してください。そのうえで、参考画像には含まれていない、実際に求めている状況や変更を説明します。
+
+### 変えるのは一つだけにする
+
+商品、キャラクター、メッセージは固定したまま、変数を一つだけ変えます。光の方向を2通り、構図を2通り、スタイルを2通り。一点だけ違う組を見比べれば、どの判断が効いたのかが分かります。無関係な4枚を見比べても何も分かりません。再現できたプロンプトは残しておいてください。それが次のキャンペーンのテンプレートになります。
+
+<a id="rights"></a>
+
+## ライセンスとクレジット
+
+ビルドスクリプトは MIT です。フォークも商用利用もご自由に、クレジットを入れていただければ私たちの分は完了です。それ以外に私たちがまとめた部分は、まだオープンライセンスでは提供していません。使いたい箇所があればご相談ください。
+
+プロンプトとそのタイトルは書いた本人の作品であり、私たちのものではありません。各行に著者をクレジットし、元の投稿にリンクしています。本文は変更していません。一件ずつ権利の来歴までは追えていないため、重要な用途で使う場合は、そのクレジット行が誰の作品かを示します。
+
+ご自身が書いたものを削除してほしい場合は、ひとことで対応します。理由は不要です。
+
+[`LICENSE`](LICENSE) · [`ATTRIBUTION.md`](ATTRIBUTION.md) · [`TAKEDOWN.md`](TAKEDOWN.md)
+
+<a id="json"></a>
+
+## JSONプロンプトという書き方
+
+このライブラリのプロンプトの一部は、文章ではなくJSONオブジェクトになっています。特別なAPIモードや隠し機能ではありません。モデルは他のテキストと同じように読んでいます。この書き方で得られるのは、精度と、編集のしやすさです。
+
+使いどころは、画像の中に分けておきたい要素があるときです。ヘッダー、中央のメイン要素、番号付きの吹き出し、フッター。文章で書くとそれらが混ざり、階層をモデルが推測するしかありません。キーで分ければ混ざらず、しかもプロンプトがテンプレートになります。値を1つ変えても、周りの文を書き直す必要がないからです。ポートレートや被写体が1つのイラストなら、文章のほうが短く、同じだけうまくいきます。
+
+<a id="faq"></a>
+
+## GPT Image 2.5 プロンプトのよくある質問
+
+### GPT Image 2向けのプロンプトはGPT Image 2.5でも使えますか？
+
+使えます。これらはモデル固有の構文ではなく自然言語のプロンプトなので、GPT Image 2向けに書かれたプロンプトも2.5でそのまま動き、多くの場合はより鮮明な結果が返ってきます。初日からこのライブラリが役に立つのはそのためです。モデルは変わっても、プロンプトの書き方はそのまま引き継がれました。
+
+### プロンプトはJSONと文章のどちらで書くべきですか？
+
+被写体が1つのものは文章で書いてください。ポートレート、イラスト、商品カットなどです。ヘッダー、番号付きの吹き出し、フッターのように、区別を保ちたい要素が出てきたらJSONにします。モデルはどちらもテキストとして扱うので、JSONは特別なモードではありません。複雑なレイアウトを曖昧にせず、値を1つずつ書き換えられるテンプレートにするための手段です。
+
+### 画像内の文字を正しく描かせるにはどうすればいいですか？
+
+描かせたい文字列を引用符で囲んでそのまま書き、フレーム内のどこに置くかを指定してから、特定のフォント名ではなく書体の性格を伝えてください。引用せずに説明してしまうことが、文言が微妙にずれる典型的な原因です。この世代のモデルは日本語や中国語を含めて画像内テキストをきれいに描けるので、残っている失敗の多くは、モデルの綴りではなく指定が足りないプロンプト側にあります。
+
+### 複数の画像で同じキャラクターを保つにはどうすればいいですか？
+
+1体のキャラクターを何枚も作らせるのではなく、1枚のキャラクターシートを頼んでください。正面、側面、背面に加えて表情の列と装備の分解図を求めるプロンプトなら、作業の基準になる1枚が手に入ります。このライブラリのキャラクターデザインのプロンプトが使っている型です。もう半分は参照画像です。モデルは複数枚を受け取れるので、できたシートを入力し直すとデザインが安定します。
+
+### これらのプロンプトはYouArtで実行できますか？
+
+できます。YouArtが現在提供しているOpenAIの画像モデルGPT Image 2に、どのプロンプトでもそのままコピーすれば、書かれたとおりに動きます。GPT Image 2.5は段階的な提供が続いており、まだすべてのアカウントには開放されていません。開放されたときには、これらのプロンプトはそのまま移行できます。
+
+### 編集向けの GPT Image 2.5 プロンプトはどう書けばよいですか？
+
+まず意図した変更を一つ説明し、そのあとで維持すべき要素を挙げます。被写体、ポーズ、光、カメラアングル、そして動かしてはいけない商品のディテールなどです。修正のたびに確認していけば、すべての変更を自分が指示したことに紐づけられます。複数の編集を同時にまとめて行うと、そうはいきません。
+
+### GPT Image 2.5 のプロンプトで参考画像は使えますか？
+
+使えます。このモデルは最大16枚まで受け取ります。合わせてほしいと頼むのではなく、参考画像が何を提供するのかを述べてください。被写体、シルエット、配色、構図、素材などです。そのうえで引き継ぐべき特徴を特定し、その上に重ねたい新しい状況や変更を説明します。
+
+### 長いプロンプトを1つ書くべきですか、それとも何度も修正すべきですか？
+
+最初の画像には完成した指示を書き、そのあとは手を入れたい部分だけを絞って修正していきます。そうすればうまくいった部分を守れますし、それぞれの出力を前回と比べられます。構図、光、文字、スタイリングは、それぞれ手を入れる必要があるなら別々の修正として扱ってください。
+
+### AI 画像生成ツール向けのプロンプトはどう書けばよいですか？
+
+見る人が画像を目に入れる順序で書きます。被写体、状況、構図、スタイル、光、そして一貫させたいディテールです。出力に文字やレイアウト、商品情報を入れる場合は、それを説明するのではなく正確な文言を示し、視覚的な優先順位のどこに置くのかを伝えてください。
+
+<a id="machines"></a>
+
+## LLM・エージェント向け
+
+GitHub は、レンダリングしないクローラーに対してファイルページではプロンプト全文を返しますが、リポジトリのトップページでは返しません。そのため機械可読なコピーをサイズ付きでここに並べています。
+
+| 内容 | ファイル | バイト数 |
+|---|---|--:|
+| プロンプト一覧 | [`data/prompts.json`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.json) | 496,998 |
+| LLM・エージェント向け | [`llms.txt`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/llms.txt) | 11,022 |
+| ポスター | [`prompts/gpt-image-2-5-poster-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-poster-prompts.md) | 60,016 |
+| 画像内テキスト | [`prompts/gpt-image-2-5-text-in-image-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-text-in-image-prompts.md) | 38,349 |
+| インフォグラフィック | [`prompts/gpt-image-2-5-infographic-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-infographic-prompts.md) | 70,351 |
+| UIモックアップ | [`prompts/gpt-image-2-5-ui-mockup-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ui-mockup-prompts.md) | 41,745 |
+| 商品撮影 | [`prompts/gpt-image-2-5-product-photo-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-product-photo-prompts.md) | 45,681 |
+| 広告クリエイティブ | [`prompts/gpt-image-2-5-ad-creative-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-ad-creative-prompts.md) | 60,933 |
+| キャラクターデザイン | [`prompts/gpt-image-2-5-character-design-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-character-design-prompts.md) | 50,346 |
+| ポートレート | [`prompts/gpt-image-2-5-portrait-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-portrait-prompts.md) | 54,404 |
+| イラスト | [`prompts/gpt-image-2-5-illustration-prompts.md`](https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/prompts/gpt-image-2-5-illustration-prompts.md) | 58,486 |
+
+アシスタント向け索引の慣例的な置き場所はサイト自身の llms.txt で、そこにはすでにこのライブラリが載っています。このリポジトリにあるものはその節のミラーです。 [`llms.txt`](llms.txt)
+
+プロンプトを引用するときは、作者と元投稿へのリンクも一緒に持っていってください。
+
+<a id="cta"></a>
+
+## どのプロンプトもすぐ実行できます
+
+プロンプトをコピーして入力欄に貼り、自分のものにしたい部分だけ書き換えてください。設定は不要で、はじめる分の無料クレジットも付いています。
+
+**[生成画面を開く](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=footer)** · [youart.ai で 150 本すべて見る](https://youart.ai/ja/gpt-image-2-5-prompts?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=footer)
+
+<a id="about"></a>
+
+## このリポジトリについて
+
+YouArt（Formative Intelligence Inc. のプロダクト）が管理しています。
+
+YouArt は AI の画像・動画スタジオです。ここにある 150 本のプロンプトはサイト側にもあり、ワンクリックで入力欄に入るので、何も設定せずにそのまま実行できます。はじめる分の無料クレジット付きです。
+
+[youart.ai](https://youart.ai/ja/?utm_source=github&utm_medium=footer&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=brand)

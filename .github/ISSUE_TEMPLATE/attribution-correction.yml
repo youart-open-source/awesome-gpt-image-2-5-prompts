@@ -1,0 +1,19 @@
+name: Attribution correction
+description: The credit on a prompt is wrong.
+title: "[Credit] "
+labels: ["attribution"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Which prompt
+      placeholder: monochrome-hermes-inspired-avatar
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong, and what is right
+      description: Wrong name, wrong account, wrong post — tell us which, and what it should say.
+    validations:
+      required: true

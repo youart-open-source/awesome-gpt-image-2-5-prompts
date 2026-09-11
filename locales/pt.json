@@ -1,0 +1,208 @@
+{
+  "$meta": {
+    "locale": "pt",
+    "name": "Português",
+    "dir": "ltr",
+    "sourceRepo": "ai-art-frontend",
+    "sourceFile": "i18n/messages/pt.json",
+    "sourceNamespace": "gpt_image_prompts",
+    "sourceCommit": "4b4946f5174ef53210cd0b78dd33f46622965f85",
+    "sourceSha": "77da548e536e50233062903c9311f5b57757c087fc3711effca6ff9d61f26ca6",
+    "sourceShaRule": "sha256 of the key-sorted, minified JSON serialisation of the namespace object",
+    "omissions": "Derived from the shipped page namespace; strings are lifted verbatim where one exists. Deliberately absent: the faq items what_is_a_good_prompt, free_to_use and commercial_use (SPEC 8.5 — a measurably wrong median, and two licence claims), every rights/licence string, and the index Upstream-collection column label (deferred to the rights pass). Page-only namespaces metadata, structured, nav, card and templates are not carried. Values are plain text: no markdown, and no literal braces other than the placeholders that the en file declares for that key."
+  },
+  "chrome": {
+    "title": "Prompts do GPT Image 2.5",
+    "page_title": "Prompts do GPT Image 2.5",
+    "tagline": "{prompts} prompts prontos para uso nos modelos GPT Image da OpenAI, incluindo o GPT Image 2.5. Cada um é reproduzido literalmente como o autor publicou, com a conta dele e um link para o post de onde veio.",
+    "stats": "{prompts} prompts · {authors} criadores creditados · {categories} casos de uso · {json} escritos em JSON · atualizado em {date}",
+    "disclaimer_trademark": "GPT, GPT Image e ChatGPT são marcas registradas da OpenAI. A YouArt é uma plataforma independente, sem vínculo com a OpenAI e sem endosso dela.",
+    "disclaimer_availability": "O GPT Image 2.5 ainda está em liberação gradual e ainda não está aberto para todas as contas; quando abrir, estes prompts passam para lá sem nenhuma mudança."
+  },
+  "what": {
+    "heading": "O que é isto",
+    "body": "Uma biblioteca curada e creditada de prompts que outras pessoas publicaram depois de rodá-los nos modelos GPT Image da OpenAI. Estão agrupados pelo que você quer fazer, não por estilo, porque é assim que a demanda se organiza. Cada prompt mantém a redação original, o autor e um link para o post de onde veio.",
+    "origin": "De onde vieram, sem rodeios: foram publicados no X pelas {authors} pessoas creditadas aqui e reunidos por dois repositórios de código aberto dos quais partimos. {prelaunch} das {sourced} publicações com data são anteriores ao lançamento do GPT Image 2.5, em 2026-09-08. São prompts em linguagem natural, não sintaxe específica de um modelo, então um prompt escrito para o GPT Image 2 roda igual no 2.5 — preferimos dizer isso a maquiar uma biblioteca da época do GPT Image 2 como se fosse nativa do 2.5, e não afirmamos que alguém aqui os rodou no 2.5."
+  },
+  "how": {
+    "heading": "Como usar",
+    "step_1": "Escolha um caso de uso abaixo e abra o arquivo dele.",
+    "step_2": "Copie o prompt inteiro do bloco de código. Não parafraseie: as strings entre aspas estão ali para o modelo desenhar exatamente aquilo.",
+    "step_3": "Mude as partes que devem ser suas: o sujeito, o texto, a paleta. Depois rode.",
+    "template_token_note": "{tokenrows} destes prompts ainda trazem os marcadores de modelo que o autor escreveu entre chaves. Substitua cada um pelo seu próprio valor antes de rodar o prompt, ou o modelo vai desenhar o marcador como texto."
+  },
+  "browse": {
+    "heading": "Navegar por caso de uso",
+    "open_file": "Abrir os {count} prompts",
+    "prompt_language_note": "Os prompts em si não são traduzidos. Ficam com as palavras que o autor escreveu, porque um prompt é entrada para o modelo e não texto para ler: a habilidade principal deste modelo é desenhar a string entre aspas exatamente como está, e traduzir muda o resultado."
+  },
+  "categories": {
+    "poster": {
+      "label": "Pôsteres",
+      "heading": "Prompts de pôster e key art",
+      "blurb": "Teasers de filme, flyers de evento, pôsteres de viagem e capas de álbum. Esses prompts gastam a maior parte do texto com layout, porque um pôster é um problema de composição antes de ser um problema de estilo: onde o título fica, quanto espaço negativo há acima dele, o que ocupa o terço inferior."
+    },
+    "typography-text": {
+      "label": "Texto na imagem",
+      "heading": "Prompts de tipografia e texto na imagem",
+      "blurb": "Palavras legíveis renderizadas dentro da imagem são a capacidade pela qual esta geração do modelo ficou conhecida. Esses prompts citam a frase exata a ser renderizada, descrevem o caráter da tipografia e posicionam o texto no quadro, em vez de torcer por ele."
+    },
+    "infographic": {
+      "label": "Infográficos",
+      "heading": "Prompts de infográfico e diagrama",
+      "blurb": "Gráficos, linhas do tempo, vistas explodidas e slides explicativos. Os mais longos se leem quase como uma especificação: quantas chamadas, de que lado, com qual texto de rótulo. É por isso que funcionam, e é por isso que muitos deles são escritos em JSON."
+    },
+    "ui-mockup": {
+      "label": "Mockups de UI",
+      "heading": "Prompts de mockup de interface de app e web",
+      "blurb": "Dashboards, telas de celular, landing pages e overlays de transmissão. Um prompt de UI precisa nomear seus componentes, porque o modelo vai inventar uma interface plausível se você não disser qual queria."
+    },
+    "ecommerce-product": {
+      "label": "Fotos de produto",
+      "heading": "Prompts de fotografia de produto e embalagem",
+      "blurb": "Fotos de produto em estúdio, renders de embalagem e imagens de catálogo. São os prompts que se pagam: descrevem um esquema de iluminação, uma superfície e uma posição de câmera com precisão suficiente para repetir o resultado em toda uma linha de produtos."
+    },
+    "ad-creative": {
+      "label": "Criativos de anúncio",
+      "heading": "Prompts de publicidade e campanha",
+      "blurb": "Key visuals de campanha, banners e criativos para redes sociais. A maioria carrega tanto uma direção de imagem quanto um texto para renderizar, e é por isso que pertencem a este modelo, e não a uma geração que não sabia soletrar."
+    },
+    "character-design": {
+      "label": "Design de personagem",
+      "heading": "Prompts de design de personagem e concept art",
+      "blurb": "Fichas de rotação, grades de expressões, detalhamentos de equipamento e mascotes. O padrão útil aqui é pedir uma ficha em vez de uma imagem: várias vistas de um mesmo personagem em uma única imagem, que é como se obtém um design para continuar usando."
+    },
+    "portrait": {
+      "label": "Retratos",
+      "heading": "Prompts de retrato e fotografia",
+      "blurb": "Retratos editoriais, headshots e fotografia com cara de filme. Esses vivem ou morrem pela direção de câmera: o formato, a distância focal, a fonte de luz e a correção de cor fazem mais pelo resultado do que qualquer adjetivo sobre clima."
+    },
+    "illustration": {
+      "label": "Ilustração",
+      "heading": "Prompts de ilustração e estilo artístico",
+      "blurb": "Anime, aquarela, line art, render 3D, isométrico e pixel art. Os prompts de estilo são os mais curtos da biblioteca e os que mais valem a pena editar: troque o tema, mantenha a cláusula de estilo, e você tem uma série."
+    }
+  },
+  "guide": {
+    "heading": "Como escrever um prompt para o GPT Image 2.5",
+    "intro": "Seis padrões que aparecem repetidamente na biblioteca. Não são regras sobre como redigir; são decisões que o modelo vai tomar por você se você não as tomar, e a diferença entre um prompt que funciona uma vez e um que dá para reutilizar.",
+    "items": {
+      "name_the_output": {
+        "title": "Nomeie o artefato, não o assunto",
+        "body": "Comece pelo que a coisa pronta É. \"Um pôster teaser de filme em 16:9\" e \"uma cena cinematográfica de uma mulher em uma câmara\" produzem imagens diferentes a partir da mesma descrição, porque o primeiro se compromete com um formato, um propósito e um conjunto de convenções. Quase todo prompt desta biblioteca começa assim."
+      },
+      "lock_the_layout": {
+        "title": "Trave o layout antes do estilo",
+        "body": "Diga onde as coisas ficam: qual terço abriga o assunto, o que preenche o cabeçalho, quantos painéis, o que vai na faixa inferior. Adjetivos de estilo são baratos de trocar depois; uma composição que você não especificou é o que você vai gerar de novo cinco vezes tentando consertar."
+      },
+      "quote_the_text": {
+        "title": "Coloque as palavras exatas entre aspas",
+        "body": "Se um texto precisa aparecer na imagem, escreva-o entre aspas e diga onde ele fica. Descrevê-lo (\"um título em negrito embaixo\") rende um título em negrito com as palavras erradas. Este modelo sabe soletrar, então o modo de falha deixou de ser glifos embaralhados e passou a ser um texto que você não pediu."
+      },
+      "direct_the_camera": {
+        "title": "Dirija a câmera, não só a cena",
+        "body": "Formato, ângulo, distância focal, fonte de luz e correção de cor. \"Filme 35mm, flash frontal duro, três quartos em ângulo baixo\" é uma especificação. \"Cinematográfico, atmosférico\" é uma esperança. Essa é a maior diferença entre os prompts de retrato que se reproduzem e os que não."
+      },
+      "constrain_the_palette": {
+        "title": "Restrinja a paleta",
+        "body": "Três ou quatro cores nomeadas valem mais do que qualquer palavra de clima. É também o que torna um prompt reutilizável como modelo: um prompt de pôster de viagem que diz \"cidades litorâneas usam água-marinha, coral e creme; cidades de montanha usam azul alpino e branco neve\" vira uma série, em vez de uma imagem só."
+      },
+      "say_what_to_exclude": {
+        "title": "Diga o que não pode aparecer",
+        "body": "Uma lista curta de exclusões no fim faz trabalho de verdade: sem marca d'água, sem texto extra, sem sol visível no canto, sem pele plástica. Mantenha a lista curta e específica. Uma relação longa de negativas começa a competir com a descrição pela atenção do modelo."
+      },
+      "one_change_at_a_time": {
+        "title": "Em uma edição, nomeie a mudança antes das restrições",
+        "body": "Descreva a única coisa que deve mudar e depois liste o que precisa sobreviver a ela: assunto, pose, ângulo de câmera, iluminação, fundo, estilo. Inverter essa ordem enterra a instrução, e pedir três mudanças de uma vez deixa você sem saber qual delas mexeu no resultado. Ajuste o novo elemento à perspectiva, às sombras e à textura originais, ou a edição vai parecer colada por cima."
+      },
+      "say_what_the_reference_gives": {
+        "title": "Diga para que serve a imagem de referência",
+        "body": "Este modelo aceita até dezesseis imagens de referência, e \"faça igual\" não é uma instrução. Nomeie o que a referência fornece — o assunto, a silhueta, a paleta de cores, o layout, o material — e o que deve passar para a nova imagem. Depois descreva o cenário ou a mudança que você realmente quer, que a referência não contém."
+      },
+      "run_a_test_set": {
+        "title": "Varie uma coisa, não tudo",
+        "body": "Mantenha o produto, o personagem ou a mensagem constantes e mude uma variável: duas direções de luz, duas composições, dois estilos. Comparar um conjunto que difere em um único aspecto mostra qual decisão fez o trabalho; comparar quatro imagens sem relação entre si não diz nada. Guarde os prompts que se reproduzem — são eles que viram o modelo da próxima campanha."
+      }
+    }
+  },
+  "json": {
+    "heading": "O formato de prompt em JSON",
+    "intro": "Alguns prompts desta biblioteca são um objeto JSON em vez de uma frase. Isso não é um modo especial de API nem um recurso escondido: o modelo lê aquilo como texto, como qualquer outra coisa. O que a estrutura compra é precisão, e uma edição mais fácil.",
+    "when": "Recorra a ele quando a imagem tem partes que precisam ficar separadas: um cabeçalho, uma peça central, um conjunto numerado de chamadas, um rodapé. A prosa mistura tudo isso e o modelo tem que adivinhar a hierarquia. As chaves mantêm as partes distintas e transformam o prompt em um modelo, porque mudar um valor não corre o risco de reescrever a frase ao redor. Para um retrato ou uma ilustração de assunto único, a prosa é mais curta e funciona igualmente bem."
+  },
+  "index": {
+    "heading": "Todos os prompts",
+    "intro": "Todos os {prompts} prompts. O link Prompt abre o texto completo neste repositório; Rodar abre na YouArt, onde você pode gerar a partir dele.",
+    "col_prompt": "Prompt",
+    "col_author": "Autor",
+    "col_source": "Fonte",
+    "col_run": "Rodar"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes sobre prompts do GPT Image 2.5",
+    "items": {
+      "do_gpt_image_2_prompts_work": {
+        "q": "Os prompts de GPT Image 2 funcionam no GPT Image 2.5?",
+        "a": "Sim. São prompts em linguagem natural, não uma sintaxe específica do modelo, então um prompt escrito para o GPT Image 2 roda sem alteração no 2.5 e em geral volta mais nítido. É por isso que esta biblioteca já é útil desde o primeiro dia: a técnica de prompt atravessou a mudança de modelo."
+      },
+      "json_or_prose": {
+        "q": "Devo escrever prompts em JSON ou em prosa?",
+        "a": "Prosa para qualquer coisa com um assunto só: um retrato, uma ilustração, uma foto de produto. JSON quando a imagem tem partes que precisam permanecer distintas, como um cabeçalho, um conjunto numerado de chamadas e um rodapé. O modelo trata os dois como texto, então JSON não é um modo especial. É uma forma de manter um layout complexo sem ambiguidade e de transformar o prompt em um modelo que você edita um valor por vez."
+      },
+      "text_in_image": {
+        "q": "Como faço o texto sair correto dentro da imagem?",
+        "a": "Escreva a frase exata entre aspas e diga onde ela fica no quadro, depois descreva o caráter da tipografia que você quer, em vez de uma fonte específica. Descrever o texto em vez de citá-lo é a causa habitual daquele resultado quase certo. Esta geração do modelo renderiza bem o texto dentro da imagem, inclusive em chinês e japonês, então a maior parte das falhas restantes vem de um prompt pouco específico, e não da ortografia do modelo."
+      },
+      "character_consistency": {
+        "q": "Como mantenho o mesmo personagem em várias imagens?",
+        "a": "Peça uma ficha de personagem em uma única imagem, em vez de várias imagens de um personagem. Um prompt que pede vistas de frente, de lado e de costas, mais uma fileira de expressões e um detalhamento de equipamento, entrega uma referência única para trabalhar, que é o padrão usado pelos prompts de design de personagem desta biblioteca. As imagens de referência são a outra metade: o modelo aceita várias, e realimentar a ficha mantém o design estável."
+      },
+      "run_on_youart": {
+        "q": "Posso rodar estes prompts na YouArt?",
+        "a": "Pode. Copie qualquer prompt para o GPT Image 2, o modelo de imagem da OpenAI que a YouArt oferece hoje, e ele roda como está escrito. O GPT Image 2.5 ainda está em liberação gradual e ainda não está aberto para todas as contas; quando abrir, estes prompts passam para lá sem nenhuma mudança."
+      },
+      "editing_prompts": {
+        "q": "Como devo escrever prompts de GPT Image 2.5 para edição?",
+        "a": "Descreva primeiro uma única mudança pretendida e depois nomeie os detalhes a preservar: o assunto, a pose, a iluminação, o ângulo de câmera e qualquer detalhe do produto que não pode se mexer. Revisar a cada rodada mantém toda mudança atribuível a algo que você pediu, o que um lote de edições simultâneas não permite."
+      },
+      "reference_image": {
+        "q": "Posso usar uma imagem de referência com prompts de GPT Image 2.5?",
+        "a": "Pode, e o modelo aceita até dezesseis. Diga o que a referência contribui em vez de pedir que ele faça igual: um assunto, uma silhueta, uma paleta de cores, uma composição, um material. Depois identifique as características que devem passar adiante e descreva o novo cenário ou a mudança que você quer sobre elas."
+      },
+      "one_long_or_revisions": {
+        "q": "Devo usar um prompt longo ou várias revisões?",
+        "a": "Comece com um briefing completo para a primeira imagem e depois use revisões pontuais nas partes que precisam de ajuste. Isso protege o que já funcionou e deixa cada resultado comparável ao anterior. Trate composição, iluminação, texto e estilo como revisões separadas quando cada um deles precisar de atenção."
+      },
+      "how_to_write_generally": {
+        "q": "Como escrevo prompts para um gerador de imagens com IA?",
+        "a": "Escreva na ordem em que alguém percebe a imagem: assunto, cenário, composição, estilo, iluminação e, por fim, os detalhes que precisam se manter consistentes. Se o resultado tiver texto, um layout ou informações de produto, dê as palavras exatas e diga onde elas ficam na hierarquia visual, em vez de descrevê-las."
+      }
+    }
+  },
+  "rights": {
+    "heading": "Licença e crédito",
+    "ours": "Os scripts de build são MIT — faça fork, use comercialmente, credite-nos e a nossa parte está feita. Todo o resto que reunimos ainda não é oferecido sob licença aberta; pergunte se quiser reutilizar alguma parte.",
+    "theirs": "Os prompts e seus títulos são obra de seus autores, não nossa. Cada linha credita quem escreveu e liga ao post original, e não alteramos o texto. Não rastreamos a cadeia de direitos por trás de cada um, então se quiser partir de um prompt para algo que importa, essa linha de crédito diz de quem é.",
+    "removal": "Escreveu um deles e quer que saia? É só dizer, sem explicações."
+  },
+  "machines": {
+    "heading": "Para LLMs e agentes",
+    "body": "O GitHub entrega o texto completo dos prompts a um rastreador que não renderiza na página de um arquivo, mas não na página inicial do repositório. Por isso as cópias legíveis por máquina estão listadas aqui, com o tamanho de cada uma.",
+    "index_note": "O endereço convencional para um índice voltado a assistentes é o llms.txt do próprio site, que já lista esta biblioteca. A cópia deste repositório espelha essa seção.",
+    "quote_note": "Se você citar um prompt, leve junto o autor e o link para o post original.",
+    "col_contents": "Conteúdo",
+    "col_file": "Arquivo",
+    "col_bytes": "Bytes"
+  },
+  "cta": {
+    "heading": "Rode qualquer um destes prompts",
+    "body": "Copie um prompt, cole no compositor e mude as partes que devem ser suas. Sem configuração, e com créditos grátis para começar.",
+    "primary": "Abrir o gerador",
+    "browse_all": "Ver os {prompts} prompts em youart.ai"
+  },
+  "about": {
+    "heading": "Sobre",
+    "maintainer": "Mantido pela YouArt, um produto da Formative Intelligence Inc.",
+    "body": "A YouArt é um estúdio de imagem e vídeo com IA. Os mesmos {prompts} prompts estão no site, com um compositor de um clique, então dá para rodar qualquer um sem configurar nada. Com créditos grátis para começar."
+  }
+}

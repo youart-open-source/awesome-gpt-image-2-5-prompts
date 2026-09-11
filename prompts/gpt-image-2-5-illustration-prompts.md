@@ -1,0 +1,565 @@
+<!-- Built from data/prompts.json and locales/en.json by `node scripts/build.mjs`.
+     Edit the source, not this file; `--check` fails CI on a hand edit. -->
+
+# GPT Image 2.5 illustration and art style prompts
+
+Anime, watercolour, line art, 3D render, isometric and pixel art. Style prompts are the shortest in the library, and the ones most worth editing: swap the subject and keep the style clause, and you have a series.
+
+<p align="center"><img src="../images/examples/travel.webp" alt="GPT Image 2.5 cinematic illustration example generated on YouArt" width="720"></p>
+
+**[Open the 16 prompts](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=category&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=illustration#illustration)**
+
+[Awesome GPT Image 2.5 Prompts](../README.md) · [Browse by use case](../README.md#browse) · [How to write a GPT Image 2.5 prompt](../README.md#guide)
+
+GPT, GPT Image and ChatGPT are trademarks of OpenAI. YouArt is an independent platform and is not affiliated with or endorsed by OpenAI. GPT Image 2.5 is still rolling out and is not yet open to every account; when it opens, these prompts move across unchanged.
+
+---
+
+<a id="p-anime-crowd-pov-comparison"></a>
+
+## Anime Crowd POV Comparison
+
+[@chesny](https://x.com/chesny) · [x.com](https://x.com/chesny/status/2047714457774637213) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```json
+{"type":"comparison graphic","style":"anime cinematic demonstration image on a black presentation background","canvas":{"aspect_ratio":"4:3","background":"solid black"},"text_elements":[{"text":"{argument name=\"headline text\" default=\"Move the camera POV to be at ground level in the crowd.\"}","position":"top center","style":"large white sans-serif"},{"text":"Source","position":"left of upper image","style":"large white sans-serif"},{"text":"Output","position":"left of lower image","style":"large white sans-serif"}],"layout":{"sections":[{"title":"Source","position":"upper center","count":1,"labels":["overhead crowd scene"]},{"title":"Output","position":"lower center","count":1,"labels":["ground-level crowd POV scene"]}],"image_frames":2},"images":[{"role":"source image","composition":"busy top-down view of a densely packed historical street crowd, seen from above","scene":"a chaotic crowd gathered around a wagon and a horse-drawn carriage, people pressed shoulder to shoulder, many wearing caps and muted early-20th-century or old-European clothing, bundles and sacks visible, one brown horse at the right edge, wooden wagon wheel and cart structure partially visible","camera":"high overhead bird's-eye angle looking down into the crowd","lighting":"soft daylight","color_palette":"muted earthy browns, dusty blues, beige, olive, warm gray","rendering":"hand-painted anime film still, detailed crowd illustration, slightly soft shading"},{"role":"output image","composition":"the same crowded historical street reimagined from inside the mass of people at near-ground height","scene":"view from within the crowd beside a carriage wheel, bodies filling the foreground and midground, a person in dark maroon clothing bent forward at left, a crouched figure in green near the bottom center, a woman in a light blue dress at right-center turning back, tightly packed figures, horse and cart implied nearby, dramatic sense of compression and closeness","camera":"very low ground-level POV from inside the crowd, upward and forward through people, emphasizing complex occlusion and depth","lighting":"soft daylight with warm cinematic shadows","color_palette":"muted earthy browns, dusty blues, beige, olive, warm gray","rendering":"hand-painted anime film still, cinematic perspective shift, detailed character crowding, soft painterly shading"}],"overall_goal":"show a before-and-after camera angle transformation of the same anime crowd scene, with the output moving from an overhead view to a low immersive POV inside the crowd"}
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=anime-crowd-pov-comparison#anime-crowd-pov-comparison)
+
+<a id="p-artist-and-ethereal-muse-at-night"></a>
+
+## Artist and Ethereal Muse at Night
+
+[@almimeister](https://x.com/almimeister) · [x.com](https://x.com/almimeister/status/2048309710118687101) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+A cinematic anime-inspired digital illustration set at night inside a cozy artist's room with large window panes and a warm city glow outside. On the left, a young male artist with {argument name="hair color" default="dark brown"} messy hair sits at a cluttered desk in side profile, leaning forward with one hand near his mouth and the other drawing with a pen on a tablet or sketchbook. The desk is covered with exactly 1 pen cup filled with pencils, 1 coffee mug, 1 open laptop or pen-display showing a sunset landscape, 1 spiral sketchbook with manga-style character drawings, 2 additional drawing books or pads, 1 small stack of about 4 books, and many scattered art cards and printed illustrations. On the right, a luminous ethereal anime girl made of blue-white light appears life-sized, facing the artist with both hands gently extended toward him. Her form is translucent, delicate, and composed of glowing contour lines, starry particles, and flowing strands of light, with long windblown hair and a soft dress-like silhouette. Between them, a magical stream of golden and white light spirals upward from the artist's desk into the air, connecting creator and creation. Inside this swirling ribbon are exactly 12 to 16 floating image fragments and sketch pages: monochrome character sketches, scenic sunset paintings, small photo-like panels, and tiny icon-like cards, all orbiting in a curved arc from lower center to upper left and upper center. Around the upper half of the image, dozens of glowing musical notes float through the air, mixed with sparkling particles, creating the feeling that inspiration has become visible sound and memory. The palette is rich warm gold and amber on the artist's side, contrasted with cool electric blue and white on the spirit girl's side, with dramatic rim light, volumetric glow, intricate particles, and a dreamy emotional atmosphere. Composition is vertical, highly detailed, intimate, and poetic, evoking the relationship between {argument name="person one" default="you"} and {argument name="person two" default="me"} as artist and imagined muse, where drawings, music, memories, and fantasy physically manifest in the room. Add a small handwritten note card on the desk with {argument name="note text" default="二人だけの物語"}, and display one prominent artwork on the desk and one floating scenic panel using {argument name="scene theme" default="sunset sky over a distant city"}.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=artist-and-ethereal-muse-at-night#artist-and-ethereal-muse-at-night)
+
+<a id="p-busan-travel-journal-illustration-2"></a>
+
+## Busan Travel Journal Illustration
+
+[@Naiknelofar788](https://x.com/Naiknelofar788) · [x.com](https://x.com/Naiknelofar788/status/2056189569515892819) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+Create a dreamy handcrafted ( CITY)travel journal illustration, as if painted in an artist’s personal sketchbook while traveling through (COUNTRY )
+SCENE: A romantic Busan coastal setting inspired by Gamcheon Culture Village + Haeundae + Songdo seaside charm. Feature: oceanfront promenade gentle waves seagulls Korean seaside cafés pastel coastal buildings tiny fishing boats paper lantern accents boardwalk details colorful Busan hillside houses in the distance beach umbrellas ocean breeze atmosphere subtle Korean storefront signage travel discovery mood
+SUBJECT: Place the woman from the uploaded reference naturally in the scene. Appearance:￼ long flowing copper auburn hair moving softly in the sea breeze hazel-green eyes fair skin natural elegant expression soft thoughtful gaze
+WARDROBE: romantic coastal travel styling cream knit sweater flowing midi skirt light trench coat or airy cardigan delicate scarf moving with wind comfortable elegant walking shoes
+POSE OPTIONS: ((walking along the Busan seaside promenade)) OR ((sitting at a Korean seaside café sketching in a journal)) OR￼ ￼ ((holding a travel journal while looking toward the ocean)) OR ((standing near the railing with wind in hair, candid cinematic pose))
+STYLE: premium watercolor travel-journal illustration hand-drawn ink sketch detailing transparent watercolor washes aged textured paper pigment bleeding ink splatters vintage travel scrapbook aesthetic editorial artistic composition luxury Pinterest-worthy illustration
+ADD SCRAPBOOK ELEMENTS: handwritten diary notes "BUSAN" "KOREA" tiny illustrated coastline map￼ metro ticket fragments passport stamps vintage postage marks boarding pass scraps coffee stains botanical doodles hand-drawn arrows tiny seashell sketches travel annotations paper tape collage small Korean handwritten notes
+COLOR PALETTE: soft ocean blue dusty aqua muted sand beige faded coral warm cream seafoam green soft terracotta accents washed watercolor neutrals LIGHTING: golden morning seaside sunlight airy coastal glow romantic atmospheric haze gentle cinematic warmth
+ COMPOSITION: vertical travel journal page 4:5 aspect ratio ultra detailed cozy nostalgic storytelling peaceful romantic vacation mood
+NEGATIVE PROMPT: CGI, photorealistic rendering, anime face, identity change, plastic skin, neon cyberpunk, futuristic objects, dark horror mood, distorted anatomy, extra limbs, messy cluttered composition, AI glitches, oversaturated colors
+￼ metro ticket fragments passport stamps vintage postage marks boarding pass scraps coffee stains botanical doodles hand-drawn arrows tiny seashell sketches travel annotations paper tape collage small Korean handwritten notes
+COLOR PALETTE: soft ocean blue dusty aqua muted sand beige faded coral warm cream seafoam green soft terracotta accents washed watercolor neutrals LIGHTING: golden morning seaside sunlight airy coastal glow romantic atmospheric haze gentle cinematic warmth
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=busan-travel-journal-illustration-2#busan-travel-journal-illustration-2)
+
+<a id="p-comic-storyboard-holographic-mountain-bedroom"></a>
+
+## Comic / Storyboard - Holographic Mountain Bedroom
+
+[@straysheep\_54](https://x.com/straysheep_54) · [x.com](https://x.com/straysheep_54/status/2096975563542196225) · [`youmind`](https://github.com/YouMind-OpenLab/awesome-gpt-image-2/tree/415720754e9e767306922fc20b9953ec7830e5cf)
+
+```text
+Create a cinematic anime-style sci-fi bedroom scene at night, wide 16:9 composition, richly detailed and atmospheric. A futuristic teenage/young adult girl with very long {argument name="hair color" default="aqua blue"} twin-tail hair stands slightly right of center, wearing a white high-tech lab coat or expedition coat with dark cybernetic panels, blue glowing accents, white stockings, and white ankle boots. She holds a small translucent holographic tablet in one hand and looks toward a huge floating hologram on the left. The room is dark navy and illuminated by cool blue neon edge lights, rain-speckled reflections, and warm bedside lantern light. On the left side, show one enormous rectangular holographic projection with clipped futuristic corners and a bright electric-blue outline, rising from a circular floor projector. Inside the hologram is a dramatic fantasy mountain landscape: jagged black peaks, rocky foreground, distant mountain ranges, a brilliant {argument name="sky gradient" default="sunrise-to-starry-night gradient"} with orange dawn on the horizon blending upward into violet, indigo, and a dense star field/Milky Way. In front of the holographic landscape, include exactly one small mechanical bird companion flying, with white and pale-blue feathers, tiny goggles or visor, a small harness pack, and glowing blue crystalline tail feathers. On the right side of the room, place a bed under large floor-to-ceiling windows; through the windows show a rainy futuristic city skyline at night with countless blue lights, vertical rain streaks, and reflections on glass. Include exactly one small wall-mounted holographic frame showing snowy mountains. Foreground and room details should include a glossy reflective floor, a circular rug, a desk with blue-lit edges and a transparent map-like display, one office chair, one bedside table with one warm lantern, one potted plant near the window, one potted plant blurred in the lower left foreground, one glowing star-shaped lamp, and one small bird plush or figurine near the foreground. Visual style: ultra-detailed anime key visual, cyberpunk but cozy, deep blues with magenta-orange dawn contrast, volumetric glow, crisp linework, soft bloom, realistic reflections, high depth of field with slight foreground blur, no visible text, no watermark.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=comic-storyboard-holographic-mountain-bedroom#comic-storyboard-holographic-mountain-bedroom)
+
+<a id="p-comic-storyboard-photo-to-storybook-illustration-split"></a>
+
+## Comic / Storyboard - Photo to Storybook Illustration Split
+
+[@itxabdullaa](https://x.com/itxabdullaa) · [x.com](https://x.com/itxabdullaa/status/2096806123877835005) · [`youmind`](https://github.com/YouMind-OpenLab/awesome-gpt-image-2/tree/415720754e9e767306922fc20b9953ec7830e5cf)
+
+```text
+Create a single vertical 3:4 PHOTO + HAND-DRAWN ILLUSTRATION artwork based ONLY on the uploaded photograph.
+
+Use the uploaded photograph as the ONLY visual reference. Analyze the photograph independently and reproduce the exact subject, pose, expression, clothing, hairstyle, accessories, objects, proportions, and overall moment in the illustration. Do not introduce elements from any previous image or reference.
+
+TOP — ORIGINAL PHOTOGRAPH
+
+Use approximately the upper 50% of the canvas for the original photograph.
+
+Preserve the photograph faithfully and naturally:
+- Keep the original subject exactly recognizable.
+- Preserve the face, expression, hairstyle, clothing, accessories, pose, body proportions, and visible objects.
+- Preserve the original environment and composition.
+- Do not retouch, beautify, replace, or redesign the subject.
+- Keep the photograph realistic with its original lighting, colors, textures, and details.
+
+BOTTOM — HAND-DRAWN ILLUSTRATION
+
+Use approximately the lower 50% for a charming handmade illustration of the SAME photograph.
+
+Transform the photographic moment into a delicate children's storybook-style hand-drawn artwork.
+
+Illustration style:
+- Soft watercolor and colored-pencil texture
+- Gentle pencil/ink outlines
+- Slightly imperfect handmade strokes
+- Warm, tactile off-white textured paper
+- Soft natural shading
+- Subtle watercolor washes
+- Cute, expressive, wholesome appearance
+- Delicate handcrafted imperfections
+- No glossy digital-rendered appearance
+- No photorealism
+- No 3D CGI
+- No anime or cartoon franchise style
+
+Most importantly, accurately preserve the subject from the photograph:
+- Same pose and body position
+- Same facial expression
+- Same hairstyle
+- Same clothing and clothing patterns
+- Same shoes/accessories
+- Same proportions
+- Same distinctive visual details
+- Same overall action or mood
+
+Simplify the background substantially. Do not recreate every background detail. Keep only a very subtle suggestion of the original environment, allowing the illustrated subject to remain the main focus.
+
+Place the illustrated subject slightly smaller than the photograph's subject, surrounded by generous negative space.
+
+MINIMAL DECORATIVE DETAILS
+
+Add a few tiny hand-drawn decorative marks around the illustration, such as:
+- small hearts
+- simple motion lines
+- tiny doodles
+- subtle stars or flowers
+
+Keep these decorations sparse and tasteful.
+
+Add a small handwritten caption near the illustration, such as:
+
+"little happy girl ♡"
+
+The caption should look naturally handwritten with a casual brown/gray pencil or ink texture.
+
+If the uploaded subject is not a girl, automatically adapt the wording appropriately or omit the caption entirely.
+
+OVERALL AESTHETIC
+
+The final artwork should feel like a precious memory transformed into a page from a handmade children's picture book.
+
+Composition:
+- Vertical 3:4
+- Clean separation between photograph and illustration
+- Soft warm editorial presentation
+- Large amount of negative space around the illustration
+- Minimal, elegant, sentimental
+- Premium handmade stationery / illustrated scrapbook aesthetic
+
+CRITICAL RULE:
+The uploaded photograph is the sole source of truth. Do not invent, substitute, merge, or carry over any person, clothing, object, background element, color, pose, or detail from another image.
+
+The bottom illustration must clearly look like a hand-drawn version of the EXACT moment shown in the top photograph.
+
+REFERENCE PRIORITY:
+1. Exact subject and pose
+2. Facial expression and hairstyle
+3. Clothing and accessories
+4. Overall composition
+5. Illustration style
+6. Minimal decorative elements
+
+Never sacrifice subject accuracy for artistic stylization.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=comic-storyboard-photo-to-storybook-illustration-split#comic-storyboard-photo-to-storybook-illustration-split)
+
+<a id="p-comic-storyboard-split-photo-and-storybook-illustration"></a>
+
+## Comic / Storyboard - Split Photo and Storybook Illustration
+
+[@MahnoorAi12](https://x.com/MahnoorAi12) · [x.com](https://x.com/MahnoorAi12/status/2096479426452365692) · [`youmind`](https://github.com/YouMind-OpenLab/awesome-gpt-image-2/tree/415720754e9e767306922fc20b9953ec7830e5cf)
+
+```text
+Create one vertical 3:4 composition that combines the uploaded photo with a hand-drawn illustrated version of the same moment. TOP HALF — ORIGINAL PHOTO. Keep the uploaded photograph in the upper portion of the canvas, occupying roughly 50%. Treat the photo as the only source of truth. Keep the person, face, expression, hair, outfit, accessories, pose, proportions, objects, lighting, colors, and surroundings faithful to the original. Do not beautify, retouch, restyle, replace, or reinterpret the photograph. It should remain natural and recognizable, as if the original image has simply been placed into the artwork. BOTTOM HALF — ILLUSTRATED VERSION. Use the lower portion to recreate the exact same moment as a handmade children's picture-book illustration. The illustrated version should retain: the same person and recognizable facial features, identical pose and body positioning, matching hairstyle and clothing, matching accessories and visible details, the same action and overall mood. Use a soft traditional art approach with: delicate watercolor washes, colored-pencil texture, fine pencil or ink contours, warm textured ivory paper, gentle hand-rendered shading, slightly uneven, organic strokes, subtle imperfections that make it feel handmade. Avoid a polished digital look. No photorealism, 3D rendering, anime aesthetics, or exaggerated cartoon styling. Simplify the background instead of copying every environmental detail. Keep only enough of it to suggest the original setting, while giving the illustrated subject plenty of breathing room. Make the illustrated subject slightly smaller than the photographic subject and leave generous negative space around it. SMALL HAND-DRAWN ACCENTS. Add only a handful of understated doodles around the illustration — perhaps tiny hearts, stars, flowers, or simple motion marks. They should feel naturally drawn onto the page rather than digitally decorated. Include a small handwritten note near the illustration: “{argument name="caption" default="little happy girl"} ♡”. Use a casual brown or soft-gray pencil/ink appearance. If the subject is not a girl, replace the wording with something suitable or leave the caption out. FINAL FEEL. The finished piece should resemble a beautiful handmade scrapbook or children's storybook page, where a real photograph has been paired with a lovingly drawn memory of the same scene. Keep the presentation: vertical 3:4, warm and editorial, cleanly divided between photo and illustration, minimal and elegant, sentimental but not overly decorative, rich in tactile paper and traditional drawing texture. IMPORTANT. Use only the uploaded photograph as visual reference. Do not borrow anything from previous prompts, images, references, or generated results. Do not introduce a different person, outfit, pose, object, setting, color scheme, or visual detail. The lower illustration must unmistakably represent the exact scene and moment shown in the uploaded photograph.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=comic-storyboard-split-photo-and-storybook-illustration#comic-storyboard-split-photo-and-storybook-illustration)
+
+<a id="p-continuous-run-glitch-storyboard"></a>
+
+## Continuous-Run Glitch Storyboard
+
+[@aimikoda](https://x.com/aimikoda) · [x.com](https://x.com/aimikoda/status/2063688774324981798) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+Use @[storyboard ref]  as the authoritative director-approved storyboard blueprint for the sequence. Treat every storyboard panel as a consecutive shot within a single cinematic sequence. Follow panel order exactly and do not invent alternative coverage. Do not render the storyboard sheet itself. Preserve camera placement, framing, lens intent, shot scale, character staging, screen direction, environmental geography, prop placement, action choreography, continuity and emotional escalation shown by the storyboard. The storyboard is the primary source of truth for visual storytelling. Recreate the filmed sequence implied by the panels rather than the physical storyboard artwork.
+The entire video must play as one continuous developing master shot with no visible cuts; each panel is a sampled phase of the same uninterrupted camera move, not a separate shot.
+Use one virtual lens / same-lens move; angle changes come from backward front-track, push-in, shallow front-side orbit, and pullback only. Never pass behind Rand.
+Use @[char1 ref] as starting Rand/C1. Use @[char2 ref]  as final RAN.
+
+ENVIRONMENT: Vivid daytime street into quiet passage: colorful storefront glass, crosswalk, posters, bollards, hard shadows, unaware crowd, right-side escape. Rand runs toward the camera as it retreats in front of her.
+EMOTIONAL GUIDANCE: Valence: vulnerable public appeal into private panic, then altered control. Arousal: urgent run -> "I can't control this" flicker -> false heads -> palm-slap snapbacks -> hidden roulette -> RAN lock. Crowd never notices.
+VISUAL STYLE: Match @[char1 ref] : faceted semi-real concept art, vivid daylight, crisp skin, polygon texture, hard shadows, vertical black-gray pixels stuck to Rand's whole head until final body lock; no side faces.
+TRANSFORMATION RULE: P03-P07 must not show face fragments beside Rand or as floating panels. Each temporary identity replaces the actual head attached to Rand's neck for a readable instant, like a broken TV channel. Body keeps running/bracing while the head swaps. Original Rand head returns only after each open-palm slap. Only final @[char1 ref] lock spreads below the neck.
+AUDIO: No music. Use crowd, footsteps, breath, clothing rustle, pixel tearing, palm-head slaps, glitch snaps, dialogue.
+
+PANEL BEATS:
+P01: Wide backward front-track. Rand runs toward camera through unaware crowd, original identity intact, colorful storefronts behind her.
+P02: Camera retreats in front of her as she looks into the lens, breathing hard: "You're probably wondering why I'm running."
+P03: Camera keeps retreating front-side as she spots the passage: "I need to get away before it starts. I can't control this." On that line, she looks to lens; her whole head starts vertical glitching, still attached to her neck.
+P04: Camera pushes closer. Three human heads replace her actual head one after another, each in the same skull position, never beside it. She open-palm slaps side of head like fixing a TV, no pointing; original Rand head snaps back.
+P05: More whole-head swaps cycle on the neck: older man, pale mask-like face, shaved head, then a clear animal head as rejected option. Rand gives another open-palm slap; Rand head briefly returns.
+P06: Camera backs into passage with her as she ducks into cover; first dense whole-head roulette shows readable heads replacing her actual head in micro-freezes, body/clothes still Rand's.
+P07: Still front-side in cover, second roulette beat shows different readable heads replacing the same head volume; no side faces, no floating panels, no clones, no detached masks.
+P08: At the wall, closest front-side orbit: roulette stops on @[char2 ref] RAN. Only now the glitch runs down the body as cap, braids, sunglasses, blue jacket, hoodie, pink cargos, chains, sneakers lock in.
+P09: Camera pulls wider in passage. RAN lowers his hand, fully changed into @[char2 ref], looks to lens, says, "See? I told you. I can't control it."
+
+---
+
+I shared the storyboard skill file I use for these prompts with my subscribers.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=continuous-run-glitch-storyboard#continuous-run-glitch-storyboard)
+
+<a id="p-cozy-japanese-lifestyle-illustration"></a>
+
+## Cozy Japanese Lifestyle Illustration
+
+[@oggii\_0](https://x.com/oggii_0) · [x.com](https://x.com/oggii_0/status/2069469184787198164) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+Create a delicate contemporary Japanese lifestyle illustration with a cozy slice-of-life atmosphere.
+
+ART STYLE
+Hand-drawn pen-and-ink sketch illustration, thin expressive linework, loose imperfect contours, minimalist editorial artwork, soft watercolor washes, subtle paper texture, elegant negative space, sketchbook aesthetic, modern Japanese indie illustration, light and airy composition, contemporary café-art style, emotionally warm and intimate.
+
+CHARACTERS
+Two young adults with soft, simplified facial features and natural expressions. Casual oversized clothing, relaxed body language, authentic interaction, candid everyday moment. Faces are minimally rendered with delicate linework rather than detailed realism.
+
+ENVIRONMENT
+A cozy indoor setting such as a café, coffee shop, apartment, studio, bookstore, kitchen corner, or creative workspace. Include wooden furniture, coffee mugs, indoor plants, shelves, books, windows, soft decorative details, and small everyday objects. The environment should feel lived-in yet uncluttered.
+
+COMPOSITION
+Full-body or three-quarter-body view. Characters seated naturally and facing one another. Balanced asymmetrical layout. Large areas of clean negative space. Storytelling through posture and atmosphere rather than action. Editorial illustration framing. Eye-level perspective.
+
+COLOR PALETTE
+Muted and desaturated colors only:
+• Dusty blue
+• Warm cream
+• Soft beige
+• Light gray
+• Sage green
+• Warm brown
+• Off-white
+
+Add only one small accent color element such as red socks, red shoes, a red mug, or a small red object.
+
+LIGHTING
+Soft natural daylight entering through windows. Gentle ambient illumination. No dramatic shadows. Warm, peaceful, calming mood.
+
+RENDERING
+Minimal shading. Sparse details. Watercolor-style color fills inside delicate ink outlines. Slightly unfinished sketch quality. High-quality illustration with visible hand-drawn imperfections. Soft edges and subtle texture.
+
+MOOD
+Comfortable, quiet, nostalgic, peaceful, intimate, cozy, everyday happiness, slow living, café culture, thoughtful conversation, gentle human connection.
+
+AVOID
+Anime screenshots, manga panels, cel shading, digital painting, hyperrealism, photorealism, 3D rendering, glossy surfaces, vibrant saturated colors, cinematic effects, dramatic lighting, excessive details, sharp outlines, heavy shadows, complex backgrounds.
+
+SCENE:
+[INSERT YOUR SCENE DESCRIPTION HERE]
+
+The final image should feel like a premium Japanese lifestyle illustration found in an art book, café magazine, design journal, or independent sketchbook collection.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=cozy-japanese-lifestyle-illustration#cozy-japanese-lifestyle-illustration)
+
+<a id="p-cyberpunk-404-witch-summoning"></a>
+
+## Cyberpunk 404 Witch Summoning
+
+[@Eris\_Create\_Lab](https://x.com/Eris_Create_Lab) · [x.com](https://x.com/Eris_Create_Lab/status/2047537707904274795) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+A dramatic anime-style cyberpunk witch standing on a dark rooftop high above a dense futuristic city at night, viewed from a slightly elevated angle. The main subject is a petite young witch girl with pale skin, short icy blue bobbed hair, pointed elf-like ears, and glowing red eyes, wearing a sly confident smile. She raises a black wand overhead in her right hand, with a dangling orb charm at the tip glowing faintly purple and red. Her oversized crooked witch hat is black with purple lining and covered in stitched patches, warning labels, straps, and white graphics including a large “404” and a skull emblem. She wears a black and purple techwear outfit: oversized hooded jacket with many straps and tags, black crop top with “404” on the chest, layered belts, short bottoms, fishnet on one leg, black lace-up combat boots, chokers, and metallic accessories. Several hanging straps and tags visibly read words like “WITCH 404,” “404,” and glitch-themed markings. Beneath and beside her, a large glowing violet magic circle mixed with hacker interface aesthetics is projected on the rooftop floor, filled with occult rings, sigils, a central skull symbol, and scattered neon system text such as error-code fragments, creating a fusion of sorcery and digital corruption. Emerging from the circle is 1 large armored summoned figure: a black futuristic demon-knight or robotic familiar with jagged reflective armor, a narrow purple-lit visor, and a heavy weapon held in one hand, partially dissolving into purple energy shards and smoke. The background shows a sprawling rainy megacity of apartment towers and industrial rooftops, packed with windows, balconies, cables, signs, and haze. On a nearby building wall is a giant vertical graffiti-style sign with 3 readable elements: “404”, “Witch”, and “ERROR NOT FOUND”, plus a smaller “E404”. Additional purple neon glitch text and symbols are scattered across rooftops and in the air. Use a dark palette of black, indigo, and deep violet with sharp magenta-purple highlights, cinematic contrast, reflective wet surfaces, dense detail, and a high-end polished illustration style. The mood is occult, edgy, stylish, and dangerous, combining urban fantasy, hacker aesthetics, and magical summoning.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=cyberpunk-404-witch-summoning#cyberpunk-404-witch-summoning)
+
+<a id="p-mid-century-editorial-illustration-system"></a>
+
+## Mid-Century Editorial Illustration System
+
+[@Goodmanprotocol](https://x.com/Goodmanprotocol) · [x.com](https://x.com/Goodmanprotocol/status/2062235491588849920) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+Create a premium mid-century-inspired flat editorial illustration of [Subject], rendered in a refined handcrafted printmaking aesthetic. The artwork should feel like a sophisticated vintage children’s encyclopedia illustration combined with Scandinavian editorial design and retro nature-book graphics.
+
+Language: English 8K ultra-high resolution with a 3:4 aspect ratio
+
+STYLE: minimalist flat-shape illustration soft geometric simplification handcrafted gouache + risograph + silkscreen print texture subtle paper grain and dry ink imperfections muted refined color palette clean matte colors crisp neutral white balance bright museum-quality paper appearance no yellow tint no beige cast no sepia tone no glossy rendering no photorealism no 3D shading elegant editorial composition premium picture-book atmosphere modern museum-shop illustration vibe
+
+COMPOSITION: spacious balanced layout with multiple elements harmoniously arranged simplified organic shapes stylized plants, objects, animals, architecture, landmarks, or symbolic elements depending on [Subject] visual storytelling through clustered illustrated motifs maximum 8–10 illustrated elements total playful but refined asymmetrical editorial balance large clean negative space on soft neutral white paper background premium Scandinavian editorial layout feeling
+
+TEXTURE & PRINT FEEL: subtle premium paper texture refined layered ink overlap delicate risograph misalignment soft dry brush grain light handcrafted print imperfections tactile handcrafted surface feeling clean bright paper surface controlled ink density airy and crisp visual atmosphere
+
+COLOR SYSTEM: muted teal dusty blue sage green cool gray faded coral soft navy desaturated mineral tones restrained natural palette (adjust palette naturally to fit [Subject])
+
+ILLUSTRATION RULES: simplified eyes and facial features rounded organic silhouettes minimal line usage flat layered color blocking decorative but restrained detail density avoid excessive realism avoid anime style avoid modern vector corporate style avoid bright neon colors avoid sharp digital gradients avoid yellowish paper tone avoid vintage sepia coloration
+
+MOOD: quietly playful, educational, nostalgic, timeless, sophisticated, airy, clean, premium editorial illustration, Scandinavian museum-book elegance
+
+OUTPUT: high-resolution editorial illustration, ultra-clean composition, refined handcrafted print aesthetic, bright neutral paper tones, crisp museum-quality editorial finish, suitable for premium magazine spreads, art books, museum posters, or luxury children’s publishing.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=mid-century-editorial-illustration-system#mid-century-editorial-illustration-system)
+
+<a id="p-miniature-city-travel-card"></a>
+
+## Miniature City Travel Card
+
+[@Goodmanprotocol](https://x.com/Goodmanprotocol) · [x.com](https://x.com/Goodmanprotocol/status/2061507567478780074) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+Create a premium collectible travel-card illustration in vertical 4:5 format inspired by [CITY] and [COUNTRY]. A hand holding a beautifully designed collectible [CITY] travel card featuring elegant [LOCAL CULTURE / REGIONAL DESIGN]-inspired design (metro pass / museum pass / boarding pass / postcard / passport page / vintage travel ticket / luggage tag). Attached to and organically emerging from the card is a highly detailed miniature [ICONIC LANDMARK] souvenir charm or classic [CITY] toy object, naturally integrated into the scene as part of the collectible item — not simply placed on top.
+
+The miniature object transforms into and reveals a tiny immersive [CITY] world filled with iconic [CITY] architecture, [LOCAL STREET CHARACTER], cafés, bridges, [LOCAL TRANSIT / CULTURAL FEATURES], glowing street lamps, miniature citizens, vintage cars, scooters, flower stands, riverboats, and atmospheric [COUNTRY] cultural details flowing seamlessly from the object itself.
+
+Composition:
+– [ICONIC LANDMARK] souvenir / [CITY] collectible positioned as the hero object attached to the card
+– Expansive miniature [CITY] diorama spreading outward in layered cinematic depth
+– Realistic softly blurred [CITY] background with recognizable city mood
+– Strong depth of field, shallow focus, cinematic perspective
+– Cozy premium souvenir aesthetic
+– Rich ultra-detailed luxury travel campaign composition
+
+Visual blending:
+– Metallic, ceramic, or vintage souvenir textures gradually transform into [CITY] streets and architecture
+– [ICONIC BUILDINGS], café terraces, bridges, glowing windows, transit tunnels, cobblestone streets, bookstores, and [CITY] landmarks emerge organically from the collectible object
+– No hard separation between toy and environment
+– Miniature world feels physically grown from the souvenir itself
+
+Style:
+hyper detailed, photorealistic + stylized 3D collectible, miniature world, soft natural lighting, warm cinematic color grading, Instagram-worthy luxury travel poster aesthetic, premium [CITY] souvenir concept, ultra detailed textures, tactile materials, handcrafted diorama feeling, cinematic realism.
+
+Ticket details:
+Use elegant [LOCAL CULTURE]-inspired typography, subtle gold foil accents, vintage transit graphics, decorative travel emblems, embossed textures, refined luxury print design, and minimal tasteful text.
+
+Mood:
+romantic, nostalgic, luxurious, warm evening atmosphere, premium tourism campaign aesthetic, collectible art object, immersive [CITY] storytelling.
+
+Aspect ratio 4:5
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=miniature-city-travel-card#miniature-city-travel-card)
+
+<a id="p-neon-ai-thumbnail-comparison"></a>
+
+## Neon AI Thumbnail Comparison
+
+[@MoveHiro1219](https://x.com/MoveHiro1219) · [x.com](https://x.com/MoveHiro1219/status/2047698611665096732) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+Create a dramatic Japanese YouTube thumbnail in a futuristic neon cyberpunk style, 16:9 landscape. Use a dark tech-city background with faint skyscrapers, digital grid lines, glowing particles, and high-contrast blue, pink, and gold lighting. In the exact center, place a young woman from the waist up with long straight pastel blue hair, wearing a plain white short-sleeve T-shirt and a light pink skirt, posing thoughtfully with one hand near her chin and the other arm folded; anonymize her face with a soft rectangular blur. Across the very top, add huge distressed bold white Japanese headline text reading 主導権が揺れた, and directly below it add large bold yellow text reading {argument name="subheadline text" default="Nano Bananaから"}. On the left side, create a glowing blue hexagonal-framed panel titled Nano Banana with a smaller subtitle 画像生成. Inside that panel, include exactly 4 image tiles in a 2x2 grid: 1) a fantasy floating island landscape at sunset, 2) a sunlit forest path with tall trees, 3) a neon futuristic city street at night, 4) an outer-space planet scene with stars and a spacecraft. Beneath the left panel, add a blue glowing ribbon label reading かつては優位だった. On the right side, create a glowing magenta hexagonal-framed panel titled {argument name="right panel title" default="GPT Image 2"} with a smaller subtitle 実務で使える出力へ. Inside it, include exactly 4 example thumbnail cards in a 2x2 grid, each featuring the same blue-haired woman with a blurred face and bold Japanese text. The 4 card labels above the tiles are: サムネイル画像, 記事のアイキャッチ画像, LPのセクション画像, SNS投稿画像. The large text inside the 4 cards should read respectively: 1) AIで変わるクリエイティブの未来, 2) AI時代のクリエイティブ戦略 成功する企業の条件, 3) AIで加速するビジネス成長, 4) 未来をつくるのは AI×あなたのアイデア. Between the left and right panels, place a bright glowing gold arrow pointing from left to right with spark-like particle trails, indicating transition or superiority shift. Along the bottom, add a very large black banner with a glowing gold border and massive bold gold text reading {argument name="bottom banner text" default="GPT Image 2へ"}. Overall composition should feel like a comparison graphic showing a shift from older image generation to more practical commercial output, with aggressive thumbnail typography, strong glow effects, metallic texture on major text, and polished social-media marketing visuals.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=neon-ai-thumbnail-comparison#neon-ai-thumbnail-comparison)
+
+<a id="p-pet-world-cup-storyboard-sheet"></a>
+
+## Pet World Cup Storyboard Sheet
+
+[@CamikaApp](https://x.com/CamikaApp) · [x.com](https://x.com/CamikaApp/status/2062355101877231959) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+A professional pre-production storyboard sheet for a 12-second photorealistic short film, single landscape page, layout top to bottom:
+
+== TITLE BAR ==
+Black bar across full width. Left: massive bold white text "PET WORLD CUP". Right: two outlined boxes "TOTAL VIDEO TIME: 12 SECONDS" and "8 SHOTS · ENSEMBLE · COMEDY · CINEMATIC".
+
+== ICON LEGEND ==
+Four icon+label pairs in a row: soccer ball + "BALL ACTION"; paw + "DUEL"; hamster + "MIGHTY MINI"; trophy + "VICTORY".
+
+== MAIN GRID (8 panels, 2×4) ==
+Each panel: thin white border, landscape 16:9. Number badge (1-8) top-left, teal "~1.5s" tag top-right, photorealistic still inside, bottom caption bar with icon + ALL-CAPS text.
+
+1. [ball] "PET WORLD CUP FINAL KICKS OFF" — Wide stadium at golden hour. Midfield: orange tabby cat (red jersey) + golden retriever (blue jersey) facing off, ball between them. Deep background: enormous white goalposts with tiny hamster goalkeeper between them. Side: white rabbits in stands with pom-poms. Sunset cinematic light.
+
+2. [paw] "RABBIT CHEERLEADERS BRING THE NOISE" — Close on stands: 3 fluffy white rabbits in tiny jerseys, mouths open cheering, paws shaking red and blue pom-poms in unison. Stadium lights, blurred crowd silhouettes behind.
+
+3. [paw] "CAT VS DOG MIDFIELD DUEL" — Close-up: cat (red jersey) and dog (blue jersey) facing off, ball between their paws. Intense eye contact. Dirt kicking up. Whiskers and ear fluff in motion.
+
+4. [ball] "DOG STEALS, BREAKS AWAY" — Dog with ball at paws charging through midfield. Cat sprinting behind, paws stretched, ears back.
+
+5. [ball] "DOG WINDS UP — SHOT INCOMING" — Dog in classic kick pose, back leg lifted high, eyes locked on distant goal. Deep background: enormous white goalposts with TINY hamster goalkeeper barely visible — dramatic scale contrast.
+
+6. [hamster] "HAMSTER VS THE GIANT GOAL" — Low angle close-up: enormous white goalposts towering over tiny golden Syrian hamster wearing mini yellow goalie gloves. Looking up determined, paws raised ready. Ball flying in from frame edge.
+
+7. [hamster] "EPIC SAVE — TINY BUT MIGHTY" — Hamster in full sprawl leap, paws extended, blocking ball with tiny body. Mid-air freeze frame. Confetti falling, blurred crowd silhouettes raising arms.
+
+8. [trophy] "HAMSTER HERO — TEAMS UNITE" — Wide final shot at golden hour: cat (red) and dog (blue) standing side by side staring in awe at tiny hamster holding up small golden trophy. White rabbits in stands raise pom-poms wildly. Confetti, golden sparkles.
+
+== BOTTOM INFOGRAPHIC (4 sections horizontal) ==
+[Clock] VIDEO FLOW: "8 shots × ~1.5s = 12s. Stadium → rabbit fans → cat-vs-dog rivalry → dog shoots → hamster saves → ensemble celebration."
+
+[Camera] CAMERA TIPS: "Wide establishing on stadium, close-up on rabbits, low-angle on midfield duel, side-tracking on breakaway, scale frame on hamster vs goalposts, hero shot on save, wide on celebration."
+
+[Sun] LIGHT & STYLE: "Photorealistic cinematic. Golden-hour stadium light throughout. Warm amber grass, lens flares, real DSLR/iPhone aesthetic. Crisp action focus."
+
+[Person] CHARACTER NOTES: "Cast: orange tabby cat with M-mark (red jersey), golden retriever (blue jersey), golden Syrian hamster with mini yellow goalie gloves (yellow kit), 3-4 white fluffy rabbits with pom-poms. Hamster MUST appear dramatically tiny vs goalposts. All humans/crowd are faceless silhouettes — no faces. Each animal identical across panels."
+
+== STRICT EXCLUSIONS ==
+No real soccer team logos, no FIFA/Champions League/UEFA/World Cup branding, no real player faces, no sponsor logos, no national flags, no jersey numbers, no stadium signage with real text, no captions, no watermarks. Plain colored jerseys only. All 8 panels photorealistic — never cartoon/3D/illustration. All animals identical across panels.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=pet-world-cup-storyboard-sheet#pet-world-cup-storyboard-sheet)
+
+<a id="p-serene-city-travel-illustration"></a>
+
+## Serene City Travel Illustration
+
+[@oggii\_0](https://x.com/oggii_0) · [x.com](https://x.com/oggii_0/status/2055876530988015791) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+[CITY] = Seoul
+[COUNTRY] = South Korea
+[LANDMARK] = a recognizable landmark or scenic element of [CITY]
+
+Create a serene architectural travel illustration inspired by [CITY], [COUNTRY], in a soft hand-drawn watercolor and ink style.
+
+Main concept:
+Show a quiet, charming street-side house or small building inspired by the everyday atmosphere of [CITY], [COUNTRY], while subtly incorporating [LANDMARK] in the composition.
+The landmark should appear naturally in the background, distance, or surrounding scenery, so the image clearly feels connected to [CITY], [COUNTRY] without losing the calm residential mood.
+
+Visual style:
+delicate hand-drawn architectural illustration,
+soft watercolor washes,
+thin ink outlines,
+slightly imperfect sketch lines,
+warm sunlit atmosphere,
+gentle pastel palette,
+subtle paper texture,
+quiet travel sketchbook aesthetic,
+minimal yet detailed composition,
+calm editorial illustration mood,
+poetic everyday scenery,
+cozy and refined visual tone,
+no photorealism,
+no harsh contrast,
+no saturated colors,
+no dramatic lighting.
+
+Scene:
+A peaceful small house, café, studio, or local building with simple walls, a tiled or regionally inspired roof, painted doors or windows, and several potted plants arranged naturally in front.
+Include subtle local architectural details and everyday design elements that feel authentic to [CITY], [COUNTRY].
+Incorporate [LANDMARK] as a softly integrated city symbol — for example, visible above rooftops, in the distance, or as part of the surrounding skyline or landscape.
+The overall scene should feel quiet, elegant, warm, and locally rooted.
+
+Composition:
+landscape travel-poster format,
+wide horizontal layout,
+large open sky occupying the upper half or upper-left area,
+main building placed across the lower portion of the composition,
+balanced negative space,
+front-facing or slightly angled composition,
+potted plants and small objects along the base,
+landmark subtly placed in the background or upper distance,
+clean and spacious layout,
+minimal but emotionally rich composition.
+
+Typography:
+Include the city name “[CITY]” clearly in the image.
+Render “[CITY]” as elegant travel-poster typography, large but refined, placed prominently in the sky area or upper portion of the composition.
+Optionally include “[COUNTRY]” in smaller text beneath or near the city name.
+The text should feel integrated into the poster design, not like a random overlay.
+Use clean, tasteful lettering that matches the calm watercolor travel-poster mood.
+
+Color palette:
+pale sky blue,
+warm cream,
+terracotta,
+muted blue accents,
+olive and soft green,
+light earthy browns,
+soft natural neutrals.
+
+Texture:
+visible watercolor paper grain,
+transparent paint layering,
+soft handmade brush texture,
+gentle ink-and-wash finish.
+
+Mood:
+peaceful,
+sunny,
+quiet,
+nostalgic,
+cozy,
+refined,
+poetic,
+calm everyday travel atmosphere.
+
+Important:
+The image should express both the intimate charm of a local building and the identity of [CITY], [COUNTRY] through the inclusion of [LANDMARK].
+Do not make the landmark too dominant; it should support the mood rather than overpower the house scene.
+The city name “[CITY]” must be visible and clearly readable in the final image.
+
+Aspect ratio: 4:3 or 3:2
+
+Creator: @hermes_agent_kr on Threads
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=serene-city-travel-illustration#serene-city-travel-illustration)
+
+<a id="p-tokyo-disneysea-front-row-battle-ui"></a>
+
+## Tokyo DisneySea Front-Row Battle UI
+
+[@mikko\_20100518](https://x.com/mikko_20100518) · [x.com](https://x.com/mikko_20100518/status/2047514897404354598) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+Create a hyper-detailed comedic Japanese arcade fighting game screenshot styled like a versus battle scene, using a real-world photo aesthetic with game UI overlaid on top. The scene shows an intense mock battle between two groups of theme-park fans competing for the front row at an outdoor show plaza in Tokyo DisneySea. Use a wide 16:9 composition. In the background, clearly show Mediterranean Harbor and Mount Prometheus under bright daytime skies, with the waterfront and DisneySea architecture visible. In the foreground, show exactly 10 young adult people in winter casual clothing, split into 2 opposing teams of 5, physically leaning, grabbing, reaching, and shoving in a tug-of-war-like scrum over position, with exaggerated competitive body language and frozen action as if in a fighting game. Faces should be anonymized with soft blurred blocks. Add floating character labels above each person with levels and names in Japanese. The overall tone is absurdly realistic, like a real candid photo transformed into a polished arcade game battle screen.
+
+Add a full Japanese fighting-game HUD with glossy blue-versus-red interface styling. At the very top, place a center stage title bar reading "東京ディズニーシー ミッキー広場 ショー最前列バトル" and a large timer in the middle reading "TIME 89". In the top left, add a blue team header "PLAYER1" and team name "最前列ガチ勢A". In the top right, add a red team header "RIVAL" and team name "ライバルグループB". On the left side, stack exactly 5 blue player status panels with portraits, level, Japanese class-like nicknames, HP, SP, and BURST meters. The 5 left-side labels are: "Lv.25 ガチ勢リーダー ユウキ", "Lv.24 筋肉マン タケシ", "Lv.23 眼鏡オタク シンジ", "Lv.23 開角心MAX ケント", "Lv.22 サポート要員 リョウ". On the right side, stack exactly 5 red rival status panels with the labels: "Lv.27 ライバルリーダー ダイキ", "Lv.26 パワフル代表 マサル", "Lv.24 戦略家 コウジ", "Lv.23 熱血漢 リク", "Lv.22 サポート女子 サキ". Each panel should include numeric HP and SP values and segmented BURST gauges, styled like a Japanese arcade RPG-fighter interface.
+
+Place exactly 10 in-battle nameplates above the fighters in the center scene, color-coded blue for the left team and red for the right team. The 10 labels are: "Lv.24 タケシ", "Lv.25 ユウキ", "Lv.23 シンジ", "Lv.23 ケント", "Lv.22 リョウ", "Lv.27 ダイキ", "Lv.26 マサル", "Lv.23 リク", "Lv.22 サキ", "Lv.22 ミサキ".
+
+At the lower left, add a skill menu titled "スキル" listing exactly 5 skills with SP costs: "ダッシュ突撃 SP 20", "肩押し強奪 SP 25", "荷物で場所確保 SP 15", "ロープくぐり SP 10", "本気の根性 SP 50". Beneath that, add a dark description box explaining the highlighted skill "本気の根性" with the Japanese text: "気合で相手を威圧し、どかす! 一定時間、相手が怯みやすくなる! (バーストゲージを大きく消費する) 効果時間:10秒".
+
+At the bottom center, add an item menu titled "アイテム" with exactly 5 item slots showing icons and counts: a water bottle "x3", a folded purple towel "x2", a blue drawstring bag "x1", a gray backpack "x1", and a boxed meal "x2". At the lower right, add a quest panel titled "クエスト" with the mission text "ショー開始までに最前列を死守しろ!" and condition text "条件:ライバルグループを全員後ろに押し戻せ!" and countdown text "ショー開始まで:02:30". Beside it, add a mini-map titled "ミッキー広場MAP" showing red and blue dots for both teams in the plaza. Along the very bottom edge, include small controller prompts in Japanese for actions such as skill use, item use, grab/push, and dash.
+
+Use dramatic, saturated lighting, crisp detail, realistic clothing folds, authentic plaza stone pavement, and a high-end Japanese game screenshot look. The image should feel like a ridiculous but believable crossover between a real Tokyo DisneySea crowd photo and a competitive arcade battle game interface.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=tokyo-disneysea-front-row-battle-ui#tokyo-disneysea-front-row-battle-ui)
+
+<a id="p-vintage-anatomic-book-plate"></a>
+
+## Vintage Anatomic Book Plate
+
+[@livybabie](https://x.com/livybabie) · [x.com](https://x.com/livybabie/status/2064033077123236291) · [`evolink`](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/tree/e2a269ad1a055a0b4f6c1e170341c6c1aba30faa)
+
+```text
+Edit the provided image into an antique anatomical book plate. Preserve the original character's pose, camera angle, body proportions, silhouette, gesture, and overall composition as closely as possible, but transform the subject into a refined anatomical study illustration. The final image should look like a vintage medical anatomy textbook page printed on aged ivory paper, with sepia stains, subtle paper fibers, worn edges, faint foxing marks, and archival ink texture.
+
+Convert the visible body into a clean anatomical sketch that reveals bones, superficial muscles, tendons, ligaments, and selected organ silhouettes in a didactic, non-gory, museum-quality style. Keep the anatomy elegant and educational, like a 19th-century anatomical atlas mixed with precise modern medical illustration. Use thin graphite lines, red and blue anatomical ink accents, muted watercolor washes, and delicate hatching. Avoid horror, gore, blood, injury, mutilation, or surgical violence.
+
+The figure must remain in the same pose as the source image, including limb position, torso rotation, head angle, gaze direction, hand placement, and perspective distortion. If the original image is anime, game art, illustration, or realistic photography, reinterpret it consistently as an anatomical diagram while keeping the recognizable posture and visual identity cues only as subtle external outlines. Clothing and accessories may be simplified into faint translucent contour lines so the anatomical structures remain readable.
+
+Add anatomical labels in Latin using a vintage typewriter font, as if typed onto the page. Labels should be connected to structures with thin black leader lines. Use accurate Latin anatomical terminology, including examples such as: Cranium, Mandibula, Clavicula, Sternum, Costae, Scapula, Humerus, Radius, Ulna, Vertebrae cervicales, Vertebrae thoracicae, Vertebrae lumbales, Pelvis, Os ilium, Os ischii, Femur, Patella, Tibia, Fibula, Talus, Calcaneus, Musculus sternocleidomastoideus, Musculus trapezius, Musculus pectoralis major, Musculus deltoideus, Musculus biceps brachii, Musculus rectus abdominis, Musculus obliquus externus abdominis, Musculus iliopsoas, Musculus gluteus maximus, Musculus sartorius, Musculus quadriceps femoris, Musculus biceps femoris, Musculus gastrocnemius, Ligamentum inguinale, Articulatio coxae, Articulatio genus, Articulatio talocruralis.
+
+Place the labels naturally around the figure, balancing readability and visual elegance. The text should look authentic, slightly imperfect, with subtle ink bleed, uneven typewriter spacing, and small alignment irregularities. Include a small archival caption at the bottom of the page, such as “Tabula Anatomica — Figura I”, “Studium Corporis Humani”, or “Atlas Anatomicus Vetus”. Do not use Japanese labels unless specifically requested; prioritize Latin anatomical nomenclature.
+
+Lighting should be soft and flat like a scanned antique page. The final result must feel like a scholarly anatomical illustration, not a modern infographic. High detail, precise linework, aged paper texture, anatomical accuracy, elegant composition, subtle red muscle fibers, pale blue veins, ivory bone rendering, dark graphite outlines, old medical atlas atmosphere, realistic printed-page imperfections.
+```
+
+[Open the generator](https://youart.ai/gpt-image-2-5-prompts?utm_source=github&utm_medium=prompt&utm_campaign=awesome-gpt-image-2-5-prompts&utm_content=vintage-anatomic-book-plate#vintage-anatomic-book-plate)
+
+---
+
+[Every prompt](../README.md#index)

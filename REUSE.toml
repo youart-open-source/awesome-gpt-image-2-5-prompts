@@ -1,0 +1,65 @@
+version = 1
+SPDX-PackageName = "awesome-gpt-image-2-5-prompts"
+SPDX-PackageSupplier = "Formative Intelligence Inc. <support@youart.ai>"
+SPDX-PackageDownloadLocation = "https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts"
+SPDX-PackageComment = """
+GitHub's licence detector reads LICENSE, does not recognise a three-layer
+instrument, and reports "Other" (NOASSERTION). This file is the machine-readable
+truth per path. See LICENSE for the prose version, and ATTRIBUTION.md for who
+wrote each prompt.
+"""
+
+# Layer 1 -- the build scripts. Ours, and genuinely reusable.
+[[annotations]]
+path = ["scripts/**"]
+SPDX-FileCopyrightText = "2026 Formative Intelligence Inc."
+SPDX-License-Identifier = "MIT"
+
+# Layer 2 -- our curation and our prose.
+[[annotations]]
+path = [
+  "README.md", "README.zh.md", "README.es.md", "README.ja.md",
+  "README.ar.md", "README.pt.md",
+  "content/**", "locales/**", "metadata/**",
+  "llms.txt", "llms.txt.tmpl",
+  "CONTRIBUTING.md", "TAKEDOWN.md", "ATTRIBUTION.md",
+  "provenance/README.md",
+  "data/prompts.schema.json", "data/removed.json",
+  "package.json", ".gitignore", ".github/**",
+]
+SPDX-FileCopyrightText = "2026 Formative Intelligence Inc."
+SPDX-License-Identifier = "LicenseRef-YouArt-Curation-No-Grant"
+SPDX-FileComment = """
+Not openly licensed -- see LICENSES/LicenseRef-YouArt-Curation-No-Grant.txt.
+Note also that the READMEs quote all 150 third-party prompt titles; those words
+are covered by LicenseRef-Prompt-Authors-No-Grant, not by this line.
+"""
+
+# Layer 3 -- the prompt bodies. NOT ours. The identifiers below describe what
+# the collections we received them through stated over their own copies; they
+# are a record of provenance, not a grant by us. Per-prompt authorship is in
+# ATTRIBUTION.md, which is the file to read before reusing anything here.
+[[annotations]]
+path = ["prompts/**", "data/prompts.json"]
+SPDX-FileCopyrightText = "The individual prompt authors named in ATTRIBUTION.md"
+SPDX-License-Identifier = "LicenseRef-Prompt-Authors-No-Grant"
+SPDX-FileComment = """
+NOT a grant by us. 8 of the 9 prompts/*.md files mix rows received via both
+upstream collections, so no single SPDX expression is accurate even per file;
+115 came via one stating CC0-1.0 and 35 via one stating CC BY 4.0, and an
+earlier "CC0-1.0 OR CC-BY-4.0" here read as a disjunctive grant of exactly the
+rights this repository declines to grant. The authoritative per-row record is
+the `upstream` and `upstreamStatedTerms` fields in data/prompts.json, surfaced
+in ATTRIBUTION.md. Neither collection wrote the prompts either.
+"""
+
+# Vendored evidence of what each upstream stated, at the commit we relied on.
+[[annotations]]
+path = ["provenance/evolink-e2a269ad-LICENSE.txt"]
+SPDX-FileCopyrightText = "EvoLinkAI"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["provenance/youmind-41572075-LICENSE.txt"]
+SPDX-FileCopyrightText = "2026 YouMind OpenLab"
+SPDX-License-Identifier = "CC-BY-4.0"

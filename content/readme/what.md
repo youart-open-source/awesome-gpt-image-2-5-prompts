@@ -1,0 +1,1 @@
+Every number in this file — prompts, creators, use cases, characters — is computed from `data/prompts.json` when the file is built. Not one of them is typed by hand, so none can drift from the corpus: change the data and the sentence changes with it.

@@ -1,0 +1,67 @@
+name: Submit a prompt
+description: Share a GPT Image prompt you wrote.
+title: "[Prompt] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your work.
+
+        One rule, and it is the only one that matters: **submit only prompts you
+        wrote yourself.** Every row here carries its author's name, and you are
+        the only person who can put your name to something.
+
+        If you want to point us at someone *else's* prompt, open a blank issue
+        instead — we will approach the author.
+  - type: textarea
+    id: prompt
+    attributes:
+      label: The prompt
+      description: Paste it exactly as you run it.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where you posted it
+      description: A link to your post. This becomes the credit link on your row.
+      placeholder: https://x.com/you/status/...
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: How you want to be credited
+      description: The name to show. Defaults to the display name on the linked post.
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best-fitting use case
+      options:
+        - Poster
+        - Text in image
+        - Infographic
+        - UI mockup
+        - Product photo
+        - Ad creative
+        - Character design
+        - Portrait
+        - Illustration
+        - Not sure
+    validations:
+      required: true
+  - type: checkboxes
+    id: attest
+    attributes:
+      label: Before you send
+      options:
+        - label: I wrote this prompt.
+          required: true
+        - label: >-
+            I am happy for it to be published here with my name and a link to
+            my post, and I understand I can ask for it back at any time.
+          required: true

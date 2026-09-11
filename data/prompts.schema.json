@@ -1,0 +1,499 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/youart-open-source/awesome-gpt-image-2-5-prompts/main/data/prompts.schema.json",
+  "title": "awesome-gpt-image-2-5-prompts corpus",
+  "description": "The ONLY declaration of the row shape in this repository. scripts/build.mjs reads #/properties/prompts/items/required for both its key list and its hash projection, so this file is the single source of that contract and no second copy of it exists to drift. Constraints JSON Schema cannot express, and which scripts/build.mjs enforces instead: slug, promptSha256 and prompt are each unique across rows (statusId is NOT — see its description); sha256(prompt) === promptSha256; url === _meta.siteBase + \"#\" + slug; row.upstream is the id of an entry in _meta.upstreams; every id in _meta.categories has at least one row; _meta.rowCount, _meta.authorCount, _meta.categoryCount and _meta.totalPromptChars re-derive from the rows; and _meta.corpusSha256 matches the canonical serialisation described in _meta.corpusSha256Algorithm.",
+  "type": "object",
+  "required": [
+    "_meta",
+    "prompts"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "description": "Corpus-level provenance and computed counts. No number here is hand-typed.",
+      "required": [
+        "schemaVersion",
+        "schema",
+        "corpusDate",
+        "rowCount",
+        "categoryCount",
+        "authorCount",
+        "totalPromptChars",
+        "corpusSha256",
+        "corpusSha256Algorithm",
+        "categories",
+        "siteBase",
+        "rightsNotice",
+        "creditAudit",
+        "source",
+        "upstreams"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {
+          "const": 1,
+          "description": "Bumped only by a breaking change to the row shape or to the hash algorithm."
+        },
+        "schema": {
+          "const": "prompts.schema.json",
+          "description": "Path, relative to this file, of the schema that declares the row shape."
+        },
+        "corpusDate": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "The date the corpus content last changed, carried forward while corpusSha256 is unchanged. Every date printed in a generated file comes from here, because the build has no clock: a restamped date on an unchanged corpus is how a twice-daily job turns a 17 MB tree into ~196 MB of git history."
+        },
+        "rowCount": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Computed: prompts.length."
+        },
+        "categoryCount": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Computed: categories.length. Every listed category has at least one row."
+        },
+        "authorCount": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Computed: distinct author handles, compared LOWERCASED, because X handles are case-insensitive and two spellings are one person."
+        },
+        "totalPromptChars": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Computed: sum over rows of the number of Unicode code points in `prompt` ([...prompt].length), not UTF-16 code units, so an astral character counts once."
+        },
+        "corpusSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "corpusSha256Algorithm": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Prose definition of the canonical serialisation the hash is taken over."
+        },
+        "categories": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Category ids in RENDER order (not alphabetical), as declared in ai-art-frontend lib/gpt-image-prompts/categories.ts. Every row's category is one of these.",
+          "items": {
+            "enum": [
+              "poster",
+              "typography-text",
+              "infographic",
+              "ui-mockup",
+              "ecommerce-product",
+              "ad-creative",
+              "character-design",
+              "portrait",
+              "illustration"
+            ]
+          }
+        },
+        "siteBase": {
+          "type": "string",
+          "const": "https://youart.ai/gpt-image-2-5-prompts",
+          "description": "Canonical, untagged destination. UTM parameters are added by the one destination() helper in scripts/build.mjs and never stored here."
+        },
+        "rightsNotice": {
+          "type": "string",
+          "minLength": 1
+        },
+        "creditAudit": {
+          "type": "object",
+          "description": "The audit that established the per-row credits. The exporter refuses to write without one, and rowsAudited must equal rowCount.",
+          "required": [
+            "rowsAudited",
+            "passedAt",
+            "method"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "rowsAudited": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "passedAt": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "method": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "source": {
+          "type": "object",
+          "description": "Where this file was exported from, pinned so the export is reproducible.",
+          "required": [
+            "repo",
+            "module",
+            "commit"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "repo": {
+              "type": "string",
+              "minLength": 1
+            },
+            "module": {
+              "type": "string",
+              "minLength": 1
+            },
+            "commit": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{40}$",
+              "description": "Full 40-hex id. A short id or the literal \"unknown\" is a build failure."
+            }
+          }
+        },
+        "upstreams": {
+          "type": "array",
+          "minItems": 1,
+          "description": "The collections we received copies from. Look an entry up by its `id` — NEVER by array index, because an index silently re-points every row when an entry is added or reordered.",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "repo",
+              "commit",
+              "commitDate",
+              "files",
+              "fetchedAt",
+              "bodiesMatchedAtCommit",
+              "statedTerms",
+              "statedTermsUrl",
+              "statedTermsFile",
+              "statedCopyrightNotice",
+              "statedWarrantyNotice",
+              "permalink",
+              "rowCount"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9-]{0,31}$",
+                "description": "The value rows carry in their `upstream` field."
+              },
+              "repo": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+              },
+              "commit": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{40}$",
+                "description": "Full 40-hex id, because one upstream rewrites its README on a schedule and HEAD will not match. A short id or the literal \"unknown\" is a build failure."
+              },
+              "commitDate": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "files": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "description": "Every English source file in that commit which holds at least one of our rows — a list, not one path, because a collection can keep the same prompt in more than one tier. Established by the scan recorded in bodiesMatchedAtCommit.",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_./-]+$"
+                }
+              },
+              "fetchedAt": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+                "description": "The date the pinned clone was taken."
+              },
+              "bodiesMatchedAtCommit": {
+                "type": "object",
+                "description": "What we actually checked, and how. This is the evidence behind \"our copy came from this commit\"; `method` states the limits of the check so a reader does not infer a stronger claim than we made.",
+                "required": [
+                  "rows",
+                  "unmatched",
+                  "verifiedAt",
+                  "method"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "rows": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Must equal rowCount."
+                  },
+                  "unmatched": {
+                    "const": 0,
+                    "description": "A non-zero value is a failed export."
+                  },
+                  "verifiedAt": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "method": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "statedTerms": {
+                "enum": [
+                  "CC0-1.0",
+                  "CC-BY-4.0"
+                ],
+                "description": "The terms THAT COLLECTION stated over its own copy. A factual record of what we received, not a statement about what any author granted."
+              },
+              "statedTermsUrl": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://"
+              },
+              "statedTermsFile": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The file in that commit which states those terms."
+              },
+              "statedCopyrightNotice": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Verbatim as supplied by the upstream, or null when it supplied none. Kept so a renderer can reproduce what the upstream asked to have retained."
+              },
+              "statedWarrantyNotice": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Verbatim as supplied by the upstream, or null when it supplied none."
+              },
+              "permalink": {
+                "type": "string",
+                "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/tree/[0-9a-f]{40}$",
+                "description": "Tree permalink at the pinned commit. Never a branch URL: one upstream rewrites its README on a schedule, so a /blob/main link stops showing what we received."
+              },
+              "rowCount": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Computed: rows whose `upstream` is this id."
+              }
+            }
+          }
+        }
+      }
+    },
+    "prompts": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One record per published prompt, in category order then alphabetical by slug.",
+      "items": {
+        "type": "object",
+        "$comment": "THIS `required` LIST IS THE ROW KEY LIST. scripts/build.mjs reads it for both its key list and its hash projection, and nothing else declares it — there is no second array in another file to drift from it. Reordering it is harmless (the hash sorts keys). Adding or removing an entry changes _meta.corpusSha256 for every row, so the exporter must run again; a hash mismatch after a schema edit means exactly that, not tampering.",
+        "required": [
+          "slug",
+          "title",
+          "category",
+          "author",
+          "authorUrl",
+          "sourceUrl",
+          "statusId",
+          "isJson",
+          "upstream",
+          "upstreamStatedTerms",
+          "promptSha256",
+          "url",
+          "prompt"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "$comment": "statusId is present exactly when sourceUrl is.",
+            "if": {
+              "required": [
+                "sourceUrl"
+              ],
+              "properties": {
+                "sourceUrl": {
+                  "const": ""
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "statusId": {
+                  "type": "null"
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "statusId": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "$comment": "CC BY 4.0 3(a)(1)(A)(i): a row we take under CC BY must carry the creator identification as the licensor supplied it.",
+            "if": {
+              "properties": {
+                "upstreamStatedTerms": {
+                  "const": "CC-BY-4.0"
+                }
+              },
+              "required": [
+                "upstreamStatedTerms"
+              ]
+            },
+            "then": {
+              "required": [
+                "upstreamCreditAsSupplied"
+              ]
+            }
+          },
+          {
+            "$comment": "A direct submission carries a consent record; a collected row carries none.",
+            "if": {
+              "properties": {
+                "upstream": {
+                  "const": "direct"
+                }
+              },
+              "required": [
+                "upstream"
+              ]
+            },
+            "then": {
+              "required": [
+                "consent"
+              ]
+            },
+            "else": {
+              "not": {
+                "required": [
+                  "consent"
+                ]
+              }
+            }
+          }
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]{0,79}$",
+            "description": "Stable id, unique across rows. Minted from the upstream title once and then append-only: a title edit upstream must not move a published anchor. It is NOT the removal key — see statusId."
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The upstream heading, verbatim. Third-party words, which is why we don't claim them."
+          },
+          "category": {
+            "enum": [
+              "poster",
+              "typography-text",
+              "infographic",
+              "ui-mockup",
+              "ecommerce-product",
+              "ad-creative",
+              "character-design",
+              "portrait",
+              "illustration"
+            ],
+            "description": "Ours, not the upstream's: assignment to one of nine use cases."
+          },
+          "author": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_]{1,15}$",
+            "description": "X handle without the leading '@', as it resolves today."
+          },
+          "upstreamCreditAsSupplied": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The creator identification exactly as the upstream collection supplied it, retained under CC BY 4.0 section 3(a)(1)(A)(i). Required on every row whose upstreamStatedTerms is CC-BY-4.0, because we rely on that collection's grant and owe its stated attribution. Absent on CC0-1.0 rows, which impose no such condition. Deliberately NOT in `required`, so it stays outside the corpusSha256 projection: that hash covers published content, not our attribution metadata."
+          },
+          "authorUrl": {
+            "type": "string",
+            "pattern": "^https://x\\.com/[A-Za-z0-9_]{1,15}$",
+            "description": "Profile of `author`. Always https://x.com/<author>."
+          },
+          "sourceUrl": {
+            "type": "string",
+            "pattern": "^(?:|https://(?:x|twitter)\\.com/[A-Za-z0-9_]{1,15}/status/[0-9]+)$",
+            "description": "The post the prompt was published in. Empty ONLY where the post has been deleted: the credit stands and the link goes, rather than sending a reader to a 404."
+          },
+          "statusId": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9]{1,25}$",
+            "description": "THE REMOVAL KEY: the X status id parsed out of sourceUrl. Tombstones in data/removed.json are keyed on this and nothing else, because the slug is derived from an editable upstream title and the URL is usually the thing being corrected — a key that moves is a removal that quietly undoes itself on the next refresh. null only where sourceUrl is empty. NOT UNIQUE ACROSS ROWS: one post can publish several distinct prompts, so this is a post key, and a tombstone removes every row that came from that post. That is the right direction to err in — the author asked about their post — but a renderer must never assume statusId identifies one row."
+          },
+          "isJson": {
+            "type": "boolean",
+            "description": "True when the prompt body is a JSON object rather than prose. Both run; the community converged on JSON for anything with a layout."
+          },
+          "upstream": {
+            "enum": [
+              "evolink",
+              "youmind",
+              "direct"
+            ],
+            "description": "The `id` of the _meta.upstreams entry our copy came from. `direct` means the author sent it to us themselves; such a row has no upstream collection and carries `consent` instead."
+          },
+          "upstreamStatedTerms": {
+            "enum": [
+              "CC0-1.0",
+              "CC-BY-4.0",
+              "author-permission"
+            ],
+            "description": "The terms the upstream collection stated over its copy of this row. Deliberately NOT named `license`: a per-row field with that name reads as a machine-readable assertion that the AUTHOR licensed the text, and neither collection wrote these prompts. This field records what we received, nothing more. `author-permission` is used for `direct` rows: the author gave us permission to publish, which is a record of what we were given, not a licence we can pass on."
+          },
+          "promptSha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "sha256 of the UTF-8 bytes of `prompt`. Makes \"byte-identical to the upstream text at the pinned commit\" checkable by a stranger, forever."
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://youart\\.ai/gpt-image-2-5-prompts#[a-z0-9][a-z0-9-]{0,79}$",
+            "description": "Canonical, UNTAGGED destination for this row. Untagged on purpose: this string travels into third-party datasets, where a utm_campaign rots the moment a campaign is renamed."
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The prompt body, verbatim third-party text — not rewritten, trimmed or improved, beyond normalising leading and trailing whitespace. Last key in the record so a reviewer reads the metadata before a 3,000-character body."
+          },
+          "consent": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "grantedAt",
+              "issue",
+              "scope"
+            ],
+            "description": "How a `direct` submission's permission was given. Required on `direct` rows and forbidden elsewhere. Recorded here rather than left in a GitHub issue, which the submitter can edit or delete.",
+            "properties": {
+              "grantedAt": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "issue": {
+                "type": "string",
+                "pattern": "^https://github\\.com/[^/]+/[^/]+/issues/\\d+$"
+              },
+              "scope": {
+                "type": "string",
+                "minLength": 1,
+                "description": "What the author agreed to, in their words or ours."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

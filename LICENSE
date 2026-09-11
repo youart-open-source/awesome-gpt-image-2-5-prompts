@@ -1,0 +1,42 @@
+Awesome GPT Image 2.5 Prompts -- what you may reuse, and what belongs to
+someone else.
+
+The build scripts are open source.
+
+    scripts/**    MIT    Copyright (c) 2026 Formative Intelligence Inc.
+                         Full text: LICENSES/MIT.txt
+
+Fork them, build on them, ship them commercially. Credit us and our part is
+done. They are the reusable piece here: no dependencies, no network, no
+secrets, and they will rebuild this whole repository from data/prompts.json.
+
+The prompts are not ours to give you.
+
+    The 150 prompt bodies and their titles, wherever they appear -- in
+    data/prompts.json, in prompts/*.md, and quoted in any README.
+
+Each was written by the person credited on its row and first published in the
+post linked beside it. ATTRIBUTION.md records who, where, and which collection
+we received it through: 115 via one that stated CC0 1.0, 35 via one that stated
+CC BY 4.0. Copies of what each collection said, at the commit we took them
+from, are in provenance/.
+
+We have not independently established the chain of rights behind each prompt,
+and we make no representation to you about it. If you want to build on one for
+something that matters, the credit line tells you whose work it is and where to
+find them. If you wrote one and want it gone, TAKEDOWN.md -- it goes, no
+explanation needed.
+
+Everything else we assembled -- the selection, the nine use cases, the
+ordering, the prose, the translations -- is
+
+    Copyright (c) 2026 Formative Intelligence Inc.
+
+and we are not offering it under an open licence at this time. Not to be
+awkward: some of that copy came to us from elsewhere in the company and we have
+not traced its origin, so granting you rights in it would mean claiming rights
+we have not verified we hold. That is the mistake this file exists to avoid.
+Ask us if you want to reuse a piece of it.
+
+GitHub reads this file, finds no single SPDX identifier, and labels the
+repository "Other". REUSE.toml has the machine-readable map.
